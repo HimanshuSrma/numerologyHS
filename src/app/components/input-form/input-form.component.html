@@ -1,0 +1,126 @@
+<form
+  #form="ngForm"
+  (ngSubmit)="submitForm(form)"
+  class="space-y-4 p-6 bg-white rounded-xl shadow-lg max-w-md mx-auto mt-8"
+  novalidate
+>
+  <!-- Full Name -->
+  <div>
+    <label class="block text-sm font-medium text-gray-700 mb-1">Full Name</label>
+    <input
+      type="text"
+      name="fullName"
+      [(ngModel)]="fullName"
+      required
+      minlength="3"
+      #fullNameRef="ngModel"
+      class="w-full p-2 rounded-md shadow-sm border transition-all focus:outline-none"
+      [class.border-red-500]="(fullNameRef.invalid && fullNameRef.touched) || invalidFields.fullName"
+      [class.shake]="invalidFields.fullName"
+      placeholder="e.g., Ankit Sharma"
+    />
+    <p *ngIf="fullNameRef.invalid && fullNameRef.touched" class="text-red-500 text-sm mt-1">
+      Name is required and must be at least 3 characters.
+    </p>
+  </div>
+
+  <!-- Email -->
+  <div>
+    <label class="block text-sm font-medium text-gray-700 mb-1">Email</label>
+    <input
+      type="email"
+      name="email"
+      [(ngModel)]="email"
+      required
+      email
+      #emailRef="ngModel"
+      class="w-full p-2 rounded-md shadow-sm border transition-all focus:outline-none"
+      [class.border-red-500]="(emailRef.invalid && emailRef.touched) || invalidFields.email"
+      [class.shake]="invalidFields.email"
+      placeholder="e.g., you@example.com"
+    />
+    <p *ngIf="emailRef.invalid && emailRef.touched" class="text-red-500 text-sm mt-1">
+      A valid email is required.
+    </p>
+  </div>
+
+  <!-- Mobile Number -->
+  <div>
+    <label class="block text-sm font-medium text-gray-700 mb-1">Mobile Number</label>
+    <input
+      type="tel"
+      name="mobile"
+      [(ngModel)]="mobile"
+      required
+      pattern="[0-9]{10}"
+      #mobileRef="ngModel"
+      class="w-full p-2 rounded-md shadow-sm border transition-all focus:outline-none"
+      [class.border-red-500]="(mobileRef.invalid && mobileRef.touched) || invalidFields.mobile"
+      [class.shake]="invalidFields.mobile"
+      placeholder="e.g., 9876543210"
+    />
+    <p *ngIf="mobileRef.invalid && mobileRef.touched" class="text-red-500 text-sm mt-1">
+      Mobile number must be 10 digits.
+    </p>
+  </div>
+
+  <!-- Date of Birth -->
+  <div>
+    <label class="block text-sm font-medium text-gray-700 mb-1">Date of Birth</label>
+    <input
+      type="date"
+      name="dateOfBirth"
+      [(ngModel)]="dateOfBirth"
+      required
+      #dobRef="ngModel"
+      class="w-full p-2 rounded-md shadow-sm border transition-all focus:outline-none"
+      [class.border-red-500]="(dobRef.invalid && dobRef.touched) || invalidFields.dateOfBirth"
+      [class.shake]="invalidFields.dateOfBirth"
+    />
+    <p *ngIf="dobRef.invalid && dobRef.touched" class="text-red-500 text-sm mt-1">
+      Date of birth is required.
+    </p>
+  </div>
+
+  <!-- Gender -->
+  <div>
+    <label class="block text-sm font-medium text-gray-700 mb-1">Gender</label>
+    <div class="flex space-x-4">
+      <label class="flex items-center space-x-2">
+        <input
+          type="radio"
+          name="gender"
+          [(ngModel)]="gender"
+          [value]="'male'"
+          required
+          #genderRef="ngModel"
+          class="form-radio text-blue-600"
+        />
+        <span>Male</span>
+      </label>
+
+      <label class="flex items-center space-x-2">
+        <input
+          type="radio"
+          name="gender"
+          [(ngModel)]="gender"
+          [value]="'female'"
+          required
+          class="form-radio text-blue-600"
+        />
+        <span>Female</span>
+      </label>
+    </div>
+    <p *ngIf="genderRef.invalid && genderRef.touched" class="text-red-500 text-sm mt-1">
+      Please select a gender.
+    </p>
+  </div>
+
+  <!-- Submit Button -->
+  <button
+    type="submit"
+    class="w-full bg-blue-600 text-white font-medium py-2 rounded-md hover:bg-blue-700 transition"
+  >
+    🔮 Calculate My Numbers
+  </button>
+</form>
