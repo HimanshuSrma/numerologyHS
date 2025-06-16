@@ -17,11 +17,29 @@ export class NumerologyService {
     F: 8, P: 8
   };
 
-  private reduceToSingleDigit(value: number): number {
-    while (value > 9 && value !== 11 && value !== 22 && value !== 33) {
-      value = value.toString().split('').reduce((a, b) => a + +b, 0);
+  // private reduceToSingleDigit(value: number): number {
+  //   while (value > 9 && value !== 11 && value !== 22 && value !== 33) {
+  //     value = value.toString().split('').reduce((a, b) => a + +b, 0);
+  //   }
+  //   return value;
+  // }
+
+    reduceToSingleDigit(value: number): number {
+    value = Math.abs(value);
+    if (value < 10) {
+      return value;
     }
-    return value;
+    while (value >= 10) {
+      let sum = 0;
+      let tempValue = value; // Use a temporary variable to extract digits
+      while (tempValue > 0) {
+        sum += tempValue % 10;       // Get the last digit and add to sum
+        tempValue = Math.floor(tempValue / 10); // Remove the last digit
+      }
+      value = sum; // Update the value with the sum of its digits
+    }
+
+    return value; // The final single-digit result
   }
 
   // calculateDestinyNumber(name: string): number {
@@ -84,16 +102,19 @@ calculateDestinyNumber(dob: string): number {
     return this.reduceToSingleDigit(personalMonth + currentDay);
   }
 
-  calculateNameNumber(name: string): number {
+  calculateNameNumber(name: string,totalSum=false): number {
     const clean = name.toUpperCase().replace(/[^A-Z]/g, '');
     const total = [...clean].reduce((sum, ch) => sum + (this.chaldeanLetterMap[ch] || 0), 0);
-    return this.reduceToSingleDigit(total);
+    if(totalSum){
+      return total;
+    }else{
+      return this.reduceToSingleDigit(total);
+    }
   }
 
 
   generateLoShuGrid(dob: string, destiny: number, lifePath: number, kua: number): Record<LoShuNumber, number> {
     console.log("dob", dob, "destiny", destiny, "lifePath", lifePath, "kua", kua);
-    
     const digits = dob.replace(/[^0-9]/g, '').split('').map(Number);
     const grid: Record<LoShuNumber, number> = {
       1: 0, 2: 0, 3: 0,
@@ -138,9 +159,8 @@ calculateDestinyNumber(dob: string): number {
   }
 
   calculateAll(name: string, dob: string, gender: string): NumerologyResult {
-    // debugger
-    const destiny = this.calculateDestinyNumber(dob);
     const lifePath = this.calculateLifePathNumber(dob);
+    const destiny = this.calculateDestinyNumber(dob);
     const kua = this.calculateKuaNumber(dob, gender);
     const loShuGrid = this.generateLoShuGrid(dob, destiny, lifePath, kua);
     const missingNumbers = this.getMissingNumbers(loShuGrid);
@@ -149,6 +169,7 @@ calculateDestinyNumber(dob: string): number {
     const personalYear = this.calculatePersonalYear(dob);
     const personalMonth = this.calculatePersonalMonth(dob);
     const personalDay = this.calculatePersonalDay(dob);
+    const nameTotalSum = this.calculateNameNumber(name,true);
     const nameNumber = this.calculateNameNumber(name);
     return {
       name,
@@ -162,6 +183,7 @@ calculateDestinyNumber(dob: string): number {
       personalYear,
       personalMonth,
       personalDay,
+      nameTotalSum,
       nameNumber
     };
   }

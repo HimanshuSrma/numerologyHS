@@ -23,6 +23,7 @@ export interface NumerologyResult {
   personalYear: number;
   personalMonth: number;
   personalDay: number;
+  nameTotalSum:number
   nameNumber: number;
 }
 

@@ -424,9 +424,7 @@ export const driverConductordata = {
       luckyNumbers: [1, 5],
       luckyColors: ['Yellow', 'Blue', 'Grey'],
       luckyNameNumbers: [5, 14, 19, 23, 32, 37, 41, 46, 50, 59, 64, 73, 91],
-      luckyBusinessNumbers: [
-        5, 14, 19, 23, 32, 37, 41, 46, 50, 59, 64, 73, 91,
-      ],
+      luckyBusinessNumbers: [5, 14, 19, 23, 32, 37, 41, 46, 50, 59, 64, 73, 91],
     },
     '2': {
       description:
@@ -593,9 +591,7 @@ export const driverConductordata = {
       luckyNumbers: [1, 6],
       luckyColors: ['Yellow', 'Green'],
       luckyNameNumbers: [6, 15, 19, 24, 33, 37, 42, 46, 51, 55, 60, 64, 69],
-      luckyBusinessNumbers: [
-        6, 15, 19, 24, 33, 37, 42, 46, 51, 55, 60, 64, 69,
-      ],
+      luckyBusinessNumbers: [6, 15, 19, 24, 33, 37, 42, 46, 51, 55, 60, 64, 69],
     },
     '2': {
       description:
@@ -646,9 +642,7 @@ export const driverConductordata = {
       luckyNumbers: [1, 6],
       luckyColors: ['Green', 'Pale Blue', 'Yellow'],
       luckyNameNumbers: [19, 27, 36, 37, 45, 56, 54, 55, 64],
-      luckyBusinessNumbers: [
-        15, 19, 24, 33, 37, 42, 46, 51, 55, 60, 64, 69,
-      ],
+      luckyBusinessNumbers: [15, 19, 24, 33, 37, 42, 46, 51, 55, 60, 64, 69],
     },
     '5': {
       description:
@@ -664,9 +658,7 @@ export const driverConductordata = {
       luckyNumbers: [1, 6],
       luckyColors: ['Green', 'Yellow'],
       luckyNameNumbers: [6, 15, 19, 24, 33, 47, 42, 46, 51, 55, 60, 64, 69],
-      luckyBusinessNumbers: [
-        6, 15, 19, 24, 33, 47, 42, 46, 51, 55, 60, 64, 69,
-      ],
+      luckyBusinessNumbers: [6, 15, 19, 24, 33, 47, 42, 46, 51, 55, 60, 64, 69],
     },
     '6': {
       description:
@@ -709,9 +701,7 @@ export const driverConductordata = {
       luckyNumbers: [2, 6],
       luckyColors: ['Green', 'Blue', 'Yellow'],
       luckyNameNumbers: [15, 19, 24, 33, 37, 42, 46, 51, 55, 60, 64, 69],
-      luckyBusinessNumbers: [
-        15, 19, 24, 33, 37, 42, 46, 51, 55, 60, 64, 69,
-      ],
+      luckyBusinessNumbers: [15, 19, 24, 33, 37, 42, 46, 51, 55, 60, 64, 69],
     },
     '8': {
       description:
@@ -770,9 +760,7 @@ export const driverConductordata = {
       luckyNumbers: [1, 2, 6],
       luckyColors: ['Yellow', 'Blue', 'Green'],
       luckyNameNumbers: [6, 15, 19, 24, 33, 37, 42, 46, 51, 60, 64, 69],
-      luckyBusinessNumbers: [
-        6, 15, 19, 24, 33, 37, 42, 46, 51, 60, 64, 69,
-      ],
+      luckyBusinessNumbers: [6, 15, 19, 24, 33, 37, 42, 46, 51, 60, 64, 69],
     },
     '2': {
       description:
@@ -858,9 +846,7 @@ export const driverConductordata = {
       luckyNumbers: [2, 5, 6],
       luckyColors: ['Yellow', 'Blue', 'Green'],
       luckyNameNumbers: [15, 19, 24, 33, 37, 42, 46, 51, 55, 60, 64, 69],
-      luckyBusinessNumbers: [
-        15, 19, 24, 33, 37, 42, 46, 51, 55, 60, 64, 69,
-      ],
+      luckyBusinessNumbers: [15, 19, 24, 33, 37, 42, 46, 51, 55, 60, 64, 69],
     },
     '7': {
       description:
@@ -1341,9 +1327,6 @@ export const driverConductordata = {
   },
 };
 
-
-
-
 export const numbersRemedy = {
   '1': {
     missingRemedy: [
@@ -1452,5 +1435,784 @@ export const numbersRemedy = {
       'Can wear Red Carnelian Bracelet.',
     ],
     excessRemedy: [],
+  },
+};
+
+export const personalYearData = {
+  '1': {
+    title: 'THE YEAR FULL OF OPPORTUNITIES AND NEW BEGINNINGS',
+    sections: [
+      {
+        type: null,
+        content:
+          'Enjoy the year of the sun, a symbol of energy, power, authority, fame, discipline and royalty. Time to begin that new venture you have been contemplating for the last few years. Be independent, specialize and promote your new ideas. Make that change in positions. Now is the time to plant your seed if you wish to reap harvest during the next 9 years.',
+      },
+      {
+        type: 'LIFE',
+        content:
+          'This year not only brings significant changes in life, it comes like a magical wind showing which all problems and disappointments of the past disappear automatically or else will be lessened to some extent. Moreover, the desires will get satisfied during this time. This is the time when you can shine in the creative field. Also, a good time for owning a machine.',
+      },
+      {
+        type: 'LOVE',
+        content:
+          'New relationships are soon to star, or the existing one may rejuvenate during this year. However, make possible efforts from your end to mend relationships with the dear ones.',
+      },
+      {
+        type: 'CAREER',
+        content:
+          'The efforts and hard work will yield results now. Growth in business, job or anything you endeavour is promised. A suitable time to change the job. Overall, name and fame is guaranteed.',
+      },
+      {
+        type: 'THINGS TO DO',
+        toDo: true,
+        list: [
+          'Iron out the relationships',
+          'Improve your jobs',
+          'Decide the goals',
+          'Try making necessary changes',
+          'Shift the residence',
+          'Consider new career opportunities',
+          'Indulge in a relationship',
+          'Do not overlook relax time',
+          'Go forward with a positive attitude',
+          'Channelize your energy and abilities.',
+        ],
+      },
+    ],
+  },
+  '2': {
+    title: 'THE YEAR OF RELATIONSHIPS, STEADY PROGRESS AND CO-OPERATION',
+    sections: [
+      {
+        type: null,
+        content:
+          'Here comes the year of moon, a symbol of mind, emotions, happiness, sensitivity, and charm. This is a good year to be quiet, patient and diplomatic. This is not as good as last year for beginning with new projects. It is an excellent time for collecting the dues or accumulating things and knowledge for future use.',
+      },
+      {
+        type: 'LIFE',
+        content:
+          'A struggling period ahead. The year will fetch slow growth, unexpected problems, challenges and struggles. The person gets a different mindset and approach towards life and doing things. The person may feel a lack of confidence and remain doubtful about everything. Buying a new house or property will be lucrative, yet, not the favourable time to switch or shift.',
+      },
+      {
+        type: 'LOVE',
+        content:
+          'This year makes a person extremely emotional and sensitive. Good chance for singles to tie the knot. One may feel over emotional and get deep feelings for the partner. New relationships are likely to be established that will mean a lot in the future. However, do take care of the relationship also. During this time, prefer sparing time with partner, listening to others and understanding and value his/her feelings.',
+      },
+      {
+        type: 'CAREER',
+        content:
+          'Time to avoid big and important investments. Use extra care while making financial decisions.',
+      },
+      {
+        type: 'THINGS TO DO',
+        toDo: true,
+        list: [
+          'Establish new relations',
+          'Pamper your partner',
+          'Spend time with family',
+          'Chance for singles to tie the knot',
+          'Take care of your relationships',
+          'Value your relations',
+          'Listen to your family members',
+          'Avoid big investments',
+          'Think wise before making financial decisions',
+        ],
+      },
+    ],
+  },
+  '3': {
+    title: 'THE YEAR FULL OF CREATIVITY, SOCIAL EXPANSION AND NEW BEGINNINGS',
+    sections: [
+      {
+        type: null,
+        content:
+          'Enjoy the year of Jupiter, a symbol of intelligence, wisdom, devotion, opportunity and expansions. This is a good year to entertain both your old and new friends and enjoy yourself. Exercise your sense of humour. Try to avoid scattering your forces. Finish whatever you start before taking up new things',
+      },
+      {
+        type: 'LIFE',
+        content:
+          'One of the blessed years ahead. This year gives you immense success, gaining, happiness and a sense of project completion. The time to shine for people in the field of arts, creativity and communication. Also, a favourable time for childbirth and shifting the house.',
+      },
+      {
+        type: 'LOVE',
+        content:
+          'The favourable time to establish new friendships and relationships that will support you in the future. The chances of meeting old friends and companions are higher. However, avoid blind faith in anyone.',
+      },
+      {
+        type: 'CAREER',
+        content:
+          'Many growth opportunities will come across you in the guise of fruitful business trips, promotion, change in job and new ventures. Make most of the time, yet avoid making hasty and impractical decisions. This is a good time for investing in share market and real estate. Take care while signing any documents that may push you in legal affairs.',
+      },
+      {
+        type: 'THINGS TO DO',
+        toDo: true,
+        list: [
+          'Consider doing things you always wanted to do',
+          'Take an interest in learning new talents and skills',
+          'Celebrate occasions',
+          'Make sure the timetable has a column of playtime',
+          'Find laughing moments in almost things/situations',
+          'Think about family planning',
+          'Do things you and others enjoy',
+          'Take pleasure in artwork, music and shows',
+          'Make the most of the ocean of opportunities',
+        ],
+      },
+    ],
+  },
+  '4': {
+    title:
+      'THE YEAR FULL OF HARD WORK, STABLE GROWTH, CONFUSIONS AND SUDDEN CHANGES',
+    sections: [
+      {
+        type: null,
+        content:
+          'Welcome to the year of Rahu, a symbol of wicked connections, confusions, cheating, recreation and sudden changes. Be practical, thrifty and work hard this year. Attend to details and routine and put all your affairs in order and do take care of your health.',
+      },
+      {
+        type: 'LIFE',
+        content:
+          "The year may arrive as a big turning point in one's life. This time comes after ten years in one's life. The period provides a firm target for the future as well as an ability to achieve the same. The year brings frustration, delays, limitations and hurdles alongwith. Sometimes, the results are not as per the efforts made. A good period to know yourself, strengths and weaknesses. Also a good time to travel and walk on the path of spiritualism.",
+      },
+      {
+        type: 'LOVE',
+        content:
+          'A favourable time for romance, love, marriage, relationships and friendship. Remain honest enough in your feelings and relationships. Try to overcome ego issues to avoid separation and self-invited problems.',
+      },
+      {
+        type: 'CAREER',
+        content:
+          'Success will toll immense hard work, efforts and challenges. A favourable time for trading and supplying. Saving should be your mantra this year. Being economical will work as back up for the future. Favourable time for shifting the house, investing in real estate, construction and renovation etc.. however, do not invest in the share market.',
+      },
+      {
+        type: 'THINGS TO DO',
+        toDo: true,
+        list: [
+          'Have patience while dealing with official paperwork',
+          'Build a strong base for successful endeavours',
+          "Don't play hide and seek with the situations, rather face them",
+          'Cut down on unnecessary overheads Manage finance wisely',
+          'Organise your personal and professional life',
+          'Do not overlook your health and rest time',
+          'Learn to adjust with the typical situations',
+        ],
+      },
+    ],
+  },
+  '5': {
+    title: 'THE YEAR FULL OF TRANSFORMS AND FREEDOM',
+    sections: [
+      {
+        type: null,
+        content:
+          'Here comes the year of Mercury, a symbol of knowledge, intellect, tricks, cleverness and communication. This is a favourable year for travel, change and variety. This is an active year filled with excitement. Be on the alert for any new opportunity.',
+      },
+      {
+        type: 'LIFE',
+        content:
+          'The year will take you to the mid of the nine-year cycle of life. Here one gets respect and honour in the society. Practically, the year brings considerable changes in life in terms of partnerships, travel, opportunities, adventure and a sense of freedom. The time is lucky enough to expect the unexpected.',
+      },
+      {
+        type: 'LOVE',
+        content:
+          'One makes every possible effort to bring spirit into the existing relationship and gets success in the mission. Also, a favourable time to expand the social circle.',
+      },
+      {
+        type: 'CAREER',
+        content:
+          "A year throws many growth opportunities in one's lap. The favourable time for business, growth, taking the risk, job change, promotion, and foreign travels. Shining time for people in creative fields, entertainment, writing and media. Financial stability is predicted. Also, a favourable time to invest in the share market and earning considerable profit through that.",
+      },
+      {
+        type: 'THINGS TO DO',
+        toDo: true,
+        list: [
+          'Pen down your heart voice',
+          'Develop new skills',
+          'Set a target to try out something new almost every day',
+          'Improve your presence on the web and social media',
+          'Participate in important matters',
+          'Keep a tour and travel catalogue - visit new places',
+          'Remain contactable and never lose contact with others, I repeat never',
+        ],
+      },
+    ],
+  },
+  '6': {
+    title: 'THE YEAR FULL OF LOVE, FAMILY, AND RESPONSIBILITIES',
+    sections: [
+      {
+        type: null,
+        content:
+          'Welcome to the year of Venus, a symbol of marriage, love, luxury, sexual pleasure, partnership and overall enjoyment. This year is for family and friends. You need to take the full advantage of this zone. Enjoy time with your family. This is a good year to marry, buy or build a name, or promote a community project.',
+      },
+      {
+        type: 'LIFE',
+        content:
+          'During this year, own luxurious items, vehicle, new house, or repairing the house. A favourable time for childbirth and taking more responsibilities on shoulders. Amazing benefits are indicated through the support of leading people.',
+      },
+      {
+        type: 'LOVE',
+        content:
+          'This is a good year to marry. Marriage of singles is promised. The most appropriate time for love, romance and sexual pleasures.',
+      },
+      {
+        type: 'CAREER',
+        content:
+          'Time to get immense fame in the field of arts, creativity, theatre, entertainment, florists, beauticians, jewellers, cooks and interior designers. Good chance for the unemployed to get employed and profitable deals in the business. The person may be forced to take more leaves in the job for the reasons like death, birth or diseases in the family. Good returns are possible by investing in real estate.',
+      },
+      {
+        type: 'THINGS TO DO',
+        toDo: true,
+        list: [
+          'Work on your looks',
+          'Patch up with old friends and relatives',
+          'Attend family gatherings and celebrations',
+          'Iron out family issues – maintain peace in the family',
+          'Consider relationship, love and romance',
+          'Listen to your favourite music',
+          'Take an interest in cooking or gardening',
+          'Be charitable and helping',
+        ],
+      },
+    ],
+  },
+  '7': {
+    title:
+      'THE YEAR FULL OF HIGHER EDUCATION, SPIRITUALITY, KNOWING THE INNER YOU',
+    sections: [
+      {
+        type: null,
+        content:
+          'Enjoy the year of Ketu, a symbol of sudden changes, transformation, spirituality, disconnection and captivity. This is a good year to analyse, study and perfect whatever you are interested in. This is not a time for business expansion. This is a quiet and meditational year. This may be a good financial year if you do not rush out after money.',
+      },
+      {
+        type: 'LIFE',
+        content:
+          'This year is to make plans but not to execute them. Not a favourable time for new beginnings. Keep calm and take things easier. Favourable time for winning court cases and for people in occult fields. Some old problems may raise head during this year. Totally opposite time for conceiving baby since abortion or complications in pregnancy is possible.',
+      },
+      {
+        type: 'LOVE',
+        content:
+          'Living in your own company will help with grooming up the inner you but put off detachment and depression. To prevent depression, keep in touch with old friends and family. Avoid trusting anyone blindly. Affairs may defame the image. Be aware!!',
+      },
+      {
+        type: 'CAREER',
+        content:
+          'The efforts will yield no or little outcome. Meteoric and unexpected problems, obstacles and poverty are indicated. Avoid the financial risk of any sort. Not at all favourable time for long term investments in real estate and share market.',
+      },
+      {
+        type: 'THINGS TO DO',
+        toDo: true,
+        list: [
+          'Recognize your intuition power and listen to it.',
+          'Get if dreams are telling you something',
+          'Be serious in education and training',
+          'Discuss your family background',
+          'Spend alone time and meditate',
+          'Try to realize the inner you',
+          'Cross questioning yourself only is good but avoid being diplomatic',
+          'Developing a good change in personality is totally in',
+        ],
+      },
+    ],
+  },
+  '8': {
+    title: 'THE YEAR FULL OF HONOUR, PROFITS AND REWARDS',
+    sections: [
+      {
+        type: null,
+        content:
+          'Welcome to the year of Saturn, a symbol of stability, righteous deeds, spirituality, saving and honesty. An action year for you. Big opportunities would arrive if you work hard and push matters to a conclusion. This is a power year – a year of expansion, growth and money.',
+      },
+      {
+        type: 'LIFE',
+        content:
+          'The year of major achievements is ahead. The efforts have been made in the past seven years will rep. The year will provide you with ample opportunities, freedom, marital gains, honour, fame and satisfaction. A powerful time to build relationships with higher authorities and winning court cases. Time to shine for builders, lawyers, industrialists, historians, politicians, and people deal with iron and steel etc.',
+      },
+      {
+        type: 'LOVE',
+        content:
+          'Be in happening relations merely and cut off with the rest. The person will be in a state to make peace with people and conditions. Spending good time with family and friends is suggested.',
+      },
+      {
+        type: 'CAREER',
+        content:
+          'Overall growth in business or job is indicated. One may start new ventures. Others will find it hard to stand in front of you, whether in competed or conflicts. Selling or buying a property will prove profitable. A favourable time to invest in the real estate.',
+      },
+      {
+        type: 'THINGS TO DO',
+        toDo: true,
+        list: [
+          'Establish new businesses',
+          'Develop new skills that may benefit in the business',
+          'Appeal for promotion if you deserve',
+          'Appear confidently for a test or exam',
+          'Surround yourself with influential people',
+          'Improve the status in society',
+        ],
+      },
+    ],
+  },
+  '9': {
+    title: 'THE YEAR FULL OF COMPLETION, BALANCING AND TRANSFORMATION)',
+    sections: [
+      {
+        type: null,
+        content:
+          'Enjoy the year of Mars, a symbol of activeness, impulsiveness and selfishness. This is a good year to finish up the pending tasks. You may encounter losses both in friendship and business unless you live impersonally. Take an inventory. Discard the old and be ready to begin the new Year with a clean slate.',
+      },
+      {
+        type: 'LIFE',
+        content:
+          'Every end has a new beginning. This year is the end of the nine year cycle and a time to take inventory of the past eight years. The period introduce you to the reflections, completion, unexpected gains, honours and favours from leading people. Major transformation in terms of thinking and behaviour is possible due to the lessons life have taught throughout the cycle.',
+      },
+      {
+        type: 'LOVE',
+        content:
+          'Conflicts, misunderstandings, disputes, disagreements and unnecessary obligations are indicated with family, friends and colleagues. Divorce or loss of a close friend or family is probable. The person may find it hard to let go, but it is necessary to sustain the relations. Try to clear the emotional issues instantly before they get matured. The time does not allow you to make long term commitments.',
+      },
+      {
+        type: 'CAREER',
+        content:
+          'Time to finish the unfinished work. A favourable time to plan but not to act upon the same. Good financial gains are indicated.',
+      },
+      {
+        type: 'THINGS TO DO',
+        toDo: true,
+        list: [
+          'Get new experiences by travelling and explore the world',
+          'Keep yourself excited',
+          'Express yourself in an artistic way and change the entire scenario',
+          'Pen down and share your thoughts extensively',
+          'Consider spiritual development',
+          'Get indulge in charitable arts',
+          'Live in the present and make the most of it',
+          'Teach self defence to others',
+          'Let go of the things or relationships influencing you negatively.',
+        ],
+      },
+    ],
+  },
+};
+
+export const personalMonthData = {
+  '1': {
+    title: 'The Month Full of Action and Creation',
+    sections: [
+      {
+        type: null,
+        content:
+          'High energy level, willpower, new opportunities, new relationships, marriage, new and productive ideas, transfers, freedom, action oriented, ambition and leadership',
+      },
+      {
+        type: 'TIPS TO ENHANCE THIS PERSONAL MONTH',
+        tips: true,
+        list: [
+          'Begin something new',
+          'Promote your original ideas',
+          'Act on your intuition',
+          'Ask your employer for a rise',
+          'Do something which makes contemplated changes',
+          'Apply for that new position',
+          'Success deed s on your initiative, promote yourself',
+          'Be independent',
+          'Make quick decisions',
+          'Invent new methods for your home and office',
+        ],
+      },
+    ],
+  },
+  '2': {
+    title: 'The Month of Receptivity and Harmony',
+    sections: [
+      {
+        type: null,
+        content:
+          'Friendly, romantic, cooperative, diplomatic, modest, research, tactful and sensitive',
+      },
+      {
+        type: 'TIPS TO ENHANCE THIS PERSONAL MONTH',
+        tips: true,
+        list: [
+          'BE A PEACEMAKES',
+          'Diplomacy and tact will do much to bind and harmonise friendships',
+          'This is a good time to collect what is due to you',
+          'Avoid any arguments as nothing will be gained through it',
+          'Try to consider other’s point of view',
+          'Be willing to liste rather than talk',
+          'Be receptive, tolerant and good natured',
+          'This is a good time to accumulate and analyse',
+        ],
+      },
+    ],
+  },
+  '3': {
+    title: 'The Month Full of Entertainment and Self-Expression',
+    sections: [
+      {
+        type: null,
+        content:
+          'Attractive, imaginative, performer, expressive, travelling, happy, inspiring, making new friends, and meeting old friends',
+      },
+      {
+        type: 'TIPS TO ENHANCE THIS PERSONAL MONTH',
+        tips: true,
+        list: [
+          'Entertain your friends or business associates',
+          'Be lovely, happy and make other joyful',
+          'Exercise your sense of humour',
+          'Express yourself creatively either in writing, acting, painting or music',
+          'Accept and like things as they come',
+          'Avoid scattering your forces and shun the worries',
+          'Visit the beauty parlour/salon and become rejuvenated',
+          'Buy /wear new clothes and socialize',
+          'Have fun',
+          'Enjoy your work',
+        ],
+      },
+    ],
+  },
+  '4': {
+    title: 'The Month of Practicality, Work, and Building',
+    sections: [
+      {
+        type: null,
+        content:
+          'Hardworking, goal-oriented, practical, methodical, and dependable',
+      },
+      {
+        type: 'TIPS TO ENHANCE THIS PERSONAL MONTH',
+        tips: true,
+        list: [
+          'Concentrate on your work',
+          'Start a bank account',
+          'Devote the time to routine',
+          'Put control on yourself',
+          'Dont start anything new',
+          'Efficient completion of work will give you much satisfaction',
+          'This is not an auspicious time to ask for favours',
+        ],
+      },
+    ],
+  },
+  '5': {
+    title: 'The Month Full of Freedom, Expansion, and New Interests',
+    sections: [
+      {
+        type: null,
+        content:
+          'Social, progress, promotions, adaptable, productive, versatile, freedom loving and flexible',
+      },
+      {
+        type: 'TIPS TO ENHANCE THIS PERSONAL MONTH',
+        tips: true,
+        list: [
+          'Arouse the public’s curiosity and act quickly',
+          'Radiate enthusiasm by promoting new ideas',
+          'This is an auspicious time to deal with the opposite sex',
+          'This is a good time to travel, buy or sell commodities',
+          'Take a chance on anything new but follow your hunch',
+          'Investigate and push the sale of new devices for increasing business',
+          'Take active part in athletics',
+        ],
+      },
+    ],
+  },
+  '6': {
+    title: 'The Month Full of Responsibilities, Health, and Harmony in Family',
+    sections: [
+      {
+        type: null,
+        content:
+          'Love, marriage, romantic, artistic, social, loving, respective, concerned and balanced',
+      },
+      {
+        type: 'TIPS TO ENHANCE THIS PERSONAL MONTH',
+        tips: true,
+        list: [
+          'Assume responsibilities graciously',
+          'Improve conditions at home and in office',
+          'Harmonise and adjust for the comfort and happiness of everybody',
+          'Give advice freely but only when asked',
+          'Organise educational or community projects',
+          'Be solicitous of the welfare of your family and friends',
+          'This is a good time to buy, build or lease a home',
+          'Avoid a negative tendency or argue',
+          'Do something kind for others in terms of health, education etc.',
+        ],
+      },
+    ],
+  },
+  '7': {
+    title: 'The Month Full of Perfection, Meditation, and Analysis',
+    sections: [
+      {
+        type: null,
+        content:
+          'Perfectionist, financial stability, intuitive, meditative, charming, and researcher',
+      },
+      {
+        type: 'TIPS TO ENHANCE THIS PERSONAL MONTH',
+        tips: true,
+        list: [
+          'Do things perfectly and make certain you touch the finish line',
+          'Spend part of the time alone – rest, relax and concentrate',
+          'Listen to your voice of intuition',
+          'Do not enter into any partnerships on a 50-50 basis',
+          'This is a good time to deal in antiques, jewellery or perfumes',
+          'This is a spiritual time, thus unfavourable for material success',
+          'Things will come to youif you sit still and wait rather than by going after or pushing them',
+        ],
+      },
+    ],
+  },
+  '8': {
+    title: 'The Month Full of Vision, Good Judgement, and Power',
+    sections: [
+      {
+        type: null,
+        content:
+          'Authoritative, Promotions, investments, efficient, respectful, generous, good return from conjectures, profit through real estate',
+      },
+      {
+        type: 'TIPS TO ENHANCE THIS PERSONAL MONTH',
+        tips: true,
+        list: [
+          'Sign big contracts and create an atmosphere of influential business executives',
+          'This is an executing time for business expansion and growth',
+          'Deal with large corporations or financial institutions',
+          'Use tact, diplomacy and keen judgement in organising and bringing definite plans to completion',
+          'Invest in standard securities',
+          'Give the impression of wealth, even though you are hard up',
+          'Render service in a big way, and you will reap a rich harvest',
+        ],
+      },
+    ],
+  },
+  '9': {
+    title: 'The Month Full of Philanthropy, Brotherly Love, and Service',
+    sections: [
+      {
+        type: null,
+        content:
+          'Sympathetic, broad minded, isolated, new friends, pilgrimages, forgiving',
+      },
+      {
+        type: 'TIPS TO ENHANCE THIS PERSONAL MONTH',
+        tips: true,
+        list: [
+          'Take an inventory of your possessions',
+          'Clear up unfinished business and be ready to start with a clean slate',
+          'This is a good time to promote universal love',
+          'Find something to love, appreciate or commend in everyone',
+          'If you wish to reap a rich harvest, you must first plant the seed of goodwill',
+          'Patch up your quarrels sorting out the misunderstandings',
+          'This is an excellent time for starting on a long journey and enjoying broad contacts',
+        ],
+      },
+    ],
+  },
+};
+
+export const personalDayData: any = {
+  '1': {
+    title: 'The day full of new hopes, making new plans and executing them.',
+    sections: [
+      {
+        type: "Today's Blueprint",
+        content: 'The day full of new hopes, making new plans and executing them.',
+      },
+      {
+        type: 'Lucky Colour',
+        content: ['Yellow', 'Gold', 'White'],
+      },
+      {
+        type: 'Tips for a Better Day',
+        tips: true,
+        list: [
+          'Be distinctive and original in your clothes',
+          'Wear stripes and plaids',
+        ],
+      },
+    ],
+  },
+  '2': {
+    title: 'This day you can improve your plans yet control your emotions and be aware of being oversensitive.',
+    sections: [
+      {
+        type: "Today's Blueprint",
+        content: 'This day you can improve your plans yet control your emotions and be aware of being oversensitive.',
+      },
+      {
+        type: 'Lucky Colour',
+        content: ['Yellow', 'Gold', 'White'],
+      },
+      {
+        type: 'Tips for a Better Day',
+        tips: true,
+        list: [
+          'Be quiet, suave and retiring',
+          'Wear sombre colours. Yellow will elevate your spirits if you are in a depressing mood',
+        ],
+      },
+    ],
+  },
+  '3': {
+    title: 'Go for shopping, club, party and enjoy the day at its fullest. A favourable time for creativity and entertainment.',
+    sections: [
+      {
+        type: "Today's Blueprint",
+        content: 'Go for shopping, club, party and enjoy the day at its fullest. A favourable time for creativity and entertainment.',
+      },
+      {
+        type: 'Lucky Colour',
+        content: ['Rose', 'Forest green', 'Amber', 'Wine Red'],
+      },
+      {
+        type: 'Tips for a Better Day',
+        tips: true,
+        list: [
+          "Dress for comfort rather than style. Don't be ashamed of curves.",
+          'Wear lace, frills and jewellery',
+          'Dress in pleasing soft materials.',
+        ],
+      },
+    ],
+  },
+  '4': {
+    title: 'A good day for dealings related to the real-estate. Trading may also prove profitable enough.',
+    sections: [
+      {
+        type: "Today's Blueprint",
+        content: 'A good day for dealings related to the real-estate. Trading may also prove profitable enough.',
+      },
+      {
+        type: 'Lucky Colour',
+        content: ['Grey', 'Blue', 'Green', 'Light Brown', 'Turquoise'],
+      },
+      {
+        type: 'Tips for a Better Day',
+        tips: true,
+        list: [
+          'Be conservative, neat and precise in your clothes.',
+          'Wear straight lines and dark colours',
+        ],
+      },
+    ],
+  },
+  '5': {
+    title: 'Gear up yourself for unexpected adventure, travelling and new opportunities. Also, a favourable time for promoting new ideas.',
+    sections: [
+      {
+        type: "Today's Blueprint",
+        content: 'Gear up yourself for unexpected adventure, travelling and new opportunities. Also, a favourable time for promoting new ideas.',
+      },
+      {
+        type: 'Lucky Colour',
+        content: ['Pink', 'Blue', 'Red', 'Turquoise'],
+      },
+      {
+        type: 'Tips for a Better Day',
+        tips: true,
+        list: [
+          'Be a leader of fashions',
+          'Wear sports clothes',
+          'Be a witty, sparkling conversationalist',
+        ],
+      },
+    ],
+  },
+  '6': {
+    title: 'The day committed to domestic affairs/responsibilities. However, not getting involved in arguments will be in your favour.',
+    sections: [
+      {
+        type: "Today's Blueprint",
+        content: 'The day committed to domestic affairs/responsibilities. However, not getting involved in arguments will be in your favour.',
+      },
+      {
+        type: 'Lucky Colour',
+        content: ['Yellow', 'Mustard', 'Red', 'Navy Blue'],
+      },
+      {
+        type: 'Tips for a Better Day',
+        tips: true,
+        list: [
+          'Dress for comfort rather than style, wear artistic clothes with soft lines.',
+          "Buy new furnishings for home. Don't be extreme.",
+          'This is a domestic Time.',
+        ],
+      },
+    ],
+  },
+  '7': {
+    title: 'The day devoted to spiritual and mental affairs, taking rest and paying attention to the health.',
+    sections: [
+      {
+        type: "Today's Blueprint",
+        content: 'The day devoted to spiritual and mental affairs, taking rest and paying attention to the health.',
+      },
+      {
+        type: 'Lucky Colour',
+        content: ['Violet', 'Magenta', 'Purple', 'Turquoise'],
+      },
+      {
+        type: 'Tips for a Better Day',
+        tips: true,
+        list: [
+          'Be reserved, refined and unapproachable.',
+          'Wear exclusive clothes exquisitely and distinctly designed of pastel colours',
+        ],
+      },
+    ],
+  },
+  '8': {
+    title: 'The day with higher chances of receiving postponed cheques, payments or the most awaited good news. Material rewards and happiness may find your way.',
+    sections: [
+      {
+        type: "Today's Blueprint",
+        content: 'The day with higher chances of receiving postponed cheques, payments or the most awaited good news. Material rewards and happiness may find your way.',
+      },
+      {
+        type: 'Lucky Colour',
+        content: ['Blue', 'Tan', 'Gold', 'Beige', 'Grey'],
+      },
+      {
+        type: 'Tips for a Better Day',
+        tips: true,
+        list: [
+          'Appear Wealthy and influential',
+          'Associate with prominent people',
+          'Buy clothes that look expensive. Tailored clothes of rough materials and tweeds are appropriate.',
+        ],
+      },
+    ],
+  },
+  '9': {
+    title: 'This day can be spent well by listening to the favourite music, cleaning the house, and sorting out the issues with others.',
+    sections: [
+      {
+        type: "Today's Blueprint",
+        content: 'This day can be spent well by listening to the favourite music, cleaning the house, and sorting out the issues with others.',
+      },
+      {
+        type: 'Lucky Colour',
+        content: ['Green', 'White', 'Red', 'Olive', 'Gold', 'Lavender'],
+      },
+      {
+        type: 'Tips for a Better Day',
+        tips: true,
+        list: [
+          'This is a love time, do a good deed and your returns will multiply',
+          'Be charming and lovable in manner. Wear artistic clothes that are unusual but not extreme.',
+        ],
+      },
+    ],
+  },
+};
+
+export const nameNumberCharacteristics = {
+  '1': {
+    rulingPlanet: '',
+    description: '',
   },
 };
