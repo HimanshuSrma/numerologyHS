@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { InputFormComponent } from './components/input-form/input-form.component';
 import { ResultDisplayComponent } from './components/result-display/result-display.component';
@@ -30,4 +30,39 @@ export class AppComponent {
     this.numerologyResult = null;
   }
 
+  // // Disable Right-click (context menu)
+  // @HostListener('document:contextmenu', ['$event'])
+  // onRightClick(event: MouseEvent): void {
+  //   event.preventDefault(); // Prevent the context menu from showing
+  //   console.log('Right-click is disabled');
+  // }
+
+  // // Disable the Ctrl key and specific combinations like Ctrl+C, Ctrl+V
+  // @HostListener('document:keydown', ['$event'])
+  // onKeydown(event: KeyboardEvent): void {
+  //   // Block Ctrl key (any key with Ctrl pressed)
+  //   if (event.ctrlKey) {
+  //     event.preventDefault();
+  //     event.stopPropagation();
+  //     console.log('Ctrl key press is disabled');
+  //   }
+
+  //   // Block Ctrl+C (Copy)
+  //   if (event.ctrlKey && event.key === 'c') {
+  //     event.preventDefault();
+  //     console.log('Ctrl+C (Copy) is disabled');
+  //   }
+
+  //   // Block Ctrl+V (Paste)
+  //   if (event.ctrlKey && event.key === 'v') {
+  //     event.preventDefault();
+  //     console.log('Ctrl+V (Paste) is disabled');
+  //   }
+
+  //   // Block Ctrl+A (Select All)
+  //   if (event.ctrlKey && event.key === 'a') {
+  //     event.preventDefault();
+  //     console.log('Ctrl+A (Select All) is disabled');
+  //   }
+  // }
 }

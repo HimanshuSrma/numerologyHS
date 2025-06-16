@@ -1329,6 +1329,9 @@ export const driverConductordata = {
 
 export const numbersRemedy = {
   '1': {
+    title: 'Communication',
+    missingEffect:
+      'Number 1 is the leader. If it is missing from the chart, they afraid of confronting challenges. No leadership qualities, if having problem in North, it will affect only who is missing that number. Sometimes, they can be seen sitting in the backroom, struggling with their inability to make use of the talents they possess. They are the only backbone of themself or will not get support, when needed.',
     missingRemedy: [
       'Give water to sun daily or can take its vibes for at least 5-10 minutes.',
       'They can also keep Surya Yantra in Gold & Copper.',
@@ -1341,6 +1344,9 @@ export const numbersRemedy = {
     excessRemedy: [],
   },
   '2': {
+    title: 'Sensitive and Intuitive',
+    missingEffect:
+      'Number 2 reflects the intuition and sensitivity. Challenges will come one after another. They may have low confidence, impatient, hurdles in their life etc. They always blame others for their mistakes. They don’t have relationship building skills but don’t get external help. They expect a lot, and are more demanding but don’t even get enough result of their expectations and demands',
     missingRemedy: [
       'Stop expecting from others',
       'Think before u speak',
@@ -1354,6 +1360,9 @@ export const numbersRemedy = {
     excessRemedy: [],
   },
   '3': {
+    title: 'Planning and Imagination',
+    missingEffect:
+      'It rules the intelligence of native. If missing, don’t get the blessings from their guru. Their attitude towards life attracts happiness or sorrows, which means it entirely depends upon they what they want to fetch in life. They get anything after lots of struggle. They are unable to keep their point. They may become self-centred and unable to express spontaneously',
     missingRemedy: [
       'Can keep Jupiter Yantra in Gold',
       'Can place Gautam Buddha picture in Northeast',
@@ -1367,6 +1376,16 @@ export const numbersRemedy = {
   },
 
   '4': {
+    title: 'Discipline and Organised',
+    missingEffect:
+      'Number 4 reflects discipline and the proper manner of doing work. They tend to avoid physical work and try to render commands. They always need motivation. They are very unorganized. They are not very hardworking and believe in shortcuts due to which they miss several big opportunities.',
+    missingEffects: [
+      'Deficiency in fortune and wealth',
+      'Financial difficulties',
+      'Illness or health issues',
+      'Career setbacks',
+      'Lack of money',
+    ],
     missingRemedy: [
       'Can keep a Rahu Yantra in Led with them.',
       "Can place Saraswati Maa's picture in NE or SW",
@@ -1378,6 +1397,9 @@ export const numbersRemedy = {
     excessRemedy: [],
   },
   '5': {
+    title: 'Emotional and Mental Balance',
+    missingEffect:
+      'Number 5 reflects emotional and mental balance. They are the most confused personalities. Frequent changes are constant in their life. They afraid of doing anything new. They are having less adventures in their life. Sex life is also very insecure. Whenever they think that life is going smooth, something happens',
     missingRemedy: [
       'Keep positive attitude towards life.',
       'Can wear Mercury Yantra in Gold',
@@ -1391,6 +1413,9 @@ export const numbersRemedy = {
     excessRemedy: [],
   },
   '6': {
+    title: 'Home and Family',
+    missingEffect:
+      'Number 6 reflects relations with family. They need to be more responsible towards family life. They may have bad terms with one or both of their parents. They are least interested in home making errands and are unexcited to celebrate festivals, family, partner or kids. They cannot be a part of society until they take pleasure in being needed and lending a hand to others.',
     missingRemedy: [
       'Can wear watch in gold chain',
       'Can keep Venus Yantra in gold',
@@ -1405,6 +1430,9 @@ export const numbersRemedy = {
     excessRemedy: [],
   },
   '7': {
+    title: 'Disappointments',
+    missingEffect:
+      'They are unable to pursue their internal journey of spiritualism, but later they would search for some philosophy. They are impatient and a quick reactor. Feelings or misfortunes of others don’t bother them. The anticipate the worst and see bad omens all around. They do not even try to see the positive side of life and often assume that life is a treasure of sorrows.',
     missingRemedy: [
       'They need to be positive in life.',
       'Can wear Ketu Yantra in silver',
@@ -1418,6 +1446,15 @@ export const numbersRemedy = {
     excessRemedy: [],
   },
   '8': {
+    title: 'Discipline and organised',
+    missingEffect:
+      'Number 8 reflects discipline and the proper manner of doing work. They tend to avoid physical work and try to render commands. They always need motivation. They are very unorganized. They are not very hardworking and believe in shortcuts due to which they miss several big opportunities.',
+    missingEffects: [
+      'Lack of knowledge',
+      'Negative effects on prosperity and financial success',
+      'Decreased luck and success',
+      'Lack of discipline and will power',
+    ],
     missingRemedy: [
       'Go to temple daily',
       'Can keep Gangajal in West',
@@ -1428,6 +1465,9 @@ export const numbersRemedy = {
     excessRemedy: [],
   },
   '9': {
+    title: 'Humanitarian',
+    missingEffect:
+      'They are a detached person and least concerned about others. They are a peace lover and want to subsist in their zone from birth to the end of life. They somewhat dislike witnessing people falling apart on their doorstep. They are least concerned about others and enjoy their own comfort zone. They should help others. They are not good administrator and generally have a struggling life. Emotionless.',
     missingRemedy: [
       'Can lit a red bulb in South or SSE',
       'Can donate red colour (Masur dal)',
@@ -1440,7 +1480,7 @@ export const numbersRemedy = {
 
 export const personalYearData = {
   '1': {
-    title: 'THE YEAR FULL OF OPPORTUNITIES AND NEW BEGINNINGS',
+    title: 'The year full of opportunities and new beginnings',
     sections: [
       {
         type: null,
@@ -1448,22 +1488,22 @@ export const personalYearData = {
           'Enjoy the year of the sun, a symbol of energy, power, authority, fame, discipline and royalty. Time to begin that new venture you have been contemplating for the last few years. Be independent, specialize and promote your new ideas. Make that change in positions. Now is the time to plant your seed if you wish to reap harvest during the next 9 years.',
       },
       {
-        type: 'LIFE',
+        type: 'Life',
         content:
           'This year not only brings significant changes in life, it comes like a magical wind showing which all problems and disappointments of the past disappear automatically or else will be lessened to some extent. Moreover, the desires will get satisfied during this time. This is the time when you can shine in the creative field. Also, a good time for owning a machine.',
       },
       {
-        type: 'LOVE',
+        type: 'Love',
         content:
           'New relationships are soon to star, or the existing one may rejuvenate during this year. However, make possible efforts from your end to mend relationships with the dear ones.',
       },
       {
-        type: 'CAREER',
+        type: 'Career',
         content:
           'The efforts and hard work will yield results now. Growth in business, job or anything you endeavour is promised. A suitable time to change the job. Overall, name and fame is guaranteed.',
       },
       {
-        type: 'THINGS TO DO',
+        type: 'Things To Do',
         toDo: true,
         list: [
           'Iron out the relationships',
@@ -1481,7 +1521,7 @@ export const personalYearData = {
     ],
   },
   '2': {
-    title: 'THE YEAR OF RELATIONSHIPS, STEADY PROGRESS AND CO-OPERATION',
+    title: 'The year of relationships, steady progress and co-operation',
     sections: [
       {
         type: null,
@@ -1489,22 +1529,22 @@ export const personalYearData = {
           'Here comes the year of moon, a symbol of mind, emotions, happiness, sensitivity, and charm. This is a good year to be quiet, patient and diplomatic. This is not as good as last year for beginning with new projects. It is an excellent time for collecting the dues or accumulating things and knowledge for future use.',
       },
       {
-        type: 'LIFE',
+        type: 'Life',
         content:
           'A struggling period ahead. The year will fetch slow growth, unexpected problems, challenges and struggles. The person gets a different mindset and approach towards life and doing things. The person may feel a lack of confidence and remain doubtful about everything. Buying a new house or property will be lucrative, yet, not the favourable time to switch or shift.',
       },
       {
-        type: 'LOVE',
+        type: 'Love',
         content:
           'This year makes a person extremely emotional and sensitive. Good chance for singles to tie the knot. One may feel over emotional and get deep feelings for the partner. New relationships are likely to be established that will mean a lot in the future. However, do take care of the relationship also. During this time, prefer sparing time with partner, listening to others and understanding and value his/her feelings.',
       },
       {
-        type: 'CAREER',
+        type: 'Career',
         content:
           'Time to avoid big and important investments. Use extra care while making financial decisions.',
       },
       {
-        type: 'THINGS TO DO',
+        type: 'Things To Do',
         toDo: true,
         list: [
           'Establish new relations',
@@ -1521,7 +1561,7 @@ export const personalYearData = {
     ],
   },
   '3': {
-    title: 'THE YEAR FULL OF CREATIVITY, SOCIAL EXPANSION AND NEW BEGINNINGS',
+    title: 'The year full of creativity, social expansion and new beginnings',
     sections: [
       {
         type: null,
@@ -1529,22 +1569,22 @@ export const personalYearData = {
           'Enjoy the year of Jupiter, a symbol of intelligence, wisdom, devotion, opportunity and expansions. This is a good year to entertain both your old and new friends and enjoy yourself. Exercise your sense of humour. Try to avoid scattering your forces. Finish whatever you start before taking up new things',
       },
       {
-        type: 'LIFE',
+        type: 'Life',
         content:
           'One of the blessed years ahead. This year gives you immense success, gaining, happiness and a sense of project completion. The time to shine for people in the field of arts, creativity and communication. Also, a favourable time for childbirth and shifting the house.',
       },
       {
-        type: 'LOVE',
+        type: 'Love',
         content:
           'The favourable time to establish new friendships and relationships that will support you in the future. The chances of meeting old friends and companions are higher. However, avoid blind faith in anyone.',
       },
       {
-        type: 'CAREER',
+        type: 'Career',
         content:
           'Many growth opportunities will come across you in the guise of fruitful business trips, promotion, change in job and new ventures. Make most of the time, yet avoid making hasty and impractical decisions. This is a good time for investing in share market and real estate. Take care while signing any documents that may push you in legal affairs.',
       },
       {
-        type: 'THINGS TO DO',
+        type: 'Things To Do',
         toDo: true,
         list: [
           'Consider doing things you always wanted to do',
@@ -1562,7 +1602,7 @@ export const personalYearData = {
   },
   '4': {
     title:
-      'THE YEAR FULL OF HARD WORK, STABLE GROWTH, CONFUSIONS AND SUDDEN CHANGES',
+      'The year full of hard work, stable growth, confusions and sudden changes',
     sections: [
       {
         type: null,
@@ -1570,22 +1610,22 @@ export const personalYearData = {
           'Welcome to the year of Rahu, a symbol of wicked connections, confusions, cheating, recreation and sudden changes. Be practical, thrifty and work hard this year. Attend to details and routine and put all your affairs in order and do take care of your health.',
       },
       {
-        type: 'LIFE',
+        type: 'Life',
         content:
           "The year may arrive as a big turning point in one's life. This time comes after ten years in one's life. The period provides a firm target for the future as well as an ability to achieve the same. The year brings frustration, delays, limitations and hurdles alongwith. Sometimes, the results are not as per the efforts made. A good period to know yourself, strengths and weaknesses. Also a good time to travel and walk on the path of spiritualism.",
       },
       {
-        type: 'LOVE',
+        type: 'Love',
         content:
           'A favourable time for romance, love, marriage, relationships and friendship. Remain honest enough in your feelings and relationships. Try to overcome ego issues to avoid separation and self-invited problems.',
       },
       {
-        type: 'CAREER',
+        type: 'Career',
         content:
           'Success will toll immense hard work, efforts and challenges. A favourable time for trading and supplying. Saving should be your mantra this year. Being economical will work as back up for the future. Favourable time for shifting the house, investing in real estate, construction and renovation etc.. however, do not invest in the share market.',
       },
       {
-        type: 'THINGS TO DO',
+        type: 'Things To Do',
         toDo: true,
         list: [
           'Have patience while dealing with official paperwork',
@@ -1600,7 +1640,7 @@ export const personalYearData = {
     ],
   },
   '5': {
-    title: 'THE YEAR FULL OF TRANSFORMS AND FREEDOM',
+    title: 'The year full of transforms and freedom',
     sections: [
       {
         type: null,
@@ -1608,22 +1648,22 @@ export const personalYearData = {
           'Here comes the year of Mercury, a symbol of knowledge, intellect, tricks, cleverness and communication. This is a favourable year for travel, change and variety. This is an active year filled with excitement. Be on the alert for any new opportunity.',
       },
       {
-        type: 'LIFE',
+        type: 'Life',
         content:
           'The year will take you to the mid of the nine-year cycle of life. Here one gets respect and honour in the society. Practically, the year brings considerable changes in life in terms of partnerships, travel, opportunities, adventure and a sense of freedom. The time is lucky enough to expect the unexpected.',
       },
       {
-        type: 'LOVE',
+        type: 'Love',
         content:
           'One makes every possible effort to bring spirit into the existing relationship and gets success in the mission. Also, a favourable time to expand the social circle.',
       },
       {
-        type: 'CAREER',
+        type: 'Career',
         content:
           "A year throws many growth opportunities in one's lap. The favourable time for business, growth, taking the risk, job change, promotion, and foreign travels. Shining time for people in creative fields, entertainment, writing and media. Financial stability is predicted. Also, a favourable time to invest in the share market and earning considerable profit through that.",
       },
       {
-        type: 'THINGS TO DO',
+        type: 'Things To Do',
         toDo: true,
         list: [
           'Pen down your heart voice',
@@ -1638,7 +1678,7 @@ export const personalYearData = {
     ],
   },
   '6': {
-    title: 'THE YEAR FULL OF LOVE, FAMILY, AND RESPONSIBILITIES',
+    title: 'The year full of love, family, and responsibilities',
     sections: [
       {
         type: null,
@@ -1646,22 +1686,22 @@ export const personalYearData = {
           'Welcome to the year of Venus, a symbol of marriage, love, luxury, sexual pleasure, partnership and overall enjoyment. This year is for family and friends. You need to take the full advantage of this zone. Enjoy time with your family. This is a good year to marry, buy or build a name, or promote a community project.',
       },
       {
-        type: 'LIFE',
+        type: 'Life',
         content:
           'During this year, own luxurious items, vehicle, new house, or repairing the house. A favourable time for childbirth and taking more responsibilities on shoulders. Amazing benefits are indicated through the support of leading people.',
       },
       {
-        type: 'LOVE',
+        type: 'Love',
         content:
           'This is a good year to marry. Marriage of singles is promised. The most appropriate time for love, romance and sexual pleasures.',
       },
       {
-        type: 'CAREER',
+        type: 'Career',
         content:
           'Time to get immense fame in the field of arts, creativity, theatre, entertainment, florists, beauticians, jewellers, cooks and interior designers. Good chance for the unemployed to get employed and profitable deals in the business. The person may be forced to take more leaves in the job for the reasons like death, birth or diseases in the family. Good returns are possible by investing in real estate.',
       },
       {
-        type: 'THINGS TO DO',
+        type: 'Things To Do',
         toDo: true,
         list: [
           'Work on your looks',
@@ -1678,7 +1718,7 @@ export const personalYearData = {
   },
   '7': {
     title:
-      'THE YEAR FULL OF HIGHER EDUCATION, SPIRITUALITY, KNOWING THE INNER YOU',
+      'The year full of higher education, spirituality, knowing the inner you',
     sections: [
       {
         type: null,
@@ -1686,22 +1726,22 @@ export const personalYearData = {
           'Enjoy the year of Ketu, a symbol of sudden changes, transformation, spirituality, disconnection and captivity. This is a good year to analyse, study and perfect whatever you are interested in. This is not a time for business expansion. This is a quiet and meditational year. This may be a good financial year if you do not rush out after money.',
       },
       {
-        type: 'LIFE',
+        type: 'Life',
         content:
           'This year is to make plans but not to execute them. Not a favourable time for new beginnings. Keep calm and take things easier. Favourable time for winning court cases and for people in occult fields. Some old problems may raise head during this year. Totally opposite time for conceiving baby since abortion or complications in pregnancy is possible.',
       },
       {
-        type: 'LOVE',
+        type: 'Love',
         content:
           'Living in your own company will help with grooming up the inner you but put off detachment and depression. To prevent depression, keep in touch with old friends and family. Avoid trusting anyone blindly. Affairs may defame the image. Be aware!!',
       },
       {
-        type: 'CAREER',
+        type: 'Career',
         content:
           'The efforts will yield no or little outcome. Meteoric and unexpected problems, obstacles and poverty are indicated. Avoid the financial risk of any sort. Not at all favourable time for long term investments in real estate and share market.',
       },
       {
-        type: 'THINGS TO DO',
+        type: 'Things To Do',
         toDo: true,
         list: [
           'Recognize your intuition power and listen to it.',
@@ -1717,7 +1757,7 @@ export const personalYearData = {
     ],
   },
   '8': {
-    title: 'THE YEAR FULL OF HONOUR, PROFITS AND REWARDS',
+    title: 'The year full of honour, profits and rewards',
     sections: [
       {
         type: null,
@@ -1725,22 +1765,22 @@ export const personalYearData = {
           'Welcome to the year of Saturn, a symbol of stability, righteous deeds, spirituality, saving and honesty. An action year for you. Big opportunities would arrive if you work hard and push matters to a conclusion. This is a power year – a year of expansion, growth and money.',
       },
       {
-        type: 'LIFE',
+        type: 'Life',
         content:
           'The year of major achievements is ahead. The efforts have been made in the past seven years will rep. The year will provide you with ample opportunities, freedom, marital gains, honour, fame and satisfaction. A powerful time to build relationships with higher authorities and winning court cases. Time to shine for builders, lawyers, industrialists, historians, politicians, and people deal with iron and steel etc.',
       },
       {
-        type: 'LOVE',
+        type: 'Love',
         content:
           'Be in happening relations merely and cut off with the rest. The person will be in a state to make peace with people and conditions. Spending good time with family and friends is suggested.',
       },
       {
-        type: 'CAREER',
+        type: 'Career',
         content:
           'Overall growth in business or job is indicated. One may start new ventures. Others will find it hard to stand in front of you, whether in competed or conflicts. Selling or buying a property will prove profitable. A favourable time to invest in the real estate.',
       },
       {
-        type: 'THINGS TO DO',
+        type: 'Things To Do',
         toDo: true,
         list: [
           'Establish new businesses',
@@ -1754,7 +1794,7 @@ export const personalYearData = {
     ],
   },
   '9': {
-    title: 'THE YEAR FULL OF COMPLETION, BALANCING AND TRANSFORMATION)',
+    title: 'The year full of completion, balancing and transformation',
     sections: [
       {
         type: null,
@@ -1762,22 +1802,22 @@ export const personalYearData = {
           'Enjoy the year of Mars, a symbol of activeness, impulsiveness and selfishness. This is a good year to finish up the pending tasks. You may encounter losses both in friendship and business unless you live impersonally. Take an inventory. Discard the old and be ready to begin the new Year with a clean slate.',
       },
       {
-        type: 'LIFE',
+        type: 'Life',
         content:
           'Every end has a new beginning. This year is the end of the nine year cycle and a time to take inventory of the past eight years. The period introduce you to the reflections, completion, unexpected gains, honours and favours from leading people. Major transformation in terms of thinking and behaviour is possible due to the lessons life have taught throughout the cycle.',
       },
       {
-        type: 'LOVE',
+        type: 'Love',
         content:
           'Conflicts, misunderstandings, disputes, disagreements and unnecessary obligations are indicated with family, friends and colleagues. Divorce or loss of a close friend or family is probable. The person may find it hard to let go, but it is necessary to sustain the relations. Try to clear the emotional issues instantly before they get matured. The time does not allow you to make long term commitments.',
       },
       {
-        type: 'CAREER',
+        type: 'Career',
         content:
           'Time to finish the unfinished work. A favourable time to plan but not to act upon the same. Good financial gains are indicated.',
       },
       {
-        type: 'THINGS TO DO',
+        type: 'Things To Do',
         toDo: true,
         list: [
           'Get new experiences by travelling and explore the world',
@@ -2020,11 +2060,12 @@ export const personalDayData: any = {
     sections: [
       {
         type: "Today's Blueprint",
-        content: 'The day full of new hopes, making new plans and executing them.',
+        content:
+          'The day full of new hopes, making new plans and executing them.',
       },
       {
         type: 'Lucky Colour',
-        content: ['Yellow', 'Gold', 'White'],
+        content: ['Orange'],
       },
       {
         type: 'Tips for a Better Day',
@@ -2037,11 +2078,13 @@ export const personalDayData: any = {
     ],
   },
   '2': {
-    title: 'This day you can improve your plans yet control your emotions and be aware of being oversensitive.',
+    title:
+      'This day you can improve your plans yet control your emotions and be aware of being oversensitive.',
     sections: [
       {
         type: "Today's Blueprint",
-        content: 'This day you can improve your plans yet control your emotions and be aware of being oversensitive.',
+        content:
+          'This day you can improve your plans yet control your emotions and be aware of being oversensitive.',
       },
       {
         type: 'Lucky Colour',
@@ -2058,11 +2101,13 @@ export const personalDayData: any = {
     ],
   },
   '3': {
-    title: 'Go for shopping, club, party and enjoy the day at its fullest. A favourable time for creativity and entertainment.',
+    title:
+      'Go for shopping, club, party and enjoy the day at its fullest. A favourable time for creativity and entertainment.',
     sections: [
       {
         type: "Today's Blueprint",
-        content: 'Go for shopping, club, party and enjoy the day at its fullest. A favourable time for creativity and entertainment.',
+        content:
+          'Go for shopping, club, party and enjoy the day at its fullest. A favourable time for creativity and entertainment.',
       },
       {
         type: 'Lucky Colour',
@@ -2080,11 +2125,13 @@ export const personalDayData: any = {
     ],
   },
   '4': {
-    title: 'A good day for dealings related to the real-estate. Trading may also prove profitable enough.',
+    title:
+      'A good day for dealings related to the real-estate. Trading may also prove profitable enough.',
     sections: [
       {
         type: "Today's Blueprint",
-        content: 'A good day for dealings related to the real-estate. Trading may also prove profitable enough.',
+        content:
+          'A good day for dealings related to the real-estate. Trading may also prove profitable enough.',
       },
       {
         type: 'Lucky Colour',
@@ -2101,11 +2148,13 @@ export const personalDayData: any = {
     ],
   },
   '5': {
-    title: 'Gear up yourself for unexpected adventure, travelling and new opportunities. Also, a favourable time for promoting new ideas.',
+    title:
+      'Gear up yourself for unexpected adventure, travelling and new opportunities. Also, a favourable time for promoting new ideas.',
     sections: [
       {
         type: "Today's Blueprint",
-        content: 'Gear up yourself for unexpected adventure, travelling and new opportunities. Also, a favourable time for promoting new ideas.',
+        content:
+          'Gear up yourself for unexpected adventure, travelling and new opportunities. Also, a favourable time for promoting new ideas.',
       },
       {
         type: 'Lucky Colour',
@@ -2123,11 +2172,13 @@ export const personalDayData: any = {
     ],
   },
   '6': {
-    title: 'The day committed to domestic affairs/responsibilities. However, not getting involved in arguments will be in your favour.',
+    title:
+      'The day committed to domestic affairs/responsibilities. However, not getting involved in arguments will be in your favour.',
     sections: [
       {
         type: "Today's Blueprint",
-        content: 'The day committed to domestic affairs/responsibilities. However, not getting involved in arguments will be in your favour.',
+        content:
+          'The day committed to domestic affairs/responsibilities. However, not getting involved in arguments will be in your favour.',
       },
       {
         type: 'Lucky Colour',
@@ -2145,11 +2196,13 @@ export const personalDayData: any = {
     ],
   },
   '7': {
-    title: 'The day devoted to spiritual and mental affairs, taking rest and paying attention to the health.',
+    title:
+      'The day devoted to spiritual and mental affairs, taking rest and paying attention to the health.',
     sections: [
       {
         type: "Today's Blueprint",
-        content: 'The day devoted to spiritual and mental affairs, taking rest and paying attention to the health.',
+        content:
+          'The day devoted to spiritual and mental affairs, taking rest and paying attention to the health.',
       },
       {
         type: 'Lucky Colour',
@@ -2166,11 +2219,13 @@ export const personalDayData: any = {
     ],
   },
   '8': {
-    title: 'The day with higher chances of receiving postponed cheques, payments or the most awaited good news. Material rewards and happiness may find your way.',
+    title:
+      'The day with higher chances of receiving postponed cheques, payments or the most awaited good news. Material rewards and happiness may find your way.',
     sections: [
       {
         type: "Today's Blueprint",
-        content: 'The day with higher chances of receiving postponed cheques, payments or the most awaited good news. Material rewards and happiness may find your way.',
+        content:
+          'The day with higher chances of receiving postponed cheques, payments or the most awaited good news. Material rewards and happiness may find your way.',
       },
       {
         type: 'Lucky Colour',
@@ -2188,11 +2243,13 @@ export const personalDayData: any = {
     ],
   },
   '9': {
-    title: 'This day can be spent well by listening to the favourite music, cleaning the house, and sorting out the issues with others.',
+    title:
+      'This day can be spent well by listening to the favourite music, cleaning the house, and sorting out the issues with others.',
     sections: [
       {
         type: "Today's Blueprint",
-        content: 'This day can be spent well by listening to the favourite music, cleaning the house, and sorting out the issues with others.',
+        content:
+          'This day can be spent well by listening to the favourite music, cleaning the house, and sorting out the issues with others.',
       },
       {
         type: 'Lucky Colour',
@@ -2212,7 +2269,834 @@ export const personalDayData: any = {
 
 export const nameNumberCharacteristics = {
   '1': {
-    rulingPlanet: '',
-    description: '',
+    ruling_planet: 'SUN',
+    contributing_planets: ['SUN'],
+    description:
+      'Number 1 is very auspicious. The progress chart for such a person would slope downward. Beginnings would be good but will not be able to achieve the end results due to issues such as confusions, unnecessary complications, ego, inflexibility etc. The number does not have qualities that lead to success, so in short, an unfavourable number for name.',
+    for_business: 'This number should be avoided for business name number.',
+  },
+  '2': {
+    ruling_planet: 'MOON',
+    contributing_planets: ['MOON'],
+    description:
+      'Number 2, moon itself confirms the sensitivity, excessive emotions, fear anxiety etc. These people have lack of confidence and always fearful and anxious. They are highly imaginative people usually far from reality. They fail to find a balance in life which leads to their failure. Such people can easily manipulate things and can easily dominate.',
+    for_business:
+      'This is not good for business but if having a backbone to stand, then can work. A planet like moon alone is too weak to provide that support.',
+  },
+  '3': {
+    ruling_planet: 'JUPITER',
+    contributing_planets: ['JUPITER'],
+    description:
+      'Number 3 is the number of progress. They have the ability to scale heights owing to their sharp intellect, high spiritual values and communicative nature. They can be great scholars or holding high degrees. They have a good name in society and are looked up to for advice and can make good counsellors.',
+    for_business:
+      'This is a good number for business and has the blessing of guru. If the driver and conductor of person is compatible, can touch the heights.',
+  },
+  '4': {
+    ruling_planet: 'RAHU',
+    contributing_planets: ['RAHU'],
+    description:
+      'They get influences very easily by others in their life, be it family, or friends. Rahu is head without body so lot of mindless thinking happens so chances of psychological disorders cannot be ruled out. They should practice caution while interacting or it can spoil their already little social circle that they have.',
+    for_business: 'Good, if they are in gambling, speculation etc.',
+  },
+  '5': {
+    ruling_planet: 'MERCURY',
+    contributing_planets: ['MERCURY'],
+    description:
+      'They are innovative, disciplined, fair, hardworking, calculative, honest, liked by all, creative, communicative are a few traits possessed by name no. 5. They enjoy success both in academics and career. They have the ability to garner a lot of fame and name. They strike a perfect balance between the physical and the spiritual world.',
+    for_business:
+      'This number ensures success in business. Business has good earnings.',
+  },
+  '6': {
+    ruling_planet: 'VENUS',
+    contributing_planets: ['VENUS'],
+    description:
+      'These are the people who enjoy peace and happiness and usually surrounded by a lot of friends. Their life is full of comforts and are lovers of luxury. Things come to them slowly but are steady. Relationships carry a lot of importance in their life.',
+    for_business:
+      'This no is good for business. Business would earn handsome profits.',
+  },
+  '7': {
+    ruling_planet: 'KETU',
+    contributing_planets: ['KETU'],
+    description:
+      'Number 7 has divine blessings in their life. These people are seekers of deeper meaning in life. They have the ability to rise above the worldly matters easily ad focus on matters which have real in meaning life. They find most of their answers within and therefore believe in less interaction. They rise above emotions and desires and are able to see things clearly.',
+    for_business:
+      'This no is not associated with material things and business just run for profit which makes this number a complete avoid.',
+  },
+  '8': {
+    ruling_planet: 'SATURN',
+    contributing_planets: ['SATURN'],
+    description:
+      'This number denotes a life full of hardships. Lots of efforts are required for these people to succeed in life. It is a good number, who seek moksha. They are prone to accidents, dangers, uncalled situations etc. Spirituality would add meaning to their life. They possess some administrative skills which can help them in their work area.',
+    for_business:
+      'No 8 will encounter lookouts, labour scarcity, strikes or other situations beyond control. It is advisable to avoid it completely.',
+  },
+  '9': {
+    ruling_planet: 'MARS',
+    contributing_planets: ['MARS'],
+    description:
+      'Since the number is dominated by Mars, such people are action oriented, always on the go. Aggression is prominent. Their motto in life is to achieve success. They have the power to overcome any kind of adversity. They are courageous, intolerant, argumentative, harsh, determined are what make up such people. They love a comfortable and prosperous life.',
+    for_business:
+      'A business engaged in manufacturing things related to fire or security can use this as the name number, provided the name number is compatible with the driver conductor number.',
+  },
+  '10': {
+    ruling_planet: 'SUN',
+    contributing_planets: ['SUN'],
+    description:
+      'This number is much better than the name number 1, being followed by 0. Their life is like a revolving wheel, with its share of ups and downs but every time they hit their low, they are able to organise the resources and the means, to get back on track in order to keep the momentum going. They can be relied upon for everything even for matters such as pushing a project through or meeting deadlines.',
+    for_business:
+      'It indicates financial gains and all-around expansion it is a very favourable name for government organisations being ruled by the sun. Conducting business, having ten as name number, without corruption would take it to heights.',
+  },
+  '11': {
+    ruling_planet: 'MOON',
+    contributing_planets: ['SUN'],
+    description:
+      'Such people will be let down by near and dear ones and are therefore required not to depend on them or there would be high chances of betrayal. They would experience lot of internal as well as external conflict. Being blessed with the spirit of fortitude and their faith in God, even eventually emerge out victorious from a difficult situation.',
+    for_business:
+      'Such people can be very successful in areas such as interior decoration, chemicals, petroleum, arts and publicity.',
+  },
+  '12': {
+    ruling_planet: 'JUPITER',
+    contributing_planets: ['SUN', 'MOON'],
+    description:
+      'Such people can influence others very easily. Their speech is so powerful that people get attracted towards them. They do a lot of social work for the people, even to the extent of sacrificing their lives. Success would come by only in the later years of life. The number does not have any influence on career or education in any way. Such people are advised to change the spellings of their names to avoid sacrificial life.',
+    for_business:
+      "This number gives mixed results in business. Early success might be there due to Sun's hard work but moon will bring in its ups and downs.",
+  },
+  '13': {
+    ruling_planet: 'RAHU',
+    contributing_planets: ['SUN', 'JUPITER'],
+    description:
+      'Considered to very inauspicious name number. Unexpected, Unknown events, of sorrowful nature is one of the characteristics of their life. Men having name number as 13 earn ill repute and are of bad character. They are easily attracted to women and face a lot of difficulties because of women. They can rise materially but will have a miserable life full of struggles and difficulties. The number opens the way for people who want to advance the spirituality.',
+    for_business: 'Business is not advised to have name number thirteen.',
+  },
+  '14': {
+    ruling_planet: 'MERCURY',
+    contributing_planets: ['SUN', 'RAHU'],
+    description:
+      'They are always surrounded by people. They do really well in the field of mass communication & politics. People listen very attentively to whatever they say. Their career graph slopes upwards, rising with their advancing age. They have speculative tendencies and are rewarded there as well. Prosperity, luck, support from others will flow throughout their lives. They tend to get extremely confident and over ambitious which should not be the case.',
+    for_business:
+      'They do well in business. It does well for businesses involving communication with the masses (public speaking, writing, publishing). If the product being dealt in also has the same name number (14), success is guaranteed.',
+  },
+  '15': {
+    ruling_planet: 'VENUS',
+    contributing_planets: ['SUN', 'MERCURY'],
+    description:
+      'They are usually charming and know how to put their point forward. People having this number would do really good in the field of arts. They enjoy all luxuries in life and get the support of their friends and family. If the birth number is also favourable, they can achieve wealth, fame and distinction in all areas of life.',
+    for_business:
+      'Good number for success in arts and science. These can do well in politics also.',
+  },
+  '16': {
+    ruling_planet: 'KETU',
+    contributing_planets: ['SUN', 'VENUS'],
+    description:
+      'They face many ups and downs in life. They face unexpected hurdles in life. The fall can be from a position, office, grace or power. This number is also associated with accidents, disappointments, and some fatal accident. A person having a name number 16 should be advised to change it with immediate effect.',
+    for_business: 'This number is equally destructive for businesses.',
+  },
+  '17': {
+    ruling_planet: 'SATURN',
+    contributing_planets: ['SUN', 'KETU'],
+    description:
+      "They face loss of struggles in their life. But even then, there is no stopping the person's rise to fame and glory. They key point to note here the struggle is continuous and the person does not give up, only then the name number would act and show its results. They are strong people and have the strength to defeat their opposition.",
+    for_business:
+      'This number represents intuition, expression, and beauty. A good number for astrologers, poets, musicians and artists.',
+  },
+  '18': {
+    ruling_planet: 'MARS',
+    contributing_planets: ['SUN', 'SATURN'],
+    description:
+      'The association of these three planets (mars, sun and Saturn) denotes negative forces at work. This number is devoid of divinity, will bring in troubles, dangerous foes and devious thinking. They take the evil path and prove to an anti-social element for the society. Their personal ambition takes so much weightage in their life. They face threats from unknown enemies, sharp weapons and even bombs.',
+    for_business:
+      'Not a good name number to have for business with so much of negativity around it. For e.g. (Jammu & Kashmir).',
+  },
+  '19': {
+    ruling_planet: 'SUN',
+    contributing_planets: ['SUN', 'MARS'],
+    description:
+      'This is one of the most favorable numbers indicating successful completion of a task. With the dual influence of sun on the number success is the declaration of this number. Since the number starts with the first number and ends with the last number, they prosper gradually in life. As they grow, they become famous and wealthy. They will amass huge wealth.',
+    for_business:
+      'A good number that can be used by business establishments. The rise would be by leaps and bounds and would generate a lot of name and fame.',
+  },
+  '20': {
+    ruling_planet: 'MOON',
+    contributing_planets: ['SUN'],
+    description:
+      "They have a very powerful imagination. They can be termed as 'divine souls' sent for this particular purpose. If such a person takes the spiritual path, life runs very smoothly. Delays and obstacles can be one of the characteristics associated with these people but that can overcome by practicing meditation.",
+    for_business:
+      'This number is good for religious organisations and meditation centres.',
+  },
+  '21': {
+    ruling_planet: 'JUPITER',
+    contributing_planets: ['MOON', 'SUN'],
+    description:
+      'They are excessively self-centred and are concerned with matters profitable to them. With great determination, they have the ability to rise in life and scale new heights. They can take time to get successful. Their efforts would be noticed. They would be bestowed with wealth, name and fame. They will achieve and retain high positions permanently in their lives.',
+    for_business: 'A good number to have for business establishments.',
+  },
+  '22': {
+    ruling_planet: 'RAHU',
+    contributing_planets: ['MOON'],
+    description:
+      'There is high level of moon energy and have a weak aura around them. Since they are very emotional, their mental health and happiness would be affected. These people are more governed by evil than good. Initially they can be compromising, but later on the person will get into evil ways by the turn of events. They would earn more money through devious ways like gambling, betting on horses etc. They face the difficulties life throws at them bravely. They live their life in extravaganza.',
+    for_business: 'Not good for business.',
+  },
+  '23': {
+    ruling_planet: 'MERCURY',
+    contributing_planets: ['MOON', 'JUPITER'],
+    description:
+      'The combination of Moon & Jupiter enables them to succeed in life. They will be recognized & appreciated with their talent. They cannot be deviated from their track and have the ability to win over competition. Friends would be of great help. They are the most sort after people in government as well as private enterprises.',
+    for_business:
+      'A good number for business. It goes well with most of the driver and conductor number.',
+  },
+  '24': {
+    ruling_planet: 'VENUS',
+    contributing_planets: ['MOON', 'RAHU'],
+    description:
+      'Name number 24 holds a very high position in government or will receive lot of favours from government. They can gain a lot from the opposite sex. They will get married to the person, who is having very good position in government sector and is having all the luxuries. They will progress with each passing day. They focus a lot on enhancing their other beauty so they believe in expanding their resources on beauty products and jewellery etc. They lead a disciplined life.',
+    for_business:
+      'Very good business name number. These people very fast in uniformed service.',
+  },
+  '25': {
+    ruling_planet: 'KETU',
+    contributing_planets: ['MOON', 'MERCURY'],
+    description:
+      'This is a good number to have as it gives results in the end. They will face struggles in their personal life as well as in professional life. They will get success only if are facing difficulties and struggling to get them in his life. They have good intuitive powers. They lead a disciplined life. Their writing and speech are powerful. The lives of these people will end with honour and respect though their personal life.',
+    for_business:
+      'Not good for business as there are lot of hurdles on the path of growth. The business will hat have a good name in the market.\nA good name number for people involved in research related work, occult sciences and religious work.',
+  },
+  '26': {
+    ruling_planet: 'SATURN',
+    contributing_planets: ['MOON', 'VENUS'],
+    description:
+      'This number denotes in the later stages of our age. They spend lavishly even beyond their means. Friends are of no use at this point. Be careful while making investments and should not take advice from others. They face unending confusion in their mind. They would do anything for the sake of the money. In spite of having good ideas, success would still be a dream for them.',
+    for_business:
+      'It is an unlucky number for business. They will take up projects but not will be able to finish that on time thus fail.',
+  },
+  '27': {
+    ruling_planet: 'MARS',
+    contributing_planets: ['MOON', 'KETU'],
+    description:
+      'They are the ones with great wisdom and immense knowledge. They have high authority, command, fame, and power. This number represents hard work, clarity of mind, intelligence, hold over wealth, prosperity, and positions with high regard. People with this name number should carry out their tasks independently. These people have the zest to do things for the business. They also make huge profits from their hard work. They are likely to get involved in meditation, hypnotism, knowledge of magic, astral travel, and telepathy.',
+    for_business:
+      'It’s a favourable number for business. It guarantees success and profits to driver and conductor numbers.',
+  },
+  '28': {
+    ruling_planet: 'SUN',
+    contributing_planets: ['MOON', 'SATURN'],
+    description:
+      'Such people face lot of hardships in life. They have to start their projects again and again to get success. This number indicates loss through trust in others, competition, non-compliance with the legal aspects and opposition. They progress in undoubtedly fast but is followed by losses. Money lent by such people will never come back. These people are advised to make in change in their name.',
+    for_business:
+      'Not a good number for business. The influence of moon and Saturn is extremely dangerous which can destroy even a well-established business in a second.',
+  },
+  '29': {
+    ruling_planet: 'MOON',
+    contributing_planets: ['MOON', 'MARS'],
+    description:
+      'They get involved in litigation to settle their disputes. They will be let down by family and friends. They may face problems due to opposite sex. They live an unhappy life with their partner, a life full of agony and disappointments. They will commit suicide by the opposite sex. They need to change their name.',
+    for_business:
+      'The business would be internally weak and so such a number can be given a miss.',
+  },
+  '30': {
+    ruling_planet: 'JUPITER',
+    contributing_planets: ['JUPITER'],
+    description:
+      'These people possess a lot of mental discipline, they know their mind and know how to conquer it easily. They have a highly imaginative mind. They would jump into a difficult task if their mind so guides. They do not have much interest in making money. They succeed in everything they undertake and do not believe in compromising.',
+    for_business: 'Not a good number for business',
+  },
+  '31': {
+    ruling_planet: 'RAHU',
+    contributing_planets: ['JUPITER', 'SUN'],
+    description:
+      "They work according to their own rules and mind. They do not care about profit and loss. They only do what they want to. Don't care about others. They have interests in astrology, yoga, medicine and gaining knowledge of the Vedas or anything that involves deep research. They are not driven by profits so it isn't a very good number for material gains. As they grow older, they become intuitive and sense their death well in advance.",
+    for_business:
+      'This number is good for spiritualism. A good number for people involved in research related work, occult sciences and religious works.',
+  },
+  '32': {
+    ruling_planet: 'MERCURY',
+    contributing_planets: ['JUPITER', 'MOON'],
+    description:
+      'This number has the ability to attract people and would have a captivating speech. This number has the vibrations of making a person a prominent personality. They have the ability to propagate new ideas and concepts. They will attain high positions in life and will remain youthful in appearance even when they age.',
+    for_business:
+      'This number can only be used only if it is compatible with the driver and conductor number. Independently name number 32 is not capable of giving results.',
+  },
+  '33': {
+    ruling_planet: 'VENUS',
+    contributing_planets: ['JUPITER'],
+    description:
+      'This is a very special number in numerology. This number is very unique in many ways. These people are blessed to achieve spiritual enlightenment automatically without much of an effort. Women unable to conceive should be advised to use 33 as the name number to produce healthy off springs. These people have hack going for them so a really good number to have as a name number.',
+    for_business:
+      'A good name number for business. Business will never face shortage of funds. When these two pillars are in place, the business will keep generating profits.',
+  },
+  '34': {
+    ruling_planet: 'KETU',
+    contributing_planets: ['JUPITER', 'RAHU'],
+    description:
+      "This name number make people prone to addictions like women, alcohol etc. They will have a disturbed family life. Material prosperity isn't a problem. They make a lot of money that too from various sources. They are not liked by people but they still will have a social standing owning to the wealth they amass.",
+    for_business:
+      'For business, 34 number is good. They do well as it promises material gains rather easily.',
+  },
+  '35': {
+    ruling_planet: 'SATURN',
+    contributing_planets: ['JUPITER', 'MERCURY'],
+    description:
+      'They have the ability to bestow the person with all kind riches. They are prone to accidents, legal issues, getting drawn towards illegal ways of making money, drinking etc. Friends and family will be of little no help at all. They can go to any extent to make or earn money. Can face the issues like physical ailments like paralysis or issues related to nervous system.',
+    for_business: 'Not a good name number for business.',
+  },
+  '36': {
+    ruling_planet: 'MARS',
+    contributing_planets: ['JUPITER', 'VENUS'],
+    description:
+      "They achieve a lot of success through hard work. They can make a fortune if they use their talents well. Those who don't move out of their native place don't have luck by their side. These people have the ability to rise from bottom to top. They enjoy good positions and travel extensively. Support from friends and family does not exist for them.",
+    for_business:
+      "Good for business if the person's conductor number is also 9. Else this number itself with wrong decisions and losses.",
+  },
+  '37': {
+    ruling_planet: 'SUN',
+    contributing_planets: ['JUPITER', 'KETU'],
+    description:
+      'This no gives great power and confidence. It is one of the lucky numbers to have as name number. It can raise an ordinary person to an extraordinary level. They lead a comfortable and prosperous life and have the company of good friends. They are usually the centre of attraction wherever they go. Ordinary people should use this number to take benefits or to rise in life.',
+    for_business:
+      'Highly successful number for business. The business becomes attractive because of this business name number.',
+  },
+  '38': {
+    ruling_planet: 'MOON',
+    contributing_planets: ['JUPITER', 'SATURN'],
+    description:
+      'They are honest, peace lovers, spiritually inclined, great integrity, gentle and innocent. This name number can bring lots of success in their life. Such people progress to fame easily even if they make small beginnings. Despite the good features, this number can cause expected dangers, unknown enemies that can crop up any time.',
+    for_business:
+      'A business is a never-ending entity. Number 38 has disastrous end or unexpected end, so if the business ceases to exist this number cannot be suitable for any sort of business.',
+  },
+  '39': {
+    ruling_planet: 'JUPITER',
+    contributing_planets: ['JUPITER', 'MARS'],
+    description:
+      'These people are sincere, hardworking and of high intellect. Even the name, fame and credit they earn is just because of their name number. They can work nonstop and would do anything for them because of their hard work is enjoyed by others. They are frequent flyers for work related purposes. They enjoy pleasures in the later part of life as that part of life is hassle free.',
+    for_business:
+      'The business would be internally weak and so such a number can be given a miss.',
+  },
+  '40': {
+    ruling_planet: 'RAHU',
+    contributing_planets: ['RAHU'],
+    description:
+      'These people possess a lot of intelligence and achieve success in literary work & business. They have a lot of dependable friends who help them to rise and achieve desired positions in life. They can go to any extent to achieve their goals. Eventually, they will lose all of their money and their life will turn out to be fruitless. They may have to suffer in isolation & will be totally neglected.',
+    for_business:
+      'A number promising success in a very short time and will even invite jealousy from a lot of people but good for material success.',
+  },
+  '41': {
+    ruling_planet: 'MERCURY',
+    contributing_planets: ['RAHU', 'SUN'],
+    description:
+      'These people are very impressive, having good controlling power and can lead a group. They are liked by all and enjoy fame in their life. They get more than they deserve and don’t afraid to take risks. They joy international fame. They need to work on their ego or should control it, otherwise they will take lot of time to get success. They need to walk the success journey cautiously and not let success get into their head or it will destroy them.',
+    for_business: 'Good number for business',
+  },
+  '42': {
+    ruling_planet: 'VENUS',
+    contributing_planets: ['RAHU', 'MOON'],
+    description:
+      'This is a very good name number. They are dynamic, always on the go and well built. They have the ability to rise in life. They enjoy over-lasting fame and wealth. They are good in planning, managing money and spending it. They are full of confidence, courage, and will power. Opportunities keep coming to them and they grab it with both hands and make the most of it.',
+    for_business:
+      'A great number for business for those who are in luxurious items, shipping and export/import.',
+  },
+  '43': {
+    ruling_planet: 'KETU',
+    contributing_planets: ['RAHU', 'JUPITER'],
+    description:
+      'This is the number of revolution and destruction. They are highly imaginative and have great writing skills. They are used to switch jobs very frequently. Success is achieved and desires are fulfilled only in the end. They are known for making controversial statements. They will face more opposition than support. Public welfare is something they look forward to but will not be known for it.',
+    for_business:
+      'A good business name number for those who want to go in Occult field. Otherwise, they should avoid this number.',
+  },
+  '44': {
+    ruling_planet: 'SATURN',
+    contributing_planets: ['RAHU'],
+    description:
+      "This number should be avoided (those who are on high posts and authority) as this number name can spoil their name in the society. They can earn money very easily. These people need to control their mind otherwise they don't mind to take evil path for fulfilling their achievements. This number can bring lot of pain and shame for the people. They may have sufferings both mental and physical. They have danger from fire and electricity.",
+    for_business:
+      'Business involved in iron and steel, coal, sports, good, vehicles on fire, banks can have 44 as their name number.',
+  },
+
+  '45': {
+    ruling_planet: 'MARS',
+    contributing_planets: ['RAHU', 'MERCURY'],
+    description:
+      'A very good name number. They have the calibre to rise to a higher level and get a high position in society. They can even run a huge business house. They will be role-models for people and their life would be well endowed. They set goals and then achieve it. They do face lot of difficulties in life but do not believe in sharing. They pay a lot of attention to detail and acquire long lasting wealth.',
+    for_business:
+      'This number makes the business shine especially stock markets relating business.',
+  },
+  '46': {
+    ruling_planet: 'SUN',
+    contributing_planets: ['RAHU', 'VENUS'],
+    description:
+      'This number indicates knowledge, intelligence etc. If any person takes full use of this number, can become an international star. They also possess leadership qualities and have the talent to take their business to the top. As they progress in age, they make money and fame. They will be remembered for their achievements. For them, honesty and luck have a direct relationship.',
+    for_business:
+      'If the business is conducted by using fair means, this number has the ability to make as a market leader.',
+  },
+  '47': {
+    ruling_planet: 'MOON',
+    contributing_planets: ['RAHU', 'KETU'],
+    description:
+      'This is the number of expansions. They rise very fast in life. They do not rest until they have accomplished their goal. They are quick decision makers and are good communicators. Money flows in abundance. They are likely to suffer from headache and eyesight issues. They are quick at finding fixes for problems.',
+    for_business: 'Very good business number and requires only mental skill.',
+  },
+  '48': {
+    ruling_planet: 'JUPITER',
+    contributing_planets: ['RAHU', 'SATURN'],
+    description:
+      "People having the number of 48 will be found at the wrong place, at the wrong time and become victims. They are keenly interested in spiritual sciences. They would do a lot for the welfare of the public. They earn money and wealth but eventually lose everything as luck doesn't favour them. They are interested in pilgrimages.",
+    for_business:
+      'It is not a number for worldly success so in case of business it is a BIG no.',
+  },
+  '49': {
+    ruling_planet: 'RAHU',
+    contributing_planets: ['MARS', 'RAHU'],
+    description:
+      'They strongly believe in establishing order and balance in life. Their life is the envy of many. They acquire sudden wealth and fame. Life throws a volley of wonderful experiences at them along with prosperity. They own a lot of immovable properties. They can earn a lot of money from business/profession related to arts. They are prone to accidents and also have the danger of being burnt to death.',
+    for_business:
+      'There may be fallouts in business but that will give experience to run the business more efficiently.',
+  },
+  '50': {
+    ruling_planet: 'MERCURY',
+    contributing_planets: ['MERCURY'],
+    description:
+      'They are extremely intelligent and possess a high degree of analytical skill. They are excellent speakers, self-confident. They are sharp minded and quick decision makers. They can be good educationists. They are intelligent and hardworking people. They have special expertise in maths, science, law and astrology.',
+    for_business:
+      'It gives the business the power to outshine. The business would flourish and exist for a long time.',
+  },
+
+  '51': {
+    ruling_planet: 'VENUS',
+    contributing_planets: ['MERCURY', 'SUN'],
+    description:
+      'This is the most powerful number. They get inflow of money from unexpected sources. They have the ability to become famous. They also possess the physical strength & will power to keep moving. They constantly think of ways to enhance their wealth. These people tend to have a disturbed sleep due to constant action in mind and body because they work tirelessly. They have a wide circle of friends and relatives.',
+    for_business:
+      'A very good business name number. The business would go zooming ahead of its competitors and will make a lot of eyeballs to role.',
+  },
+  '52': {
+    ruling_planet: 'KETU',
+    contributing_planets: ['MERCURY', 'MOON'],
+    description:
+      'In this number 52, mercury overpowers the moon. Mind is an observer it is the intellect which helps us to decide between the good or the bad based on the experience. They have a good insight and high developed intuitive power. They are very good counsellor and will be ready to offer a solution to any problem. They will be liked by all and people remember them even after their death.',
+    for_business: 'There will a lot of ups and downs in business.',
+  },
+  '53': {
+    ruling_planet: 'SATURN',
+    contributing_planets: ['MERCURY', 'JUPITER'],
+    description:
+      "They are go-getters, possess the inner strength, discipline to keep going even when the odds are against. They can be best described by 'when the going gets tough' they get going. As they grow old, life tends to normal and becomes steadier. They have a strong desire to be famous. They face difficulties which breaks them but they gather themselves up and get going.",
+    for_business:
+      'Not a good business name number as this number leads to loss, fire accidents, court cases and theft.',
+  },
+  '54': {
+    ruling_planet: 'MARS',
+    contributing_planets: ['MERCURY', 'RAHU'],
+    description:
+      'They grow step by step in life. These people have material wealth earned through hard work and inheritance. They know how to best utilize their abilities and wealth. Their life is a mixed bag comprising of success and failures. They can be good counsellors owing to their captivating speech. This number should be best avoided as name number.',
+    for_business:
+      'Not good for the financial health of the company. This number must be ignored.',
+  },
+  '55': {
+    ruling_planet: 'SUN',
+    contributing_planets: ['MERCURY'],
+    description:
+      "They have a head full of information and are intelligent. They face opposition in life but opposition doesn't stand any chance to win in front of them. They can obtain high degrees and can also be termed as scholars. They be make the best use of their knowledge, they can become famous. This number has the power to even cure genetic diseases.",
+    for_business:
+      'A good number for business. It will make the business a leader in its field.',
+  },
+
+  '56': {
+    ruling_planet: 'MOON',
+    contributing_planets: ['MERCURY', 'VENUS'],
+    description:
+      'This is a number full of wonders as it is made up of two numbers which have different vibrations. This number is used by people born on 7 and are involved in occultism, divination experts etc. because the presence of the moon, these people have psychic abilities. They are intelligent. They have an unsteady life and can their wealth and fame all at once. But the pleasures gained temporarily far outnumber the problems brought by unsteadiness.',
+    for_business: 'A useful business number for making progress.',
+  },
+  '57': {
+    ruling_planet: 'JUPITER',
+    contributing_planets: ['MERCURY', 'KETU'],
+    description:
+      'Not a good number in numerological series as it signifies defeat. Life moves at a very fast pace; the rise and the decline are both sudden and life comes to a standstill. They are not able to gather wealth. In order to improve their situation, they need to look at the situation closely and act after properly understanding it. If the conflicts in their mind remain unresolved, their life would become monotonous and stagnant.',
+    for_business: 'Not good business name number.',
+  },
+  '58': {
+    ruling_planet: 'RAHU',
+    contributing_planets: ['MERCURY', 'SATURN'],
+    description:
+      'They can easily attract the attention and interest of people. These people work diligently & progress swiftly in life. They will have a lot of achievements to their name. Due to the presence of Saturn, they are narrow minded. They are the treasure of knowledge. To the world, these people would appear to be really blessed and lucky but internally they will have a lot of fears.',
+    for_business:
+      'These businesses stay in the public eye for long, their products have a strong recall value. Financially the business would grow.',
+  },
+  '59': {
+    '': 'MERCURY',
+    contributing_planets: ['MERCURY', 'MARS'],
+    description:
+      'They are researchers, inquisitive and expressive. They are poets, lyrists, writers and literary men of the world. Their writings have a sense of humour. They need to keep a check on their eating habits or it can impact their health adversely. They get a lot of public support. They earn a lot of money. They gain due to their hard work and creativity. They go up the ladder of success step by step.',
+    for_business:
+      'Money inflow would be really solid for the business. Good business name number.',
+  },
+  '60': {
+    ruling_planet: 'VENUS',
+    contributing_planets: ['VENUS'],
+    description:
+      'They enjoy a full life of riches and comforts. They can carry out a debate very well. They have a happy & peaceful family life. This number signified prosperity, growth, and wisdom. They are humble and have a huge friend circle. They have a pleasing personality. They can have a profession which involves engaging & entertaining people, art related or anything that requires writing or speaking skills.',
+    for_business: 'A good number for business.',
+  },
+  '61': {
+    ruling_planet: 'KETU',
+    contributing_planets: ['VENUS', 'SUN'],
+    description:
+      'These people are attractive. They are the centre of attraction when moving in the crowd. They will attract a lot of people towards themselves. Their way of functioning would be dynamic. People would admire them for their above-mentioned qualities. These people can be leaders or speakers in areas of spirituality. They do not expect anything in return. They cannot tolerate dishonesty.',
+    for_business: 'Not good number for business.',
+  },
+  '62': {
+    ruling_planet: 'SATURN',
+    contributing_planets: ['VENUS', 'MOON'],
+    description:
+      'Their life is a mix of happiness and sorrows. They have the ability to turn their friends into enemies. They have a disturbed family life and have bad relations with relatives. They are addicted to liquor, gambling and women. They are day dreamers. They have a lot of sexual relationship and are therefore subject to sexually transmitted diseases.',
+    for_business: 'Not a good name number for business.',
+  },
+  '63': {
+    ruling_planet: 'MARS',
+    contributing_planets: ['VENUS', 'JUPITER'],
+    description:
+      'This number is made up of the Guru of Gods (Jupiter) and Guru of Demon (Venus). It is not a very good number. Such people have a neglected childhood and therefore get into evil eyes. They face a lot of difficulties in life, even when they try to achieve a small thing. They want to make money at any cost.',
+    for_business:
+      'Not good number for business as it will only incur losses and eventually will have to be rectified.',
+  },
+  '64': {
+    ruling_planet: 'SUN',
+    contributing_planets: ['VENUS', 'RAHU'],
+    description:
+      'These people are blessed with sharp knowledge and strong will power. They have equal number of friends and enemies. Though they face a lot of opposition in life, they manage to emerge out victorious. They can do anything and thus have a name in society. They are very well respected in the family. A number like this is more suited to people with whose birth number is in sync with the name number.',
+    for_business:
+      'An average number for business. It is better to use it if is in sync with the driver number.',
+  },
+  '65': {
+    ruling_planet: 'MOON',
+    contributing_planets: ['VENUS', 'MERCURY'],
+    description:
+      'These people work for public welfare. They can gather a lot of support from influential people for the social work they do. This number denotes divine grace and spiritual development. Due to the impact of moon, their life is characterised by a lot of ups and downs. These people get into unexpected.',
+    for_business:
+      'There would be no growth in business. Hence, not a good number.',
+  },
+
+  '66': {
+    ruling_planet: 'JUPITER',
+    contributing_planets: ['VENUS'],
+    description:
+      'This is a very good number in numerology. This name number shouts accomplishments on all the fronts – professional, emotional, physical and financial. These people have excellent oration skills and can sweep the audience off their feet. The presence of Jupiter helps in assessing the situation and helps in differentiating between the good and the bad.',
+    for_business:
+      'A number such as this can be used for business but not by people having Driver Number 8.',
+  },
+  '67': {
+    ruling_planet: 'RAHU',
+    contributing_planets: ['VENUS', 'KETU'],
+    description:
+      'This number is made up of creativity. These people are exceptional artists and make money by way of it. They are hardworking people and have the ability to work tirelessly. They earn a lot of money. They can be good dancers, musician, and go in film making. People with such number have a spiritual bent of mind too, they can also earn through writing books on spirituality or conducting spiritual discourses.',
+    for_business:
+      'A name number which can be used by publishing books on religion and spirituality, women related businesses.',
+  },
+  '68': {
+    ruling_planet: 'MERCURY',
+    contributing_planets: ['VENUS', 'SATURN'],
+    description:
+      'This number brings a lot of failure. Venus is the plus in the number. They get into tasks they cannot complete and the suffering follows. They have greed to make money which spoils their career and life. They always remain dissatisfied. But they are on the go all the time, and keep themselves busy in other activities. They can do business related to iron, heavy machinery, vehicles etc.',
+    for_business:
+      'A number which can lead to bankruptcy of the business. This business no always gives losses. So not a good no.',
+  },
+  '69': {
+    ruling_planet: 'VENUS',
+    contributing_planets: ['VENUS', 'MARS'],
+    description:
+      'They bring success. Person gets success slowly. They are persistent in their efforts and thus achieve success. They do not require any assistance. They have a majestic appearance. They have certain royalty about their speech and actions. They depend on tried and tested ways of doing a task. These people have a good family life. They enjoy collecting artwork and spend freely time on art.',
+    for_business: 'A good number for business.',
+  },
+
+  '70': {
+    ruling_planet: 'KETU',
+    contributing_planets: ['KETU'],
+    description:
+      "These people will have a lot of interest in spirituality and matter related to God. Presence of zero in the number signifies infinity. Such a number has the power to go to the depths of spirituality. They live a simple life and not driven by money. Love, relationships don't hold a place in their life. Family life is bit disturbed.",
+    for_business:
+      'Not a good number name for business. The business with 70 as name number will have initial stroke of luck but will later produce dissatisfied customers.',
+  },
+  '71': {
+    ruling_planet: 'SATURN',
+    contributing_planets: ['KETU', 'SUN'],
+    description:
+      "These people are little confused and having less confidence. We can't trust them if want to take advice as they have lack of clarity. But gradually, these people garner knowledge and leadership qualities as they are having Sun in their name number. They need to understand that they can be strong with their decisions initially but eventually, things will automatically start falling in place but damage caused by initial years cannot be made good so such a number should be avoided.",
+    for_business:
+      'Not a good business name number. Since no. 1 gives them freedom to take decision, leadership qualities, and to solve every problem but due to no. 7, they can lose money, incompetence in handling the customer also.',
+  },
+  '72': {
+    ruling_planet: 'MARS',
+    contributing_planets: ['KETU', 'MOON'],
+    description:
+      "These people will get success with the time. As we all know, 'slow & steady wins the race', they might suffer in the initial years, but will get success later on. They enjoy a luxurious life. Wealth acquired is so much that future generations will enjoy it as well. Ketu gives great knowledge & intuition to do anything and moon gives creative imagination. In totality, Mars gives extraordinary skills to face hurdles coming in the way. Mars make sure that the task they take up gets completed with success.",
+    for_business:
+      'Very good number for business. These businesses make huge profits. The business reaches heights and has the ability to be known all over the world. Future generation will enjoy this business.',
+  },
+  '73': {
+    ruling_planet: 'SUN',
+    contributing_planets: ['KETU', 'JUPITER'],
+    description:
+      'These people will have highly developed intuition skills, psychic power and knowledge. They earn name, fame and wealth. These people can lead higher positional especially in the government sector. They can have multiple sources of income. It is very important for people to be honest and keep their integrity intact, else they can lose their money and reputation. Such people are devoted to God and spiritual.',
+    for_business:
+      'Very good business name number provided the person is honest. Otherwise, it would do more harm than good.',
+  },
+  '74': {
+    ruling_planet: 'MOON',
+    contributing_planets: ['KETU', 'RAHU'],
+    description:
+      'This is a very contradictory number. No. seven makes the person spiritual while no. 4 wants to take up the most unconventional route to get success. This is a number of self-destructions. 7 & 4 are already treading on different paths with one preaching religion and other preaching against the usual. Regretting the past and anxious about the future, they spoil their present. Their finances are in bad shape, family life disturbed, no stability in life.',
+    for_business: 'Not a good number for business.',
+  },
+  '75': {
+    ruling_planet: 'JUPITER',
+    contributing_planets: ['KETU', 'MERCURY'],
+    description:
+      'Number 75 denotes that the person good in his academics. They are extremely talented in studies as well in extra activities. They are creative & talented as an author, poet, lyricist or writer. They are interested in home affairs or marriage. They can delay their marriage or can lose interest after that. Friendships they make are rock solid. They are driven by their vision and become famous.',
+    for_business: 'Not a very good name for business.',
+  },
+  '76': {
+    ruling_planet: 'RAHU',
+    contributing_planets: ['VENUS', 'KETU'],
+    description:
+      'Ketu dominates the number as it starts from 7 these people have less inclination to make money. Though they are financially and professionally settled. They have a disturbed married life and prefer to live in solitude. They spent their last years in solitude but other than that they keep going in their life. They work selflessly for the upliftment of others also. They will earn name, fame, knowledge and divine grace.',
+    for_business: 'Not a very good business name no.',
+  },
+  '77': {
+    ruling_planet: 'MERCURY',
+    contributing_planets: ['RAHU'],
+    description:
+      'Since 77 is having two 7, this confers divine blessings on them. If they take the divine path, life would be full of happiness with all the luxuries. They have a lot of foreign travel. Good character, God fearing, well respected are their traits. They get a lot of support from others also. If they take the right path in life, they will have a good married life.',
+    for_business:
+      'Very good business name number. God showers his love and blessings to the business in terms of growth and profits.',
+  },
+  '78': {
+    ruling_planet: 'VENUS',
+    contributing_planets: ['KETU', 'SATURN'],
+    description:
+      "7 followed by 8 and leading no. 6 is what makes this number brilliant. Caring, charitable and nurturing without an expectation of a reward is what makes up 78. They don't run after money, but money comes to them in abundance automatically. They can make the person orthodox also. They can be good poets, and an ability to cast a spell on other. Such qualities enable them to motivate people.",
+    for_business:
+      'Such businesses would rise without much of an effort. So very good name number for business.',
+  },
+
+  '79': {
+    ruling_planet: 'KETU',
+    contributing_planets: ['KETU', 'MARS'],
+    description:
+      'They face lot of hurdles in life. Whatever they do in life, is a complete failure. They have a poor childhood but rise very quickly later in life due to their never say die spirit. The knowledge and experience they garner in the early stages of their life helps in getting a successful path due to any failures. Family life is little unstable but they would be of great help to those who depend on them. They get immense support which helps them to lead a comfortable and successful life',
+    for_business:
+      'Not recommended as it would hamper the ability of business to make continuous profits.',
+  },
+  '80': {
+    ruling_planet: 'SATURN',
+    contributing_planets: ['SATURN'],
+    description:
+      'This is not a good name number. It gives lot of struggles in life. Since the beginning of life, the person will face hardships in relation to education and day to day living. Health issues, they can even face some undiagnosable diseases, this number can give them a criminal instinct and can make them thieves, rapist and terrorists also. They have good stamina and power but of no use as fate is against them. Professional and personal lives are deeply affected. They should be careful of accidents.',
+    for_business: 'This no name should be avoided for business also.',
+  },
+  '81': {
+    ruling_planet: 'MARS',
+    contributing_planets: ['SATURN', 'SUN'],
+    description:
+      'This is a fortunate number. Their personal and professional life is very good. They will enjoy health, wealth, name & fame and all the luxuries of life. They will have a lot of properties in his name. Sun and mars together increase the fire element in the number, sun being dominating and mars being arrogant invites a lot of jealousy from people. They would attract unnecessary hatred from the people. Basically, these people have a lot of enemies which can cause them great deal of harm. They should be careful of accidents.',
+    for_business: 'Not good business name number as there are many risks.',
+  },
+  '82': {
+    ruling_planet: 'SUN',
+    contributing_planets: ['SATURN', 'MOON'],
+    description:
+      'This number is very powerful and can make an ordinary person to an extraordinary one. They can rule the society. They have magnetic powers and would attract many followers. They should be very cautious of their duties and responsibilities. They face unnecessary issue in their love life due to their own adamant nature. They dominate the scene wherever they go. These people should take care from accidents.',
+    for_business: 'This number is a good number for business.',
+  },
+  '83': {
+    ruling_planet: 'MOON',
+    contributing_planets: ['SATURN', 'JUPITER'],
+    description:
+      'No. 83 people are hardworking and dedicated. This number gives high positions in society as well as in work. Everyone respects them. The life of the person is like a king and would carry it with self-confidence. They enjoy success in every field. But since Saturn is also a contributing planet, they need to be careful. Because at the end, Saturn, being a judge would give only what the person deserves. These people will be deceived at the hands of their friends and relatives.',
+    for_business: 'A big no.',
+  },
+  '84': {
+    ruling_planet: 'JUPITER',
+    contributing_planets: ['SATURN', 'RAHU'],
+    description:
+      'The beginning of their life would be struggle some. Poor life style, poor academics, unrecognition of talent are some of the problems they will face in their childhood. This will make them jealous, and insecure. They have the ability to catch incurable diseases in early life. Delays, disappointments would be present throughout their lifetime. They would invite unnecessary enemies. They would have not destination to reach. Spirituality can help them find their lost ground.',
+    for_business: 'Avoid this number for business name.',
+  },
+  '85': {
+    ruling_planet: 'RAHU',
+    contributing_planets: ['SATURN', 'MERCURY'],
+    description:
+      "They need to do a lot of hard work. Life isn't smooth or roller coaster for them. They face lot of difficulties. But their repeated efforts would give them the good results. But again, they profits are far less than the effort put which leads to disappointments. They need to add karmic debts in their account by helping others. They will really do well in the field of medicines. Due to their extraordinary support to the people, they will get an honourable position. They will be respected & loved by all.",
+    for_business:
+      'They will not get what they are putting in. After putting so much efforts, the profits earned would be less. So not a good number for business.',
+  },
+  '86': {
+    ruling_planet: 'MERCURY',
+    contributing_planets: ['SATURN', 'VENUS'],
+    description:
+      "These people face lot of hardships and hurdles in life but since Venus is a contributing planet in their life, they will climb up the ladder gradually and get what they deserve. Venus gives them the motivation to perform well and Mercury gives the persistence. These people get a lot of favours which helps them grow and lead a successful life of comforts. Problems in their life don't break them.",
+    for_business:
+      'Initial years will be struggle some but eventually the business would pick up steam.',
+  },
+
+  '87': {
+    ruling_planet: 'VENUS',
+    contributing_planets: ['SATURN', 'KETU'],
+    description:
+      'There is a difference between 78 and 87. In 78, the command was in the hands of Ketu but here, in number 87, command is with No. 8, Saturn. Money that these people would earn would be through devious means like womanising, gambling, criminal activities. They can be criminals, terrorists and extortionist. Due to their no. 7, they would have some mystic powers. These would be kind people who would dress up like a saint and dupe people. They would commit crimes without realizing what and why they are doing.',
+    for_business: 'A big no. to business name number.',
+  },
+  '88': {
+    ruling_planet: 'KETU',
+    contributing_planets: ['SATURN'],
+    description:
+      'This no is good for them who wants to go in spiritualism. This no is not good for family life. Materialistically this number does not give any success. They like living alone but are generous and philosophical. They spend lot of time in reading on religion and spirituality. Even if they earn money, they would lend it to other people and not enjoy it themselves.',
+    for_business:
+      'Good for spiritualism or religious organisations, but not for the rest of the businesses.',
+  },
+  '89': {
+    ruling_planet: 'SATURN',
+    contributing_planets: ['SATURN', 'MARS'],
+    description:
+      'Their childhood life is miserable. In spite of not being well provided, they do well in studies and develop a talent which makes them outshine others. Their hard work would be rewarded. They rise in life due to their hard work only. They lead a fearless life and climb the success ladder sooner than their peers. They would make all efforts for ousting out the person. They face a danger of fire accidents. Their married life is good.',
+    for_business: 'Risky number for business name.',
+  },
+  '90': {
+    ruling_planet: 'MARS',
+    contributing_planets: ['MARS'],
+    description:
+      "They will attain success due to their hard work. They can go to any extent to fulfil their dreams. They don't even afraid of obstacles and hurdles, they just keep going and are unstoppable. Their energy level is very high. They may have many sources of income. People who wish to advance spiritually, should avoid this number as this gives only riches. Such people are proud and egoistic.",
+    for_business: 'A good name number for business as the business would grow.',
+  },
+  '91': {
+    ruling_planet: 'SUN',
+    contributing_planets: ['MARS', 'SUN'],
+    description:
+      'They have strong determination and possess good technical skills. They have leadership qualities and can be leading top positions in corporate or government sector. They would not stop until and unless they achieve their goal. They would undertake a lot of journeys for work or otherwise. They would do well in Export/Import. These people will not be attached to wealth and would like going on pilgrimages.',
+    for_business: 'Very good business name number.',
+  },
+  '92': {
+    ruling_planet: 'MOON',
+    contributing_planets: ['MARS', 'MOON'],
+    description:
+      'These people can be good teachers on subjects related to philosophy, yoga or human welfare. These people are also intuitive. They find happiness by serving others. If these people continuously practice pranayama or other yoga techniques, they can acquire the power to defy gravity or defy disease & death.',
+    for_business: 'An avoidable number for business.',
+  },
+
+  '93': {
+    ruling_planet: 'JUPITER',
+    contributing_planets: ['MARS', 'JUPITER'],
+    description:
+      'These people have the ability to rise to the top and do marvellous things. They improve their worldly knowledge and fulfil their desires. These people can shine in any field it Law, Medicine, Science, Navy, Air Force. People like to take their advice. They are multi-talented and can earn through many businesses even arts or drama. Multiple sources of income would surely be there. They have good writing skills as well.',
+    for_business: 'An appropriate name for business.',
+  },
+  '94': {
+    ruling_planet: 'RAHU',
+    contributing_planets: ['MARS', 'RAHU'],
+    description:
+      'These people spend early part of life in acquiring education and in the later years, they learn to apply it. These people can rise up in life, to higher positions. Once the professional life is on track & moving, they would tend to shift their focus on humanitarian activities. They would want to bring about reforms. These people would get support from likeminded people & they would work together for common good of the society. They will be remembered for their good work always. Selflessly, they would work for the betterment of the society.',
+    for_business:
+      'In the short term, the business would grow and would earn normal profits.',
+  },
+  '95': {
+    ruling_planet: 'MERCURY',
+    contributing_planets: ['MARS', 'MERCURY'],
+    description:
+      'They would be successful in their personal life. As they are having mercury twice in their number, they have the business skill. They are very brilliant and would earn lot of respect and name due to their hard work. They are very disciplined and are perfectionists. Mercury gives them the ability to think out of the box. They are risk takers when it comes to business, but they are calculative also.',
+    for_business: 'A big no to 95 business name number.',
+  },
+  '96': {
+    ruling_planet: 'VENUS',
+    contributing_planets: ['MARS', 'VENUS'],
+    description:
+      'A very good and lucky name number. They have excellent educational skills and are good rank holders. They even have a charming personality and are very attractive. They have good control over their subordinates. They can do well in the field of arts, army officer and Captain in the navy. They lead a respectful, prosperous and fulfilled life. They have a good family life.',
+    for_business: 'This number can be used for business name.',
+  },
+  '97': {
+    ruling_planet: 'KETU',
+    contributing_planets: ['MARS', 'KETU'],
+    description:
+      "These people can take wrong decisions in life and can harm their future. By depending on the wrong people, they can spoil their chances of success also. They can spoil their life by taking wrong decisions under someone's influence. They may also face court cases, imprisonments etc. They can do well in the field of spirituality.",
+    for_business:
+      'Due to this business number, they can face lot of hurdles in life. In spite of putting lot of efforts, their efforts would go waste. So, a big no to this business name number.',
+  },
+
+  '98': {
+    ruling_planet: 'SATURN',
+    contributing_planets: ['MARS', 'SATURN'],
+    description:
+      'These people are very intelligent but would not be able to make use of their intelligence to solve their problems and would get into complicated issues. Their life is full of hassle. They can face crisis also. They would not be appreciated for the work they do. They can also affect from chronic diseases.',
+    for_business: 'No to this business name number.',
+  },
+  '99': {
+    ruling_planet: 'MARS',
+    contributing_planets: ['MARS'],
+    description:
+      'This number has many ups and downs. Early life will give good education. Such an influence of mars would push them into devious ways. They would think of doing anything to fulfil their dreams. Desires would be very high. They would take up criminal ways rather naturally to fulfil their desires and ambitions. Unwanted aggression will be used to get things done.',
+    for_business:
+      'If this number is having a compatibility with the Driver number, then an average number, but otherwise not a good number for business.',
+  },
+  '100': {
+    ruling_planet: 'SUN',
+    contributing_planets: ['SUN',],
+    description:
+      "Sun would give initiative, intelligence & drive to succeed but the opportunities that come their way, 'owing to two zeros', wouldn't be in plenty thus wasted talent. Their wealth and prosperity would not be a concern ever in life. These people will have a long and comfortable life without many achievements. But in the later stages, they would take up the path of Divine.",
+    for_business: 'An average number for business name.',
+  },
+  '101': {
+    ruling_planet: 'MOON',
+    contributing_planets: ['SUN', 'SUN'],
+    description:
+      "These people will get sufficient help from Government. Their efforts wouldn't be much. Ups and downs will be there in business. Hurdles and obstacles would be there. Not a very good name number.",
+    for_business: 'Since there are many ups and downs, it would never grow.',
+  },
+  '102': {
+    ruling_planet: 'JUPITER',
+    contributing_planets: ['SUN', 'MOON'],
+    description:
+      'Not a good number name. It would give initial bouts of success followed by failures & struggles later. This number should be avoided.',
+    for_business: 'Avoid this number for business also.',
+  },
+  '103': {
+    ruling_planet: 'RAHU',
+    contributing_planets: ['SUN', 'JUPITER'],
+    description:
+      'This is a good name number. Can give average results initially but later on, this aspect would get enhanced by way of new sources of income or a complete change in the existing occupational profile. Competition that these people would face will be immense.',
+    for_business: 'An average number for business name.',
+  },
+  '104': {
+    ruling_planet: 'MERCURY',
+    contributing_planets: ['SUN', 'RAHU'],
+    description:
+      'Success is guaranteed but will get success in unconventional ways. They will get fame but not money. They will become famous but will not be accompanies by material gain.',
+    for_business: 'When there is no profit, then not a good number.',
+  },
+  '105': {
+    ruling_planet: 'VENUS',
+    contributing_planets: ['SUN', 'MERCURY'],
+    description:
+      'This number can be good for material success. It will give good fortune, wealth, name, fame and good environment to live in. But these people would not be living with their family.',
+    for_business: 'A yes for business name.',
+  },
+  '106': {
+    ruling_planet: 'KETU',
+    contributing_planets: ['SUN', 'VENUS'],
+    description:
+      "They would face mid-life crisis and face a lot of problems. Later years of life would be comfortable for them. They would get into big problems which won't have an easy solution.",
+    for_business: 'Not a good business name number',
+  },
+  '107': {
+    ruling_planet: 'SATURN',
+    contributing_planets: ['SUN', 'KETU'],
+    description:
+      "This number has the ability to bring in success for the native. These people would face problems with the opposite sex. Even if these people achieve wealth, they won't be able to enjoy it. They will be far from comfortable life.",
+    for_business: 'Not a good business name number.',
+  },
+  '108': {
+    ruling_planet: 'MARS',
+    contributing_planets: ['SUN', 'SATURN'],
+    description:
+      'People with this number will continuously strive to make progress in life which would give them wealth. A lucky number to have as far as material endowment is concerned.',
+    for_business:
+      'Very good business name number. 108 is a very auspicious number for business.',
   },
 };

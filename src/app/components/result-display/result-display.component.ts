@@ -8,6 +8,7 @@ import {
   personalYearData,
   personalMonthData,
   personalDayData,
+  nameNumberCharacteristics
 } from '../../../assets/data/data';
 
 @Component({
@@ -26,15 +27,18 @@ export class ResultDisplayComponent implements OnChanges {
   personalYearData: any = null;
   personalMonthData: any = null;
   personalDayData: any = null;
+  nameNumberCharacteristicsData:any = null
   personalYear: any;
   personalMonth: any;
   personalDay: any;
+  nameData:any;
   constructor(private http: HttpClient) {
     this.driverConductordata = driverConductordata;
     this.numbersRemedy = numbersRemedy;
     this.personalYearData = personalYearData;
     this.personalMonthData = personalMonthData;
     this.personalDayData = personalDayData;
+    this.nameNumberCharacteristicsData = nameNumberCharacteristics;
   }
 
   ngOnChanges(changes: SimpleChanges): void {
@@ -43,12 +47,16 @@ export class ResultDisplayComponent implements OnChanges {
     }
     this.missingRemediesMap = this.result.missingNumbers.map((num) => ({
       number: num,
-      remedies: this.getRemediesForNumber(num, 'missing'),
+      title: this.getDataForNumber(num, 'title'),
+      effect: this.getDataForNumber(num, 'effect'),
+      remedies: this.getDataForNumber(num, 'missing'),
     }));
 
     this.excessRemediesMap = this.result.excessNumbers.map((num) => ({
       number: num,
-      remedies: this.getRemediesForNumber(num, 'excess'),
+      title: this.getDataForNumber(num, 'title'),
+      effect: this.getDataForNumber(num, 'effect'),
+      remedies: this.getDataForNumber(num, 'excess'),
     }));
   }
 
@@ -56,26 +64,35 @@ export class ResultDisplayComponent implements OnChanges {
     // debugger
     const lifePath = String(this.result?.lifePath);
     const destiny = String(this.result?.destiny);
-    this.combinationData =
-      this.driverConductordata?.[lifePath]?.[destiny] || null;
-    this.nameIsLucky = this.combinationData.luckyNameNumbers.includes(
-      this.result.nameNumber
-    );
+    this.combinationData = this.driverConductordata?.[lifePath]?.[destiny] || null;
+    this.nameIsLucky = this.result.nameNumber == 5 ? true : this.combinationData.luckyNameNumbers.includes(this.result.nameNumber);
     // console.log(this.combinationData, this.driverConductordata, this.result);
     this.personalYear = this.personalYearData[this.result?.personalYear];
     this.personalMonth = this.personalMonthData[this.result?.personalMonth];
     this.personalDay = this.personalDayData[this.result?.personalDay];
+    const fetchNameNumData = this.result.nameTotalSum <= 108 ? this.result.nameTotalSum : this.result.nameNumber;
+    this.nameData = this.nameNumberCharacteristicsData[fetchNameNumData]
+    
   }
 
-  missingRemediesMap: { number: number; remedies: string[] }[] = [];
-  excessRemediesMap: { number: number; remedies: string[] }[] = [];
+  missingRemediesMap: any;
+  excessRemediesMap: any;
 
-  getRemediesForNumber(number: number, type: 'missing' | 'excess'): string[] {
+  getDataForNumber(number: number, type: string): string[] {
     const numKey = number.toString();
-    const remedies = this.numbersRemedy[numKey];
-    if (!remedies) return [];
-
-    return type === 'missing' ? remedies.missingRemedy : remedies.excessRemedy;
+    const data = this.numbersRemedy[numKey];
+    if (!data) return [];
+    
+    if(type == 'missing' || type == 'excess'){
+      return type === 'missing' ? data.missingRemedy : data.excessRemedy;
+    }
+    if(type == 'title'){
+      return  data.title;
+    }
+    if(type == 'effect'){
+      return data.missingEffect;
+    }
+    return [''];
   }
 
   get hasCombinationData(): boolean {
