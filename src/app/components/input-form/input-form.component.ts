@@ -13,11 +13,11 @@ type InvalidFields = Record<FieldKey, boolean>;
   styleUrls: ['./input-form.component.scss']
 })
 export class InputFormComponent {
-  fullName = 'Himmanshu Sharma';
-  dateOfBirth = '2000-06-05';
-  gender = 'male';
-  email = 'name@domain.com';
-  mobile = '9876543210';
+  fullName = '';
+  dateOfBirth = '';
+  gender = '';
+  email = '';
+  mobile = '';
 
   @Output() calculationDone = new EventEmitter<any>();
 
