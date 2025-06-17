@@ -1,4 +1,5 @@
-import { Component, HostListener } from '@angular/core';
+import { Component, HostListener, Inject, PLATFORM_ID } from '@angular/core';
+import { isPlatformBrowser } from '@angular/common';
 import { CommonModule } from '@angular/common';
 import { InputFormComponent } from './components/input-form/input-form.component';
 import { ResultDisplayComponent } from './components/result-display/result-display.component';
@@ -10,21 +11,43 @@ import { NumerologyResult } from './models/numerology.model';
   standalone: true,
   imports: [CommonModule, InputFormComponent, ResultDisplayComponent],
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
   numerologyResult: NumerologyResult | null = null;
-  constructor(private numerologyService:NumerologyService){}
+  constructor(
+    @Inject(PLATFORM_ID) private platformId: Object,
+    private numerologyService: NumerologyService
+  ) {}
+
+  // ngOnInit(): void {
+  //   if (isPlatformBrowser(this.platformId)) {
+  //     window.addEventListener('beforeunload', this.beforeUnloadListener);
+  //   }
+  // }
+
+  // ngOnDestroy(): void {
+  //   if (isPlatformBrowser(this.platformId)) {
+  //     window.removeEventListener('beforeunload', this.beforeUnloadListener);
+  //   }
+  // }
+
+  // beforeUnloadListener = (event: BeforeUnloadEvent) => {
+  //   event.preventDefault();
+  //   event.returnValue = ''; // Required for Chrome to show the prompt
+  //   return '';
+  // };
 
   handleCalculation(data: NumerologyInput) {
+    console.log('app', data);
+
     this.numerologyResult = this.numerologyService.calculateAll(
       data.name,
       data.dob,
-      data.gender
+      data.gender,
+      data.mobile
     );
   }
-
-  
 
   reset() {
     this.numerologyResult = null;

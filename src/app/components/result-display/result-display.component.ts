@@ -8,8 +8,11 @@ import {
   personalYearData,
   personalMonthData,
   personalDayData,
-  nameNumberCharacteristics
+  nameNumberCharacteristics,
+  englishMobilePairsMeaningArr,
+  mustExcludePairs
 } from '../../../assets/data/data';
+import { NumerologyService } from '../../services/numerology.service';
 
 @Component({
   selector: 'app-result-display',
@@ -24,6 +27,7 @@ export class ResultDisplayComponent implements OnChanges {
   driverConductordata: any = null;
   numbersRemedy: any = null;
   nameIsLucky: boolean = false;
+  mobileIsLucky: boolean = false;
   personalYearData: any = null;
   personalMonthData: any = null;
   personalDayData: any = null;
@@ -32,7 +36,27 @@ export class ResultDisplayComponent implements OnChanges {
   personalMonth: any;
   personalDay: any;
   nameData:any;
-  constructor(private http: HttpClient) {
+  mobileData :any = []
+  mobileNumberTotal:number | null = null
+  mobileCompound:number | null = null;
+  readingGuide = [
+    {
+      effect:
+        'Good Combination',
+      type: 1,
+    },
+    {
+    effect:
+      'Bad Combination',
+    type: 0,
+  },
+  {
+    effect:
+      'Neutral Combination',
+    type: 2,
+  },
+  ]
+  constructor(private numerologyService:NumerologyService,private http: HttpClient) {
     this.driverConductordata = driverConductordata;
     this.numbersRemedy = numbersRemedy;
     this.personalYearData = personalYearData;
@@ -45,6 +69,7 @@ export class ResultDisplayComponent implements OnChanges {
     if (driverConductordata && this.result) {
       this.setCombination();
     }
+
     this.missingRemediesMap = this.result.missingNumbers.map((num) => ({
       number: num,
       title: this.getDataForNumber(num, 'title'),
@@ -61,18 +86,21 @@ export class ResultDisplayComponent implements OnChanges {
   }
 
   private setCombination(): void {
-    // debugger
     const lifePath = String(this.result?.lifePath);
     const destiny = String(this.result?.destiny);
     this.combinationData = this.driverConductordata?.[lifePath]?.[destiny] || null;
-    this.nameIsLucky = this.result.nameNumber == 5 ? true : this.combinationData.luckyNameNumbers.includes(this.result.nameNumber);
+    const findLuckyNameNo = [...this.combinationData.luckyNameNumbers, ...this.combinationData.luckyNumbers]
+    this.nameIsLucky = this.result.nameNumber == 5 ? true : findLuckyNameNo.includes(this.result.nameTotalSum);
     // console.log(this.combinationData, this.driverConductordata, this.result);
     this.personalYear = this.personalYearData[this.result?.personalYear];
     this.personalMonth = this.personalMonthData[this.result?.personalMonth];
     this.personalDay = this.personalDayData[this.result?.personalDay];
     const fetchNameNumData = this.result.nameTotalSum <= 108 ? this.result.nameTotalSum : this.result.nameNumber;
     this.nameData = this.nameNumberCharacteristicsData[fetchNameNumData]
-    
+    this.mobileData = this.setMobileData(this.result.mobileNumberPairs);
+    this.mobileNumberTotal = this.numerologyService.calculateMobileSum(this.result.mobileNumber);
+    this.mobileCompound  = this.numerologyService.reduceToSingleDigit(this.result.mobileNumber);
+    this.mobileIsLucky = mustExcludePairs.every(excluded => !this.result.mobileNumberPairs.includes(excluded));
   }
 
   missingRemediesMap: any;
@@ -93,6 +121,17 @@ export class ResultDisplayComponent implements OnChanges {
       return data.missingEffect;
     }
     return [''];
+  }
+
+  setMobileData(mobileNoPairs:any[]){
+    let arr: ({ combo: number; effect: string; type: number; } | { combo: string; effect: string; type: number; })[] = [];
+    mobileNoPairs.forEach(element => {
+      const matched = englishMobilePairsMeaningArr.find(item => item.combo === element);
+      if (matched) {
+        arr.push(matched);
+      }
+    });
+    return arr;
   }
 
   get hasCombinationData(): boolean {

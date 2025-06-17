@@ -19,6 +19,12 @@ export class InputFormComponent {
   email = '';
   mobile = '';
 
+  //   fullName = 'Himmanshu sharma';
+  // dateOfBirth = '2000-06-05';
+  // gender = 'male';
+  // email = 'name@domain.com';
+  // mobile = '9876543210';
+
   @Output() calculationDone = new EventEmitter<any>();
 
   invalidFields: InvalidFields = {

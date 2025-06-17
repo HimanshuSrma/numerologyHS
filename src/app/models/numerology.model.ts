@@ -8,6 +8,8 @@ export interface NumerologyInput {
   name: string;
   dob: string;     // Format: yyyy-mm-dd
   gender: Gender;
+  mobile:number,
+  email:string
 }
 
 // Result from calculations
@@ -25,6 +27,8 @@ export interface NumerologyResult {
   personalDay: number;
   nameTotalSum:number
   nameNumber: number;
+  mobileNumber: number;
+  mobileNumberPairs:any[]
 }
 
 

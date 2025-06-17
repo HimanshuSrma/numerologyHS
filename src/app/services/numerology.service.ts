@@ -112,6 +112,11 @@ calculateDestinyNumber(dob: string): number {
     }
   }
 
+  calculateMobileSum(num: number): number {
+    return num.toString().split('').map(Number).reduce((acc, digit) => acc + digit, 0);
+  }
+
+
 
   generateLoShuGrid(dob: string, destiny: number, lifePath: number, kua: number): Record<LoShuNumber, number> {
     console.log("dob", dob, "destiny", destiny, "lifePath", lifePath, "kua", kua);
@@ -134,7 +139,9 @@ calculateDestinyNumber(dob: string): number {
     // if (day > 10) {
       if (destiny >= 0 && destiny <= 9) grid[destiny as LoShuNumber]++;
     // }
-    if (lifePath >= 0 && lifePath <= 9) grid[lifePath as LoShuNumber]++;
+    if (day > 10) {
+      if (lifePath >= 0 && lifePath <= 9) grid[lifePath as LoShuNumber]++;
+    }
     if (kua >= 0 && kua <= 9) grid[kua as LoShuNumber]++;
 
     return grid;
@@ -158,7 +165,29 @@ calculateDestinyNumber(dob: string): number {
       .filter(n => grid[n as LoShuNumber] >= 3) as LoShuNumber[];
   }
 
-  calculateAll(name: string, dob: string, gender: string): NumerologyResult {
+  convertToPairs(number: number, pairSize: number): number[] {
+  const numberString = number.toString();
+  const pairs: number[] = [];
+
+  for (let i = 0; i <= numberString.length - pairSize; i++) {
+    const pair = numberString.substring(i, i + pairSize);
+    pairs.push(parseInt(pair, 10));
+  }
+
+  return pairs;
+}
+
+  // convertToPairs(number:number) {
+  //   let numberString = number.toString();
+  //   let pairs = [];
+  //   for (let i = 0; i < numberString.length - 1; i++) {
+  //     let pair = numberString.substring(i, i + 2);
+  //     pairs.push(parseInt(pair));
+  //   }
+  //   return pairs;
+  // }
+
+  calculateAll(name: string, dob: string, gender: string,mobile:number): NumerologyResult {
     const lifePath = this.calculateLifePathNumber(dob);
     const destiny = this.calculateDestinyNumber(dob);
     const kua = this.calculateKuaNumber(dob, gender);
@@ -171,6 +200,12 @@ calculateDestinyNumber(dob: string): number {
     const personalDay = this.calculatePersonalDay(dob);
     const nameTotalSum = this.calculateNameNumber(name,true);
     const nameNumber = this.calculateNameNumber(name);
+    const pairofTwo = this.convertToPairs(mobile , 2);
+    const pairofThree = this.convertToPairs(mobile , 3);
+    const pairofFour = this.convertToPairs(mobile , 4);
+    const pairofFive = this.convertToPairs(mobile , 5);
+    const mobileNumberPairs = [...pairofTwo, ...pairofThree, ...pairofFour, ...pairofFive];
+    const mobileNumber = mobile;
     return {
       name,
       destiny,
@@ -184,7 +219,9 @@ calculateDestinyNumber(dob: string): number {
       personalMonth,
       personalDay,
       nameTotalSum,
-      nameNumber
+      nameNumber,
+      mobileNumber,
+      mobileNumberPairs
     };
   }
 }

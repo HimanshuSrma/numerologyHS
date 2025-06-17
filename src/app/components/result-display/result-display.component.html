@@ -18,12 +18,15 @@
     </div>
   </div>
 
-  
-  <div class="mt-8 bg-indigo-50 border border-indigo-200 rounded-xl shadow w-full mb-6" *ngIf="this.combinationData.description">
+
+  <div class="mt-8 bg-indigo-50 border border-indigo-200 rounded-xl shadow w-full mb-6"
+    *ngIf="this.combinationData.description">
     <div class="border-b">
-      <button (click)="toggle('personality', 0)" class="w-full text-left px-4 py-3 flex justify-between items-center focus:outline-none">
+      <button (click)="toggle('personality', 0)"
+        class="w-full text-left px-4 py-3 flex justify-between items-center focus:outline-none">
         <span class="font-medium">Personality Analysis</span>
-        <svg class="w-5 h-5 transform transition-transform duration-200" [ngClass]="{ 'rotate-180': isOpen('personality', 0) }" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <svg class="w-5 h-5 transform transition-transform duration-200"
+          [ngClass]="{ 'rotate-180': isOpen('personality', 0) }" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
         </svg>
       </button>
@@ -34,72 +37,59 @@
   </div>
 
 
-  
+
   <!-- Name Number Card -->
   <div class="rounded p-4 shadow text-center mb-6"
     [ngClass]="{'bg-green-50 border border-green-300': nameIsLucky, 'bg-red-50 border border-red-300': !nameIsLucky}">
-    <div class="text-sm font-semibold text-gray-600">Name Number</div>
+    <div class="font-semibold">Name Number</div>
     <div class="text-3xl font-bold flex justify-evenly"
       [ngClass]="{'text-green-700': nameIsLucky, 'text-red-700': !nameIsLucky}">
       <div>{{ result.nameTotalSum }}</div>
       <div>👉</div>
       <div>{{ result.nameNumber }}</div>
     </div>
-    <div class="text-sm mt-1 font-medium" [ngClass]="{'text-green-600': nameIsLucky, 'text-red-600': !nameIsLucky }">{{ nameIsLucky ? '✅ Favorable' : '⚠️ Not Favorable' }}</div>
-  
-    <!-- <ng-container *ngIf="nameData">
-      <button (click)="toggle('name', 0)" class="w-full text-left px-4 py-3 flex justify-between items-center focus:outline-none">
-        <span class="font-medium">Name Analysis</span>
-        <svg class="w-5 h-5 transform transition-transform duration-200" [ngClass]="{ 'rotate-180': isOpen('name', 0) }" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+    <div class="text-sm mt-1 font-medium" [ngClass]="{'text-green-600': nameIsLucky, 'text-red-600': !nameIsLucky }">{{
+      nameIsLucky ? '✅ Favorable' : '⚠️ Not Favorable' }}</div>
+
+
+
+    <ng-container *ngIf="nameData">
+      <button (click)="toggle('name', 0)" class="w-full px-4 py-3 flex justify-center items-center focus:outline-none">
+        <span class="font-medium me-3">Name Analysis</span>
+        <svg class="w-5 h-5 transform transition-transform duration-200" [ngClass]="{ 'rotate-180': isOpen('name', 0) }"
+          fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
         </svg>
       </button>
-  
+
       <div *ngIf="isOpen('name', 0)" class="px-4 py-2 text-gray-600 transition-all duration-300">
-        #################
-        {{show here}}
-        #################
-  </div>
-</ng-container> -->
+
+        <div class="mb-3 p-3 bg-purple-50 border border-purple-200 rounded-lg shadow-sm flex justify-around">
+          <div class="font-semibold text-purple-700 mb-1">Ruling Planet:</div>
+          <div class="text-gray-700">{{ nameData.ruling_planet }}</div>
+        </div>
+
+        <div class="mb-3 p-3 bg-pink-50 border border-pink-200 rounded-lg shadow-sm flex justify-around">
+          <div class="font-semibold text-pink-700 mb-1">Contributing Planets:</div>
+          <div class="text-gray-700">{{ nameData.contributing_planets.join(', ') }}</div>
+        </div>
+
+        <div class="mb-3 p-3 bg-yellow-50 border border-yellow-200 rounded-lg shadow-sm">
+          <div class="font-semibold text-yellow-800 mb-1">Description:</div>
+          <div class="text-gray-700 text-justify">{{ nameData.description }}</div>
+        </div>
+
+        <!-- <div class="mb-3 p-3 bg-fuchsia-50 border border-fuchsia-200 rounded-lg shadow-sm">
+          <div class="font-semibold text-fuchsia-700 mb-1">For Business:</div>
+          <div class="text-gray-700 text-justify">{{ nameData.for_business }}</div>
+        </div> -->
 
 
-
-<ng-container *ngIf="nameData">
-  <button (click)="toggle('name', 0)" class="w-full px-4 py-3 flex justify-center items-center focus:outline-none">
-    <span class="font-medium me-3">Name Analysis</span>
-    <svg class="w-5 h-5 transform transition-transform duration-200" [ngClass]="{ 'rotate-180': isOpen('name', 0) }" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-    </svg>
-  </button>
-
-  <div *ngIf="isOpen('name', 0)" class="px-4 py-2 text-gray-600 transition-all duration-300">
-
-    <div class="mb-3 p-3 bg-purple-50 border border-purple-200 rounded-lg shadow-sm flex justify-around">
-      <div class="font-semibold text-purple-700 mb-1">Ruling Planet:</div>
-      <div class="text-gray-700">{{ nameData.ruling_planet }}</div>
-    </div>
-
-    <div class="mb-3 p-3 bg-pink-50 border border-pink-200 rounded-lg shadow-sm flex justify-around">
-      <div class="font-semibold text-pink-700 mb-1">Contributing Planets:</div>
-      <div class="text-gray-700">{{ nameData.contributing_planets.join(', ') }}</div>
-    </div>
-
-    <div class="mb-3 p-3 bg-yellow-50 border border-yellow-200 rounded-lg shadow-sm">
-      <div class="font-semibold text-yellow-800 mb-1">Description:</div>
-      <div class="text-gray-700">{{ nameData.description }}</div>
-    </div>
-
-    <div class="mb-3 p-3 bg-fuchsia-50 border border-fuchsia-200 rounded-lg shadow-sm">
-      <div class="font-semibold text-fuchsia-700 mb-1">For Business:</div>
-      <div class="text-gray-700 text-justify">{{ nameData.for_business }}</div>
-    </div>
+      </div>
+    </ng-container>
 
 
   </div>
-</ng-container>
-
-
-</div>
 
 
   <!-- {{nameData | json}} -->
@@ -122,36 +112,6 @@
     </div>
   </div>
 
-
-
-  
-
-  <!-- Personality -->
-     <!-- <div class="bg-indigo-50 rounded p-4 shadow text-center mb-4">
-    <div class="text-sm font-semibold mb-3">Personality Analysis</div>
-    <div class="text-gray-600 text-justify">{{ this.combinationData.description }}</div>
-  </div> -->
-
-
-
-  <!-- <div class="mt-8 bg-blue-50 border border-blue-200 rounded-xl shadow w-full" *ngIf="personalYear">
-      <h3 class="p-[12px] text-center bold">📅 Personal Year {{result.personalYear}} 📅</h3>
-      <div *ngFor="let item of personalYear.sections; let i = index" class="border-b">
-        <button (click)="toggle(i)" class="w-full text-left px-4 py-3 flex justify-between items-center focus:outline-none">
-          <span class="font-medium">{{ item.type ?? personalYear.title }}</span>
-          <svg class="w-5 h-5 transform transition-transform duration-200" [ngClass]="{ 'rotate-180': isOpen(i) }" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-          </svg>
-        </button>
-        <div *ngIf="isOpen(i)" class="px-4 py-2 text-gray-600 transition-all duration-300">
-          {{item.content}}
-          <ul class="list-disc list-inside text-sm text-gray-700 mt-1" *ngIf="item?.toDo">
-            <li *ngFor="let remedy of item.list">{{ remedy }}</li>
-          </ul>
-        </div>
-      </div>
-  </div> -->
-
   <!-- personalDay accordion -->
 
   <div class="mt-8 bg-fuchsia-50 border border-fuchsia-200 rounded-xl shadow w-full" *ngIf="personalDay">
@@ -167,7 +127,7 @@
         </svg>
       </button>
 
-      <div *ngIf="isOpen('personalDay', i)" class="px-4 py-2 text-gray-600 transition-all duration-300">
+      <div *ngIf="isOpen('personalDay', i)" class="px-4 py-2 text-gray-600 transition-all duration-300 text-justify">
         {{ item.content }}
         <ul class="list-disc list-inside text-sm text-gray-700 mt-1" *ngIf="item?.list">
           <li *ngFor="let remedy of item.list">{{ remedy }}</li>
@@ -193,7 +153,7 @@
         </svg>
       </button>
 
-      <div *ngIf="isOpen('personalMonth', i)" class="px-4 py-2 text-gray-600 transition-all duration-300">
+      <div *ngIf="isOpen('personalMonth', i)" class="px-4 py-2 text-gray-600 transition-all duration-300 text-justify">
         {{ item.content }}
         <ul class="list-disc list-inside text-sm text-gray-700 mt-1" *ngIf="item?.list">
           <li *ngFor="let remedy of item.list">{{ remedy }}</li>
@@ -215,7 +175,7 @@
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
         </svg>
       </button>
-      <div *ngIf="isOpen('personalYear', i)" class="px-4 py-2 text-gray-600 transition-all duration-300">
+      <div *ngIf="isOpen('personalYear', i)" class="px-4 py-2 text-gray-600 transition-all duration-300 text-justify">
         {{ item?.content }}
         <ul class="list-disc list-inside text-sm text-gray-700 mt-1" *ngIf="item?.list">
           <li *ngFor="let remedy of item.list">{{ remedy }}</li>
@@ -224,6 +184,79 @@
     </div>
   </div>
 
+
+
+
+
+  <!-- ############################################ Mobile ########################################################## -->
+
+
+
+    <!-- personalDay accordion -->
+
+  <div class="mt-8 bg-lime-50 border border-lime-200 rounded-xl shadow w-full" *ngIf="mobileData">
+    <h3 class="p-[12px] text-center font-bold"> 📱 Mobile Number Numerology  📱</h3>
+    <div class="border-b">
+      <button (click)="toggle('mobileData', 0)" class="w-full text-left px-4 py-3 flex justify-between items-center focus:outline-none">
+        <span class="font-medium">{{ result.mobileNumber }}</span>
+        <svg class="w-5 h-5 transform transition-transform duration-200"
+          [ngClass]="{ 'rotate-180': isOpen('mobileData', 0) }" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+        </svg>
+      </button>
+
+      <div *ngIf="isOpen('mobileData', 0)" class="px-4 py-2 transition-all duration-300">
+
+        <!-- <pre>
+          {{result | json}}
+        </pre> -->
+
+        <div class="mb-3 p-3 bg-purple-50 border border-purple-200 rounded-lg shadow-sm flex justify-around">
+          <div class="font-semibold text-purple-700 mb-1">Total Sum:</div>
+          <div class="text-gray-700">{{ mobileNumberTotal }}</div>
+        </div>
+
+        <div class="mb-3 p-3 bg-pink-50 border border-pink-200 rounded-lg shadow-sm flex justify-around">
+          <div class="font-semibold text-pink-700 mb-1">Compound Number:</div>
+          <div class="text-gray-700">{{ mobileCompound }}</div>
+        </div>
+        
+        <div class="mb-8 p-3 bg-yellow-50 border border-yellow-200 rounded-lg shadow-sm">
+          <div class="grid gap-4 sm:grid-cols-2 md:grid-cols-3">
+            <ng-container *ngFor="let pair of readingGuide">
+              <div class="flex space-x-2 items-center">
+                <div
+                  class="text-sm px-2 py-2 rounded shadow text-white"
+                  [ngClass]="{
+                    'bg-red-500': pair.type === 0,
+                    'bg-green-500': pair.type === 1,
+                    'bg-yellow-500': pair.type === 2
+                  }">
+                </div>
+                <div class="px-2 py-1 rounded shadow bg-white text-gray-800 flex-1">
+                  {{ pair.effect }}
+                </div>
+              </div>
+            </ng-container>
+          </div>
+        </div>
+
+
+        <ng-container *ngFor="let pair of mobileData">
+          <div class="flex space-x-2 items-center mb-3">
+            <div class="text-sm px-2 py-1 rounded shadow text-white" [ngClass]="{ 'bg-red-500': pair.type === 0, 'bg-green-500': pair.type === 1, 'bg-yellow-500': pair.type === 2 }">{{ pair.combo }}</div>
+            <div class="px-2 py-1 rounded shadow bg-white text-gray-800 flex-1 text-justify">{{ pair.effect }}</div>
+          </div>
+        </ng-container>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <!-- ############################################ Mobile ########################################################## -->
 
 
 
@@ -305,47 +338,47 @@
   <!-- Missing Remedies -->
   <!-- <div *ngIf="hasCombinationData" class="mt-8 p-6 bg-sky-50 border border-sky-200 rounded-xl shadow">
     <h3 class="text-2xl font-bold text-green-700 mb-4 text-center">🌟🧘 Remedies 🧘🌟 </h3> -->
-    <div *ngIf="missingRemediesMap.length > 0" class="mt-8">      
-      <div class="mt-8 bg-blue-50 border border-blue-200 rounded-xl shadow w-full" *ngIf="missingRemediesMap">
-        <h3 class="p-[12px] text-center font-bold text-red-600">Missing Numbers & Remedies</h3>
-        <div *ngFor="let entry of missingRemediesMap; let i = index" class="border-b">
-          <button (click)="toggle('personalYear', i)"
-            class="w-full text-left px-4 py-3 flex justify-between items-center focus:outline-none">
-            <span class="text-md font-semibold text-red-700">Number {{ entry.number }} - ({{entry.title}})</span>
-            <svg class="w-5 h-5 transform transition-transform duration-200"
-              [ngClass]="{ 'rotate-180': isOpen('personalYear', i) }" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-            </svg>
-          </button>
-          <div *ngIf="isOpen('personalYear', i)" class="px-4 py-2 transition-all duration-300">
-            <p class="mb-3 text-gray-500">{{ entry?.effect }}</p>
-
-            <h3 class="text-md font-bold" *ngIf="entry.remedies">Remedy</h3>
-            <ul class="list-disc text-emerald-500 font-semibold list-inside text-sm mt-4" *ngIf="entry.remedies">
-              <li *ngFor="let remedy of entry.remedies">{{ remedy }}</li>
-            </ul>
-          </div>
+  <div *ngIf="missingRemediesMap.length > 0" class="mt-8">
+    <div class="mt-8 bg-blue-50 border border-blue-200 rounded-xl shadow w-full" *ngIf="missingRemediesMap">
+      <h3 class="p-[12px] text-center font-bold text-red-600">Missing Numbers & Remedies</h3>
+      <div *ngFor="let entry of missingRemediesMap; let i = index" class="border-b">
+        <button (click)="toggle('personalYear', i)"
+          class="w-full text-left px-4 py-3 flex justify-between items-center focus:outline-none">
+          <span class="text-md font-semibold text-red-700">Number {{ entry.number }} - ({{entry.title}})</span>
+          <svg class="w-5 h-5 transform transition-transform duration-200"
+            [ngClass]="{ 'rotate-180': isOpen('personalYear', i) }" fill="none" stroke="currentColor"
+            viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+          </svg>
+        </button>
+        <div *ngIf="isOpen('personalYear', i)" class="px-4 py-2 transition-all duration-300 text-justify">
+          <p class="mb-3 text-gray-500">{{ entry?.effect }}</p>
+          <h3 class="text-md font-bold" *ngIf="entry.remedies">Remedy</h3>
+          <ul class="list-disc text-emerald-500 font-semibold list-inside text-sm mt-4" *ngIf="entry.remedies">
+            <li *ngFor="let remedy of entry.remedies">{{ remedy }}</li>
+          </ul>
         </div>
       </div>
+    </div>
 
-      <!-- <div *ngFor="let entry of missingRemediesMap" class="mb-4">
+    <!-- <div *ngFor="let entry of missingRemediesMap" class="mb-4">
         <h4 class="text-md font-bold text-red-700">Number {{ entry.number }}</h4>
         <ul class="list-disc list-inside text-sm text-gray-700 mt-1">
           <li *ngFor="let remedy of entry.remedies">{{ remedy }}</li>
         </ul>
       </div> -->
-    </div>
+  </div>
 
-    <!-- Excess Remedies -->
-    <div *ngIf="excessRemediesMap.length > 0" class="mt-8">
-      <h3 class="text-lg font-semibold text-yellow-700 mb-4">Excess Numbers & Remedies</h3>
-      <div *ngFor="let entry of excessRemediesMap" class="mb-4">
-        <h4 class="text-md font-bold text-yellow-800">Number {{ entry.number }}</h4>
-        <ul class="list-disc list-inside text-sm text-gray-700 mt-1">
-          <li *ngFor="let remedy of entry.remedies">{{ remedy }}</li>
-        </ul>
-      </div>
+  <!-- Excess Remedies -->
+  <div *ngIf="excessRemediesMap.length > 0" class="mt-8">
+    <h3 class="text-lg font-semibold text-yellow-700 mb-4">Excess Numbers & Remedies</h3>
+    <div *ngFor="let entry of excessRemediesMap" class="mb-4">
+      <h4 class="text-md font-bold text-yellow-800">Number {{ entry.number }}</h4>
+      <ul class="list-disc list-inside text-sm text-gray-700 mt-1">
+        <li *ngFor="let remedy of entry.remedies">{{ remedy }}</li>
+      </ul>
     </div>
+  </div>
 
 
   <!-- </div> -->
