@@ -6,7 +6,7 @@ export const driverConductordata = {
       luckyNameNumbers: [1, 6, 15, 19, 24, 33, 37, 42, 46, 64, 69],
       luckyBusinessNumbers: [1, 6, 15, 19, 24, 33, 37, 42, 46, 64, 69],
       luckyProfessions:
-        'Fire, food, electricity, iron, etc. They can also be politician, administrators or hold high positions in Government organisations.',
+        'Fire, Food, Electricity, Iron, Politician, Administrators, Government Organizations',
       description:
         'People born on 1, 10, 19, 28 of any month and having 1 as the total of the entire date of birth. Due to the double impact of sun, the qualities of the said plant would come up brilliantly. These people will be dignified, honest, bold, intelligent and independent. They can be good leaders and can make good politicians. If not involved in the Government jobs, they will get a lot of support from influential people. They will shine if they chose a career well suited to sun. They will not think before spending money.\nAn incorrect name no will the native low on self confidence, will not be able to rise up in life. These people will look older than their age, as they will have a lot of eye sight issues.',
     },
@@ -16,7 +16,7 @@ export const driverConductordata = {
       luckyNameNumbers: [15, 24, 33, 42, 69],
       luckyBusinessNumbers: [15, 24, 33, 42, 69],
       luckyProfessions:
-        'Water related professions, dairy farming, export/import business, spirituality, etc.',
+        'Water Related Professions, Dairy Farming, Export/Import Business, Spirituality',
       description:
         'People born on 1, 10, 19, 28 of any month and having 2 as the total of the entire date of birth.\nYou will fulfill all that you take up in life provided you have good name number. You will work far more efficiently for others than if you work independently. In case, you work independently, you will remain confused between the choices to make. You are physically strong but mentally emotional or sensitive. You will get a lot of attention from the opposite sex. A defective name no can give them mental distress, poor administrative skills and cheater.',
     },
@@ -26,7 +26,7 @@ export const driverConductordata = {
       luckyNameNumbers: [1, 6, 15, 19, 24, 33, 37, 42, 46, 64, 69],
       luckyBusinessNumbers: [1, 6, 15, 19, 24, 33, 37, 42, 46, 64, 69],
       luckyProfessions:
-        'Fire, iron, politician, administrators, or high positions in government organisations.',
+        'Fire, Iron, Politician, Administrators, Government Organizations',
       description:
         'People born on 1, 10, 19, 28 of any month and having 3 as the total of the entire date of birth.\n1-3 people can rise to top positions because of their knowledge and wisdom. They will set examples for others to do better and to reach on higher positions. They are interested in spirituality & arts. They will rise in society and in their life due to their efforts and hard work. They will always have the blessings of Guru (attribute of no. 3, Jupiter). They are good mathematicians and have a blessing to be able to look into the future. Before they take up a project, they will make a detailed enquiry about it, after analyzing the pro and cons. If wrong name number is there, these people become argumentative, lazy & fond of drinking. They will not be able to rise much in life.\nA defective name number will give them mental distress.',
     },
@@ -36,7 +36,7 @@ export const driverConductordata = {
       luckyNameNumbers: [19, 37, 46, 64],
       luckyBusinessNumbers: [15, 19, 24, 33, 37, 42, 46, 60, 64, 69, 82],
       luckyProfessions:
-        'Astrology, medicine, writer, public speaker, import/export business and machine manufacturing.',
+        'Astrology, Medicine, Writer, Public Speaker, Import/Export Business, Machine Manufacturing',
       description:
         'People born on 1, 10, 19, 28 of any month and having 4 as the total of the entire date of birth.\nThey are good public speakers and writers and will have the power to change and influence the opinion of people. They would not take up things on its face but would analyze everything on their own. Due to their stubborn nature, they will have many enemies. They would have keen interests in stories, religion and astrology. Due to the influence of the sun, they will get success and his leadership will be acknowledged by many.\nIn case of defective name number, they would talk too much, and would get addicted to liquor.',
     },
@@ -46,7 +46,7 @@ export const driverConductordata = {
       luckyNameNumbers: [14, 19, 23, 32, 37, 41, 46, 59, 64, 77, 82],
       luckyBusinessNumbers: [14, 19, 23, 32, 37, 41, 46, 59, 64, 77, 82],
       luckyProfessions:
-        'Import/export, manufacturing, counsellor & guide, iron, metal etc.',
+        'Import/Export, Manufacturing, Counsellor & Guide, Iron, Metal',
       description:
         'People born on 1, 10, 19, 28 of any month and having 5 as the total of the entire date of birth.\nThey are extremely intelligent. Their mind is like an idea-generating machine. They make the most of all opportunities come their way and derive success from it. They are friends with everyone. They have the ability to do inventions. They have excellent business skills. They only worship God when successful; if they suffer defeat, they blame it on God and do not pray for a while. In any case, they have a wrong name number, can face failures. They will not be able to rise up in life.',
     },
@@ -55,8 +55,7 @@ export const driverConductordata = {
       luckyColors: ['Yellow', 'Green'],
       luckyNameNumbers: [15, 19, 33, 37, 42, 46, 60, 64, 69, 82],
       luckyBusinessNumbers: [15, 19, 33, 37, 42, 46, 60, 64, 69, 82],
-      luckyProfessions:
-        'Arts, jewellery, fashion, luxury items, and food articles.',
+      luckyProfessions: 'Arts, Jewellery, Fashion, Luxury Items, Food Articles',
       description:
         'People born on 1, 10, 19, 28 of any month and having 6 as the total of the entire date of birth.\nThey are quite artistic. They become successful and possess huge wealth. They will have a good family and married life. They enjoy all the pleasures in life. They appreciate beautiful things & have a love for nature. They will have all the required comforts and luxuries of life. They will have great sense of dressing. They love perfumes, nature or things of beauty and have a taste for finer things in life. They would be hard working, but the gains would be far more than the hard work they put.\nIn case of a wrong name number, they will get into trouble due to the opposite sex (especially women), will be lustful and extravagant. They will spend a huge amount of money on things of luxury to maintain their status.',
     },
@@ -65,8 +64,7 @@ export const driverConductordata = {
       luckyColors: ['Yellow', 'Blue', 'Green'],
       luckyNameNumbers: [15, 19, 24, 33, 37, 42, 46, 64],
       luckyBusinessNumbers: [15, 19, 24, 33, 37, 42, 46, 64],
-      luckyProfessions:
-        'Spirituality, practitioner, arts, metals, drugs, fire etc.',
+      luckyProfessions: 'Spirituality, Practitioner, Arts, Metals, Drugs, Fire',
       description:
         'People born on 1, 10, 19, 28 of any month and having 7 as the total of the entire date of birth.\nThey are spiritually driven. They do not enjoy a life full of extravaganza rather they would want to do something for the welfare of the society. They have abundant faith in God. They have the ability to become spiritual leaders. They will succeed in any business they take up.\nIn case of an unfit name number, you will have mental suffering, marital life discord, and face issues with childbirth.',
     },
@@ -77,8 +75,7 @@ export const driverConductordata = {
       luckyBusinessNumbers: [
         14, 15, 19, 23, 24, 32, 33, 37, 41, 42, 46, 59, 64,
       ],
-      luckyProfessions:
-        'Steel, fire, real estates, transport related business etc.',
+      luckyProfessions: 'Steel, Fire, Real Estates, Transport Related Business',
       description:
         'People born on 1, 10, 19, 28 of any month and having 8 as the total of the entire date of birth.\nPeople with such a combination can be leaders with a divine bend of mind. They more spiritual they are, the easier would be for them to cross the hurdles on the way. Once they take up task, they would proceed as they like regardless of what others feel. If they make a promise, they would do every possible bit to fulfil it. They will get a lot of benefits from government and also get a lot of support from it. They will have a lot of properties.\nIn case of problematic name number, they can become a criminal & can also suffer from grief, poverty and accidents.',
     },
@@ -94,7 +91,7 @@ export const driverConductordata = {
         59, 60, 63, 64, 69, 72, 78, 87, 90, 96, 99,
       ],
       luckyProfessions:
-        'Architecture, manufacturing, brick manufacturing, electricity and computers.',
+        'Architecture, Manufacturing, Brick Manufacturing, Electricity, Computers',
       description:
         'People born on 1, 10, 19, 28 of any month and having 9 as the total of the entire date of birth.\nThey are very patriotic and have an understanding of the law. They are action oriented and have a proper direction in life. They hate being dominated or working under someone. They will not tolerate injustice. They will face hurdles & difficulties in their life and their consistency and diligence will help them to achieve a life full of comforts. Struggles will not break them but will make them stronger.\nUnsuitable names can bring them mental worries from women.',
     },
@@ -106,7 +103,7 @@ export const driverConductordata = {
       luckyNameNumbers: [15, 24, 33, 42, 51],
       luckyBusinessNumbers: [15, 24, 33, 42, 51],
       luckyProfessions:
-        'Story writers, agriculturists, chemicals related work, sea related grade and scientists.',
+        'Story Writers, Agriculturists, Chemicals Related Work, Sea Related Trade, Scientists',
       description:
         'People born on 2, 11, 20, 29 of any month and having 1 as the total of the entire date of birth.\nNo. 2 Queen, No. 1 King, these people if born in poor families, can gain lot of success due to their skills. They take time to get successful in life. These people are full of energy. They are highly developed imaginative skills & with the influence of the sun; they will be able to convert their imaginations into reality. They want quick results of their hard work. They execute every work with proper planning and people support them. They need to control their mood, as they are bit moody, can reach on heights. They can also do well in politics. They will have interests in spirituality & start to investigate the relationship between God and religion. They have skill in astrology, science, script writing and lyricist.\nIf they have a good name number, they will acquire good house, vehicles & job. And if have an incompatible name number, they will be mentally confused, will face failures in life & domestic life.',
     },
@@ -116,7 +113,7 @@ export const driverConductordata = {
       luckyNameNumbers: [15, 24, 33, 42, 43, 60, 69],
       luckyBusinessNumbers: [15, 24, 33, 34, 42, 43, 60, 69],
       luckyProfessions:
-        'Water, agriculture, story writing, philosopher, psychiatrist, physiologist, poetry and lyrics.',
+        'Water, Agriculture, Story Writing, Philosopher, Psychiatrist, Physiologist, Poetry, Lyrics',
       description:
         "People born on 2, 11, 20, 29 of any month and having 2 as the total of the entire date of birth.\nThis is not a good combination. They have mood swings like moon. Sometimes they are very happy and sometimes just opposite. Being having emotional features, they always need support in life. They are not capable enough to get success in life. But, hey have strong intuitional power. They get affected or hurt very easily. They want to stay alone in life and don't enjoy the parties, functions etc. They are bit shy or having a body structure like girls. They love their family or friends and can do anything for them. Having 2 twos (not good enough), they need a good name number to get success. They can be addicted to drugs. Since the moon does not have a light of its own, they depend on others for their light so need a good name number to rise and shine in life.\nIn case the name number is not suitable, they will remain very confused in life, and will depend on others for support & remain depressed.",
     },
@@ -126,7 +123,7 @@ export const driverConductordata = {
       luckyNameNumbers: [15, 24, 33, 42, 60, 69],
       luckyBusinessNumbers: [15, 24, 33, 42, 60, 69],
       luckyProfessions:
-        'Science, medicine, newspaper, related to education, literary books, and mass communication.',
+        'Science, Medicine, Newspaper, Related to Education, Literary Books, Mass Communication',
       description:
         "People born on 2, 11, 20, 29 of any month and having 3 as the total of the entire date of birth.\nThey work better under someone as they are able to use their own knowledge in a better way. They get success little late but will definitely be successful. With the help of no. 3, their intuitional skills are very good. They can be good singers, and politicians. When they are friendly to no. 1, they like to stay with them and like doing business with them in partnership. These people help the needy and ignored by society. They can increase their mental level by doing meditation. And from that, can get success in life. They always help their subordinates or their friends when they need them. By God's grace or with Guru's blessings, they face less difficulties in life. They due to their good sense of imagination & oratory skills, can become a persuasive speaker. They have the ability to bring reforms in society.\nBut if having any problem in name no, can be cheated or betrayed. They may have issues related to finances, domestic life, health, children etc. It would also give them unsteady life.",
     },
@@ -136,7 +133,7 @@ export const driverConductordata = {
       luckyNameNumbers: [15, 24, 33, 42, 60, 69],
       luckyBusinessNumbers: [15, 24, 33, 42, 60, 69],
       luckyProfessions:
-        'Film actor, photographer, director, vehicles, arts, books, mass communication etc.',
+        'Film Actor, Photographer, Director, Vehicles, Arts, Books, Mass Communication',
       description:
         'People born on 2, 11, 20, 29 of any month and having 4 as the total of the entire date of birth.\n2 & 4 is not a good combination. They can be harmful for each other. Sometimes, can face lot of problems in life due to their wrong decision. Because no 4 (Rahu) creates a lot of problems for no. 2 (Queen). But they are having very good imagination power. They are again good speakers, and if they become politician, can change the whole pattern and the society. They can do well in foreign countries. They never get enough praise for what they do, that makes them little unhappy. People falling in this category will be forced by the number to take wrong decisions due to which a person find himself trapped in many difficult situations. They would want to acquire all the material aspects of life & will be able to enjoy it as well.\nA wrong name number may give them issued related to health, finances, domestic life etc. it would also give them an unsteady life.',
     },
@@ -146,7 +143,7 @@ export const driverConductordata = {
       luckyNameNumbers: [6, 14, 15, 23, 24, 32, 33, 41, 42, 50, 59, 77],
       luckyBusinessNumbers: [6, 14, 15, 23, 24, 32, 33, 41, 42, 50, 59, 77],
       luckyProfessions:
-        'Arts, advertisement, engineering, stock market, commission related businesses, sea trades, and spiritual objects.',
+        'Arts, Advertisement, Engineering, Stock Market, Commission Related Businesses, Sea Trades, Spiritual Objects',
       description:
         'People born on 2, 11, 20, 29 of any month and having 5 as the total of the entire date of birth.\nThey are intelligent & sharp businessman. With the moon giving imaginative skills, and mercury giving all the business sense, you can be real inventors & can be one of those owning a new age start-up. You can do well in any field. You have your minds inclined towards betting and speculation. You will be beautiful & attractive to look at. You will give a deep thought before beginning a task. You would active & alert all the time. Even during your rest hours, you would put your mind to work. You will climb the ladder of success if you have an appropriate name number otherwise the moon will play a role of a dampener and not let you succeed.\nIncompatible name number will prohibit you from taking decisions which you are capable of taking. The energy of Mercury will get wasted.',
     },
@@ -156,7 +153,7 @@ export const driverConductordata = {
       luckyNameNumbers: [15, 24, 33, 42, 69],
       luckyBusinessNumbers: [15, 24, 33, 42, 69],
       luckyProfessions:
-        'Perfumes, beauty creams, pharma, event management, soft drinks, cosmetics, agriculture and photography.',
+        'Perfumes, Beauty Creams, Pharma, Event Management, Soft Drinks, Cosmetics, Agriculture, Photography',
       description:
         'People born on 2, 11, 20, 29 of any month and having 6 as the total of the entire date of birth.\nThese people are rich because of Venus in their life. they will be well endowed with the luxuries of life. They can take benefits from opposite sex. They will attract everyone with their speaking skills. They r going to have many friends in life. They have keen interest in music and dance. They would always want to increase their living standards and would get attracted towards beautiful things. They are dreamier and want to turn all their dreams into reality. If having good name number, they would be able to acquire good house, vehicles and all the modern things which anybody wants to achieve in their life. They have the ability to give a person all possible riches.\nIn case of wrong name no, they can become greedy and can even lose their character.',
     },
@@ -166,7 +163,7 @@ export const driverConductordata = {
       luckyNameNumbers: [15, 24, 33, 34, 42, 43, 51, 69],
       luckyBusinessNumbers: [15, 24, 33, 34, 42, 43, 51, 69],
       luckyProfessions:
-        'Arts, spirituality, drugs, chemicals, food items, yoga, astrology or occult related subjects.',
+        'Arts, Spirituality, Drugs, Chemicals, Food Items, Yoga, Astrology, Occult Related Subjects',
       description:
         "People born on 2, 11, 20, 29 of any month and having 7 as the total of the entire date of birth.\nThis is an average combination. They are having a mystical mind. They don't have their own identity. Because of this, they can feel ignored or insulted by the people. If they are not having 1 or 5 in their chart, they can be absent minded. They always need support to grow. They don't have any particular direction or can say a particular aim in life. They are having disturbed married life as they prefer to be lonely than living in a company. A possible change in name number can put the family life on track. They have problems adjusting with people. Their mind doesn't seek material riches but they will have a comfortable life.\nIf having incompatible name no., they would not be able to earn material riches, marriage would be delayed or there would be possibilities of no marriage.",
     },
@@ -176,7 +173,7 @@ export const driverConductordata = {
       luckyNameNumbers: [7, 14, 16, 23, 25, 32, 41, 50, 59],
       luckyBusinessNumbers: [7, 14, 16, 23, 25, 32, 41, 50, 59],
       luckyProfessions:
-        'Iron & steel, mining, metals, vehicles, spare parts, minerals and electrical manufacturing.',
+        'Iron & Steel, Mining, Metals, Vehicles, Spare Parts, Minerals, Electrical Manufacturing',
       description:
         "People born on 2, 11, 20, 29 of any month and having 8 as the total of the entire date of birth.\nSince 2 represents Moon (water) and 8 represents (Shani, iron). This is not a good combination provided they are having good name number. As water is not good for iron, it creates rust. 8 takes care of the financial needs of the family & 2 being nurturing caring takes of the needs of the family so they should have a proper work life balance. They will do their work with intensity. If a little lapse occurs, they will lose their self confidence and even when sitting or gossiping with friends, their mind would be somewhere else.\nIn case, their name number doesn't go well with 2-8, it would spell doom for them. Saturn will bring hardships & the moon will bring the upswing and downswing. They will be prone to depression, accidents, delays etc. They can also face weak memory power, lack of trust in people and low confidence and their low confidence can leads to failures in life.",
     },
@@ -186,7 +183,7 @@ export const driverConductordata = {
       luckyNameNumbers: [14, 15, 23, 24, 32, 33, 41, 42, 50, 51, 59, 60],
       luckyBusinessNumbers: [14, 15, 23, 24, 32, 33, 41, 42, 50, 51, 59, 60],
       luckyProfessions:
-        'Earth, real estate, police, army, navy, merchant navy, contractors, farmers, agriculturists, fire, acids fertilizers and milk related business.',
+        'Earth, Real Estate, Police, Army, Navy, Merchant Navy, Contractors, Farmers, Agriculturists, Fire, Acids, Fertilizers, Milk Related Business',
       description:
         "People born on 2, 11, 20, 29 of any month and having 9 as the total of the entire date of birth.\nThey are having brave soul. They are not even scared to people more powerful than them. They do not have self-control. Both the numbers have qualities make up for what the other number is lacking. Once, they make up their mind, can stand up for justice and can go to any extent. 2 being Queen's no has nothing to do with No. 9, Senapati. Even then, they earn respect from society. They also work as social workers. They are very brave and don't even afraid to keep their point in front of powerful people. Can go to any extent for justice. No. 9 has all the attributes to lead. With an appropriate name number, they can rise high in life and can rule or lead in their career.\nBut if having wrong name no., they can face sudden swings in career and family life.",
     },
@@ -198,7 +195,7 @@ export const driverConductordata = {
       luckyNameNumbers: [19, 21, 39, 46, 64],
       luckyBusinessNumbers: [19, 21, 39, 46, 64],
       luckyProfessions:
-        'Related to chemicals, teaching, education, grains, electronics, fire, electricity, etc.',
+        'Related To Chemicals, Teaching, Education, Grains, Electronics, Fire, Electricity',
       description:
         "People born on 3, 12, 21, 30 of any month and having 1 as the total of the entire date of birth.\nThey are very devoted to their work and that too in a disciplined manner. The combination of king and guru in itself is a very good combination. They get successful in the fields of art and education and they always get good results. If they pursue their career related to education (can be anything) then they get very good and impressive results and will reach the heights. They will always be in search of education and will try to get more and more if not having 5 & 6 in their chart. They are very disciplined. They do their work with interest and in proper manner. They are having good relations with their friends, office mates and with their subordinates. they are God-fearing and will come forward for those who are needy. If they have good name number, they can earn name, fame, wealth and respect. They only drawback with this numbers are that they don't handle criticism well.\nIf not having good name number, they will have the tendency to cheat people and misguided others. Finances may suffer and they can also bring disrepute to themselves.",
     },
@@ -208,7 +205,7 @@ export const driverConductordata = {
       luckyNameNumbers: [14, 19, 21, 23, 37, 39, 41, 46, 50, 55, 59, 64],
       luckyBusinessNumbers: [14, 21, 23, 39, 41, 50, 59],
       luckyProfessions:
-        'Commission related business, manufacturing cosmetics, soft drinks, perfumes and import.',
+        'Commission Related Business, Manufacturing Cosmetics, Soft Drinks, Perfumes, Import',
       description:
         "People born on 3, 12, 21, 30 of any month and having 2 as the total of the entire date of birth.\nThis is an average combination but can be good if supported by a perfect name number. They have strong imagination skills. They earn more money internationally than in their own country. They will have all the comforts of life and can do very well in their own field. They are full of wisdom and are very close to their family but can become disoriented if their family life is disturbed. They can have a smooth life because of their guru as he is always there to guide. They don't accept criticism and don't even accept any negative approach for themselves.\nNegative name number can make the native incompetent in business, suspicion uses most of their energy, their knowledge and wisdom get wasted.",
     },
@@ -220,7 +217,7 @@ export const driverConductordata = {
       ],
       luckyBusinessNumbers: [14, 21, 23, 27, 36, 39, 41, 45, 50, 59],
       luckyProfessions:
-        'Astrologer, medical practitioner, scientist, import/export business, teaching, education industry and head of a religious organisation.',
+        'Astrologer, Medical Practitioner, Scientist, Import/Export Business, Teaching, Education Industry, Head Of A Religious Organisation',
       description:
         'People born on 3, 12, 21, 30 of any month and having 3 as the total of the entire date of birth.\nThey are ideal and wise. They get higher education. They are knowledgeable and people take advice from them. They act as guides for people in maters or otherwise. They always give good advice. They can have high positions of high responsibility in large organisations. They may have many followers and admirers. If a lady is having this combination, she will be very beautiful. They always exchange advices. Being the believers of God, they will always get success. They never act like a home breaker. With their faith in God, they would keep moving. They follow the religious path and would not indulge in anything unethical. A good name number can give them high positions, name fame and wealth.\nIf having unfavourable name number, they will earn a bad name in the society and their financial health will suffer.',
     },
@@ -230,7 +227,7 @@ export const driverConductordata = {
       luckyNameNumbers: [19, 21, 37, 39, 46, 64],
       luckyBusinessNumbers: [19, 21, 37, 39, 46, 64],
       luckyProfessions:
-        'Social activist, legal advisors, judge, politician, speaker etc.',
+        'Social Activist, Legal Advisors, Judge, Politician, Speaker',
       description:
         "People born on 3, 12, 21, 30 of any month and having 4 as the total of the entire date of birth.\nThis is not a good combination. If they are having good knowledge, they can be little arrogant. They don't think before they speak. They have high dreams, and are helpful which makes them famous among people. They have the capacity to go on & on about subject if they start talking. They are always up to date about everything. They have the power to influence the opinion of public through their speeches. They can be a great industrialist and will become rich & famous.\nIf not having a good name number, they become stubborn, arrogant. They will have superiority complex that everyone else would appear inferior to them.",
     },
@@ -240,7 +237,7 @@ export const driverConductordata = {
       luckyNameNumbers: [14, 21, 23, 39, 41, 50, 59],
       luckyBusinessNumbers: [14, 21, 23, 39, 41, 50, 59],
       luckyProfessions:
-        'Finance, educational institutions, banking sector jobs etc.',
+        'Finance, Educational Institutions, Banking Sector Jobs',
       description:
         "People born on 3, 12, 21, 30 of any month and having 5 as the total of the entire date of birth.\nThis combination is very good. They get lot of success in life. They need to control what they talk, otherwise can face problems. They earn a lot of money in life and reach the heights. They can get lot more from this 3 & 5 combination provided they are having good name number. Their extraordinary skills give them the chance to rise and do well in the fields of politician, artist, celebrity and scientist. They are having a research-oriented mind. They are very disciplined and particularly follow very schedule. They dislike people who are lazy, and don't tolerate them.\nIn case of problematic name number, they can face obstacles in life and don't get enough results of their efforts they are putting in any work. They might earn bad name incompetence at work or financial trouble.",
     },
@@ -250,7 +247,7 @@ export const driverConductordata = {
       luckyNameNumbers: [1, 9, 10, 18, 19, 27],
       luckyBusinessNumbers: [1, 9, 10, 18, 19, 27],
       luckyProfessions:
-        'Luxury goods, textiles, commission-based work, art galleries, and educational institutions.',
+        'Luxury Goods, Textiles, Commission-Based Work, Art Galleries, Educational Institutions',
       description:
         "People born on 3, 12, 21, 30 of any month and having 6 as the total of the entire date of birth.\nThey are ruled by 3 (dev guru, preceptors of angels) and 6 (Daitya guru, preceptors of demons). They invite trouble themselves by their own actions. They will face problem with their opposite sex and will be extremely lustful. They don't grow in any field. Their family as well as professional life is bit disturbed. They don't get physical satisfaction and can have lot of issues with their wife/husband. In spite of having knowledge, they can do excessive expenditure on drugs, alcohol and women. Only good name number can make them able to take benefits and rise to the status they want or desire.\nIn case of wrong name number, it will make the worse situation worst. They can push themselves into undesirable ways to earn money. They will have excessive lust and can face lot of difficulties because of this.",
     },
@@ -260,7 +257,7 @@ export const driverConductordata = {
       luckyNameNumbers: [14, 21, 23, 32, 39, 41, 50, 59, 77],
       luckyBusinessNumbers: [14, 21, 23, 32, 39, 41, 50, 59, 77],
       luckyProfessions:
-        'Spirituality, astrology, gems, lifesaving drugs and educational establishments',
+        'Spirituality, Astrology, Gems, Lifesaving Drugs, Educational Establishments',
       description:
         "People born on 3, 12, 21, 30 of any month and having 7 as the total of the entire date of birth.\nThis number depicts the symbol of OM. This is a very good combination. These people enjoy high designations and get success in what they do. These people can be I.A.S., I.P.S. They are highly qualified and work on high posts. They hold noble deeds. They speak very less and only on topics that require attention. They don't believe spending time in gossiping. They have a research-oriented mind. They will have foreign contacts and will be able to make money from foreign sources. They might have a disappointing family life. They will progress in life by virtue of their ability to speak and write. They are blessed with a spiritual bent of mind and can choose the path of spirituality in their life.\nIf having wrong name number, can be a bit arrogant. They will have no friends in their life, and can have a disturbed family life.",
     },
@@ -274,7 +271,7 @@ export const driverConductordata = {
         9, 14, 18, 19, 21, 23, 27, 32, 37, 39, 41, 46, 50, 59, 64, 77,
       ],
       luckyProfessions:
-        'Police department, army, jobs of authority, gems, earth related, minerals and electronics.',
+        'Police Department, Army, Jobs Of Authority, Gems, Earth Related, Minerals, Electronics',
       description:
         'People born on 3, 12, 21, 30 of any month and having 8 as the total of the entire date of birth.\nThis combination face lot of difficulties in the earlier phase of their life. But gradually, they achieve success. Their life is full of unnecessary and wasteful expenditure. They are prone to accidents, sudden events etc. They are burdened by unwanted responsibilities and all these troubles can be avoided by doing prayers as they have the support of Jupiter in their life. With good name number, they can tide away all the problems which have a possibility of surfacing in their life due to Saturn. They will make lot of progress & will be unstoppable.\nIf having wrong name number, they will get entangled in court cases, imprisonments, accidents etc. They also have a possibility of wasteful expenditure and their hard work will not be paid off.',
     },
@@ -288,7 +285,7 @@ export const driverConductordata = {
         9, 14, 18, 19, 21, 23, 27, 32, 37, 39, 41, 46, 50, 59, 64, 77,
       ],
       luckyProfessions:
-        'Police department, army, jobs of authority, construction, real estate, pharma, gems, earth related, stones, minerals, and electronics',
+        'Police Department, Army, Jobs Of Authority, Construction, Real Estate, Pharma, Gems, Earth Related, Stones, Minerals, Electronics',
       description:
         "People born on 3, 12, 21, 30 of any month and having 9 as the total of the entire date of birth.\nThe people with this combination are tireless workers and follow a life with discipline and authority. They're capable of achieving a lot with their relentless efforts. They have rage issues which keeps their enemies at bay. They're strong mentally as well as physically and can defeat their opponents easily. They're a dictator who will have a lot of people working under them. With the blessings of the Guru, they will enjoy divinity, wealth, knowledge, and courage. They will shine in the areas that requires boldness like army, protests, and so on. They're true patriots and are ready to work for the welfare of the nation.\nIf the name number doesn't match, they'll undergo failures, hardships, and major part of their lives will go into struggling.",
     },
@@ -302,7 +299,7 @@ export const driverConductordata = {
         15, 19, 24, 33, 37, 42, 46, 51, 60, 64, 69, 73, 91,
       ],
       luckyProfessions:
-        'Law, politics, social development, writing, transport, furniture etc.',
+        'Law, Politics, Social Development, Writing, Transport, Furniture',
       description:
         'People born on 4, 13, 22, 31 of any month and having 1 as the total of the entire date of birth.\nThey are full of practical knowledge and will be respected by people. People would want to be friends with them. They will be honest and have a mind set to help others. They dislike, dishonesty and show off. They have a sharp mind and have very good writing skills. They rise up in life with their experience and time. They are not very good listeners and cannot tolerate others talking. They work on top ranks in government sectors or run a flourishing business of their own. If having good name number, they would be capable of rising to top positions. They are an all-rounder.\nIf they have an inappropriate name number, even after having good skills and knowledge can face frustration, progress would be delayed.',
     },
@@ -314,7 +311,7 @@ export const driverConductordata = {
         15, 19, 24, 33, 37, 42, 46, 51, 60, 64, 69, 73, 91,
       ],
       luckyProfessions:
-        'Research oriented professionals like law, religion astrology or professions related to water, transport electricity, soft drinks chemicals and pharma.',
+        'Research Oriented Professionals Like Law, Religion Astrology, Professions Related To Water, Transport Electricity, Soft Drinks Chemicals, Pharma',
       description:
         'People born on 4, 13, 22, 31 of any month and having 2 as the total of the entire date of birth.\nThis is an average combination. They see lots of ups and downs in life due to the enmity between 4-2 and presence of the moon. This is quite an unusual combination. They get success very late. They see very ups and downs in their life, sometimes very good, sometimes very bad. And will get good results only if having a good name number.\nThey will have a dignified life and will hate to live a life of submission. They will be a sincere friend and will do anything for anyone in love and affection. They will be able to delve into the secrets of others easily. They are very expressive and always aim for self improvement. They will have all the amenities of life etc. A good house, vehicles & a good bank balance.\nIn case the number is incompatible, there will be a constant fight in life to achieve desires.',
     },
@@ -324,7 +321,7 @@ export const driverConductordata = {
       luckyNameNumbers: [10, 19, 37, 46, 64, 73],
       luckyBusinessNumbers: [10, 19, 37, 46, 64, 73],
       luckyProfessions:
-        'Government official, politician, lawyer, accountant, professor, pharma, furniture, hotels etc.',
+        'Government Official, Politician, Lawyer, Accountant, Professor, Pharma, Furniture, Hotels',
       description:
         'People born on 4, 13, 22, 31 of any month and having 3 as the total of the entire date of birth.\nSuch is the grace of Guru on you that you shine in academics & administrative circle. They do a lot for the society. They will reach top positions in government office or politics. They will be an asset to the organisation you work in – efficient, team worker and adaptable. They will give due respect to their seniors and earn respect from their subordinates. they would have the ability to teach, enlighten & instruct. The early part of their life will be full of struggles but will come out as winners. They will give due attention to their minor health issues as well.\nIf their name number is faulty, they will face obstacles and undesirable circumstances, they would not rise in life or their life would become stagnant.',
     },
@@ -336,7 +333,7 @@ export const driverConductordata = {
         10, 15, 19, 24, 33, 37, 42, 46, 51, 60, 64, 69, 73,
       ],
       luckyProfessions:
-        'Vehicles, export/import, medicine, chemicals, writer, poet, astrologers, and leaders.',
+        'Vehicles, Export/Import, Medicine, Chemicals, Writer, Poet, Astrologers, Leaders',
       description:
         'People born on 4, 13, 22, 31 of any month and having 4 as the total of the entire date of birth.\nThey will acquire knowledge of the worldly matters in their youth itself. They will scale up the ladder of achievements due to their enticing speech & writing. They will work unceasingly and will bring revolution in politics. They would earn more experience than money. As long as they face a shortage, they will chart out a new plan to generate a new income source. They are & will have loyal friends. They are wanderers and enjoy scenic beauty, hilly areas, sightseeing and places of historical significance. They will have knowledge of varied fields like literature, science, astrology, spiritual literature etc.\nIf the name number is wrong, they will be poverty-stricken, will have to encompass many ordeals in life. Their life would be surrounded by difficulties.',
     },
@@ -352,7 +349,7 @@ export const driverConductordata = {
         73,
       ],
       luckyProfessions:
-        'Commission work, transport, vehicles, chemicals and export/import.',
+        'Commission Work, Transport, Vehicles, Chemicals, Export/Import',
       description:
         'People born on 4, 13, 22, 31 of any month and having 5 as the total of the entire date of birth.\nThey are talented and exhibit their talents by way of thought, speech and action. They have a very sharp memory. They attain success in whatever they do. They will take up projects and work hard to see the project till it completes. They would appear strict by their outward behaviour in reality, but will be gentle. They are a real businessman surrounded by people all the time and will have the ability to get the work done through them timely and efficiently. they will be able to set up big projects which will enable them to earn big money. They will be a good teacher and preacher. Performing arts and cinema would be of interest to you. You can make very successful businessman.\nIf wrong name number, they have to face many mental agonies, their business will not flourish, it will be a big drainage to their mental capacity.',
     },
@@ -364,7 +361,7 @@ export const driverConductordata = {
         10, 15, 19, 24, 33, 37, 42, 46, 51, 60, 64, 69, 73,
       ],
       luckyProfessions:
-        'Arts, sale of luxury items, sale of perfumes, journalism, pharma, business of toys or anything of interest to children.',
+        'Arts, Sale Of Luxury Items, Sale Of Perfumes, Journalism, Pharma, Business Of Toys, Anything Of Interest To Children',
       description:
         'People born on 4, 13, 22, 31 of any month and having 6 as the total of the entire date of birth.\nBoth are capable of attaining a lot of name, fame and glory. They will enjoy all the pleasures of life. They get attached to beautiful things and have a sense of attraction in themselves. They can make good speaker and enjoy music, drama and literature. They get attracted towards beautiful things and attract others with their charming personality. They are the owners of beautiful houses and luxurious cars. They have the ability to make money by way or arts, even performing arts, as they are fine artists. In case of good name number, they will have all the amenities & luxuries of life. They will have a big circle, for them, life would be an ongoing party.\nIf having bad name number, they will spend extravagantly even to the extent of going into debts, they would get into devious means to earn money, they would get into trouble with women or will be extremely lustful.',
     },
@@ -376,7 +373,7 @@ export const driverConductordata = {
         10, 15, 19, 24, 33, 37, 42, 46, 51, 60, 64, 69, 73,
       ],
       luckyProfessions:
-        'Sports goods, engineering, medicines, luxury, commission work, transportation business, art and delivering speeches.',
+        'Sports Goods, Engineering, Medicines, Luxury, Commission Work, Transportation Business, Art, Delivering Speeches',
       description:
         'People born on 4, 13, 22, 31 of any month and having 7 as the total of the entire date of birth.\nAs Rahu is having only head and not the body, ketu represents the body without head. But when they both met, they complete each other. This number is the key to success. They would be an ocean of knowledge, wisdom and intuition. They have a deep sense of thinking and the ability of foresee due to their developed intuitive skills. They believe in honesty and justice. They believe in yoga and meditation. They start every work after complete knowledge of that field and then implement it. Once they have the clarity, then they will start that. In case if they are having good name number, they will enjoy a good family life, and all the amenities. They are highly sensitive & would take bad conduct or words to heart and grieve. They will not marry or marry late.\nIn case of a bad name number, they will suffer and feel dissatisfied. These 4 & 7 numbers represent opposite focus as one denoting wealth and the other renunciation.',
     },
@@ -390,7 +387,7 @@ export const driverConductordata = {
         10, 14, 15, 19, 23, 24, 33, 37, 41, 42, 46, 50, 51, 59, 64, 69, 73,
       ],
       luckyProfessions:
-        'Machinery, transport, vehicles, printing, export import business, commission related business and handicrafts.',
+        'Machinery, Transport, Vehicles, Printing, Export Import Business, Commission Related Business, Handicrafts',
       description:
         "People born on 4, 13, 22, 31 of any month and having 8 as the total of the entire date of birth.\nIt's not a good combination. They never get success and used to taste failures in life. They will not get success even after putting lot of efforts). They are constantly worried about the future. Since the number has the impact of Saturn, they will come up the hard way. They keep their point very clearly and in a detailed way. They will be desirous of accumulating a fortune and will also be able to make money through various avenues. If they have good name number, they will have a comfortable life. They can work for disciplined and successful corporate.\nIf their number is inappropriate, they will fall in love and will have heartbreak. There will be poverty, failure in education, disturbed family life, and life would take unexpected turns.",
     },
@@ -404,7 +401,7 @@ export const driverConductordata = {
         14, 15, 19, 23, 24, 33, 37, 41, 42, 46, 50, 51, 59, 64, 69, 73,
       ],
       luckyProfessions:
-        'Real estate, construction, textile, iron and steel, fire, electricity, jewellery, vehicles and commission work.',
+        'Real Estate, Construction, Textile, Iron And Steel, Fire, Electricity, Jewellery, Vehicles, Commission Work',
       description:
         "People born on 4, 13, 22, 31 of any month and having 9 as the total of the entire date of birth.\nThey both number don't help each other and doesn't go well. One is strong and another one is very wise. They will have a harsh voice with the help of which they will be able to get work done. They will try and achieve everything they set their mind on without worrying about the consequences. They would get into gambling, racing, womanizing and alcohol. It is very important for them to have a correct name which can channelize the martian energy correctly so that it gets used constructively and not destructively. If having good name number, they will enjoy all sorts of riches from their childhood itself. Rahu and Mars both are having excess energies; a little cooling off effect is required for them to function properly.\nWrong number name will make them use their energy destructively, any growth, if seen would be followed by a downfall, drainage of energy and skill, extreme desire for sexual pleasures.",
     },
@@ -413,14 +410,8 @@ export const driverConductordata = {
     '1': {
       description:
         'People born on 5, 14, 23 of any month and having 1 as the total of the entire date of birth.\nThis is actually a very good combination. 5 represents Prince and 1 represent King. If they are together, they make the best combination. They have a strong mind which is capable of looking at things from a different angle. They are inventive in nature. They will be successful in almost everything. Always alert and busy and would want to finish things at the earliest. They will command respect, recognition from the society. They will have sound knowledge and will be in various trades and businesses. They will let their success make the noise and not brag about it. If having good number, they will enjoy name, fame, comforts etc.\nIf having wrong number, they will waste their resources in evil ways, bring disrepute to the family, they will not be able to rise as higher as possible for them.',
-      luckyProfessions: [
-        'Art',
-        'drama',
-        'music',
-        'mechanical devices',
-        'spare parts',
-        'electronics and writing',
-      ],
+      luckyProfessions:
+        'Art, Drama, Music, Mechanical Devices, Spare Parts, Electronics, Writing',
       luckyNumbers: [1, 5],
       luckyColors: ['Yellow', 'Blue', 'Grey'],
       luckyNameNumbers: [5, 14, 19, 23, 32, 37, 41, 46, 50, 59, 64, 73, 91],
@@ -429,12 +420,7 @@ export const driverConductordata = {
     '2': {
       description:
         "People born on 5, 14, 23 of any month and having 2 as the total of the entire date of birth.\nThese people always get blessings from their mother. They take time to get success and reach on heights. They need to control their mind. They are physically strong and mentally weak. They don't trust others. They can earn name & fame by writing or delivering lectures. People trust the advices given by them. Their intentions will be unusual and new. They never bothered to take the frustration out in front of their family. High level of imagination helps them to excel in the field of art and literature. In case the name number is good, they enjoy good wealth, health, sound mind, house, land, job etc.\nIf having wrong name number, can make them confused, indecisive. They would set unrealistic targets for themselves and get depressed.",
-      luckyProfessions: [
-        'Fashion',
-        'commission business',
-        'luxury items',
-        'cosmetics etc.',
-      ],
+      luckyProfessions: 'Fashion, Commission Business, Luxury Items, Cosmetics',
       luckyNumbers: [5, 7],
       luckyColors: ['Green', 'Blue', 'Grey'],
       luckyNameNumbers: [14, 23, 32, 41, 59, 77],
@@ -443,12 +429,8 @@ export const driverConductordata = {
     '3': {
       description:
         'People born on 5, 14, 23 of any month and having 3 as the total of the entire date of birth.\nThis combination is very good as Prince is having blessings of Guru. Their knowledge, wisdom and Intelligence makes them a good person. They are honest, fair and ethical in their conduct, always busy their work or making out the plans. They will not speak unnecessarily, until and unless they are required to speak something. But will definitely think before that. They will rise in life and will have all the luxuries like good house and luxurious vehicles. Their high status will keep growing if they take the perfect path. If they are having a good name number, they will shine in their jobs and business. They will earn huge wealth and will be able to deploy people under them.\nIn case of wrong name number, they will meet failures in life. Their talent may be exploited, will earn a bad name etc.',
-      luckyProfessions: [
-        'Educational institutions',
-        'fabrics',
-        'commission agencies',
-        'mass communication & journalism etc.',
-      ],
+      luckyProfessions:
+        'Educational Institutions, Fabrics, Commission Agencies, Mass Communication, Journalism',
       luckyNumbers: [3, 5, 7],
       luckyColors: ['Blue', 'Grey', 'Red', 'Orange', 'Violet'],
       luckyNameNumbers: [5, 14, 21, 23, 32, 39, 41, 59, 77],
@@ -457,14 +439,8 @@ export const driverConductordata = {
     '4': {
       description:
         "People born on 5, 14, 23 of any month and having 4 as the total of the entire date of birth.\nThis is a good combination. They don't follow the old rituals. They trust in taking risks for the growth of their life. They get success in every field of their life. Whether doing their own work or for society. Their personality includes discipline, justice and humanism. They will not speak unnecessarily unless they are required to and will think before talk. their status will keep growing if they take the right path. If they are having perfect name number, they will shine in their jobs and business. They will earn huge wealth and will be able to deploy people under them. They will be experts in solving problems of others.\nIn case of incorrect number, they would get involved in wasteful matters and can lose their calm, can earn a bad name, work will suffer and energy would be wasted in wishful thinking.",
-      luckyProfessions: [
-        'Machinery',
-        'iron and steel',
-        'electronics',
-        'writing and speaking',
-        'export and import',
-        'etc.',
-      ],
+      luckyProfessions:
+        'Machinery, Iron And Steel, Electronics, Writing And Speaking, Export And Import',
       luckyNumbers: [1, 5],
       luckyColors: ['Yellow', 'Blue', 'Grey'],
       luckyNameNumbers: [
@@ -477,15 +453,8 @@ export const driverConductordata = {
     '5': {
       description:
         'People born on 5, 14, 23 of any month and having 5 as the total of the entire date of birth.\nThis is a very lucky number to have. They will be very successful and quick in handling tasks. A prince got the company of prince in this number. We are getting two five here. They will adopt new methods to achieve the goals. Always willing & ready to help people, will earn huge respect and support from people. They have enough mental strength that they do not lose their balance when faced with problems. They should keep good company because the kind of company they keep will help them shaping their thoughts. In case they meet failures, they will do a thorough analysis of the case and would get onto charting a new plan keeping those mistakes in mind.\nIn case the name number mismatches, the success would not be as much as in case with a perfect name number. They will get into evil ways like womanizing, cheating, and conducting forgery etc.',
-      luckyProfessions: [
-        'Arts',
-        'writing',
-        'speaking',
-        'commission machine manufacturing',
-        'accountant',
-        'teacher',
-        'astrologer etc.',
-      ],
+      luckyProfessions:
+        'Arts, Writing, Speaking, Commission Machine Manufacturing, Accountant, Teacher, Astrologer',
       luckyNumbers: [5, 9],
       luckyColors: ['Yellow', 'Blue', 'Green'],
       luckyNameNumbers: [
@@ -498,15 +467,8 @@ export const driverConductordata = {
     '6': {
       description:
         'People born on 5, 14, 23 of any month and having 6 as the total of the entire date of birth.\nThey are artistic to the core. Wealth, name & fame will all come to them. They will be surrounded by friends. When they would work, they would put their heart and soul into it and when it comes to rest, they would be as lazy as they can be. Things of beauty would be of interest to them. They will have extraordinary talents and the ability to attract people towards them. They will be able to articulate emotions, situations, life events through their work of art. If they have a perfect name number, they will have the capability to reach a very high status and position in life. Their status would keep rising as time passes.\nIf the name number is not compatible, their life will not progress and they will spend time in unhealthy conversation and money on wasteful things. They will get into evil ways to earn money.',
-      luckyProfessions: [
-        'Fashion designer',
-        'artist',
-        'shoe designer',
-        'mass communication',
-        'painter',
-        'machinery manufacturing',
-        'automobiles etc.',
-      ],
+      luckyProfessions:
+        'Fashion Designer, Artist, Shoe Designer, Mass Communication, Painter, Machinery Manufacturing, Automobiles',
       luckyNumbers: [5, 6],
       luckyColors: ['Grey', 'Blue', 'Green'],
       luckyNameNumbers: [
@@ -519,13 +481,8 @@ export const driverConductordata = {
     '7': {
       description:
         'People born on 5, 14, 23 of any month and having 7 as the total of the entire date of birth.\nThey are intelligent and a deep thinker, they are compassionate to the needs of the downtrodden sections of the society. They are neat and tidy even when wearing simple clothes. They would keep their problem to themselves & dislike wasteful expenditure. They would know that they key to redemption is through gaining wisdom. They would aptitude in religion, philosophy, law and literature, they would prefer in solitude and will have very less long-term friendships. They enjoy travelling to peaceful places like up hills or near water bodies or even to places of religious significance in search for answers. If they try and awaken their spiritual self, if will help them a great deal in resolving the issue of life be it professional and personal.\nIf the name number is incompatible, they will lead a dissatisfied life full of confusion and struggle, their progress would be slow, family life will suffer.',
-      luckyProfessions: [
-        'Spiritual teacher',
-        'writer/speaker or can get into business of minerals',
-        'chemicals',
-        'mass communication',
-        'astrology etc.',
-      ],
+      luckyProfessions:
+        'Spiritual Teacher, Writer/Speaker, Business Of Minerals, Chemicals, Mass Communication, Astrology',
       luckyNumbers: [2, 5, 6],
       luckyColors: ['Grey', 'Blue', 'Green', 'Yellow'],
       luckyNameNumbers: [
@@ -538,15 +495,8 @@ export const driverConductordata = {
     '8': {
       description:
         'People born on 5, 14, 23 of any month and having 8 as the total of the entire date of birth.\nSuccess will not come easily to them; they need to put lot of hard work and struggle to get the result. But the amount of effort, they will put on in doing anything, will definitely get result of that. Number 8, Shanidev is known for giving results of the efforts & hard work people put. They have a strong mind to withstand these hardships and will tide through the rough patches with their continuous hard work and discipline. They have and ability to work tirelessly. They will always want to increase their money flow because they would always be dissatisfied with their income situation. They would have friendships and would extend a helping hand if someone needs.\nIf their name number is good, the struggle continues, unexpected events will affect their growth, they would be prone to accident, imprisonments etc.',
-      luckyProfessions: [
-        'Iron & steel',
-        'machine manufacturing',
-        'melting metals',
-        'property',
-        'dealers',
-        'minerals & metals',
-        'heavy industries or labour-oriented industries.',
-      ],
+      luckyProfessions:
+        'Iron & Steel, Machine Manufacturing, Melting Metals, Property, Dealers, Minerals & Metals, Heavy Industries, Labour-Oriented Industries',
       luckyNumbers: [1, 5, 6],
       luckyColors: ['Grey', 'Blue'],
       luckyNameNumbers: [
@@ -559,15 +509,8 @@ export const driverConductordata = {
     '9': {
       description:
         'People born on 5, 14, 23 of any month and having 9 as the total of the entire date of birth.\nThey have the ability to terrorize people especially their enemies. They are endowed with both mental and physical power. They are leaders and role models for their friends and loved ones but for their enemies they are in sense of dread. Nothing is impossible for their if they set their mind on it. Their life will not be a bed of roses but would be characterized by struggles and hurdles. They have a sense of patriotism and can do a lot for the betterment of nation. They will enjoy a life full or riches and luxuries. A suitable name number will give them a comfortable and luxurious lifestyle.\nIf the name number is unsuitable, they carry the excess energy wastefully or get into womanizing or develop their criminal instincts, they will be aimless in life.',
-      luckyProfessions: [
-        'Real estate',
-        'melting metals',
-        'politics',
-        'pharmaceutical',
-        'lawyers',
-        'commission business',
-        'export and import',
-      ],
+      luckyProfessions:
+        'Real Estate, Melting Metals, Politics, Pharmaceutical, Lawyers, Commission Business, Export And Import',
       luckyNumbers: [5, 9],
       luckyColors: ['Grey', 'Blue'],
       luckyNameNumbers: [5, 9, 14, 18, 23, 27, 32, 36, 41, 45, 50, 54, 59, 77],
@@ -580,14 +523,8 @@ export const driverConductordata = {
     '1': {
       description:
         'People born on 6, 15, 24 of any month and having 1 as the total of the entire date of birth.\nThese people are very innovative and can do any work with their creative mind. They enjoy their life to the fullest and get attracted towards beautiful things. They earn money easily but can face difficulties due to the opposite sex. They can also do well in politics. They are role models for the people for their leadership skills and good sense of dressing. They have chances of making a fortune if they deal in luxury items. If they have a suitable name number, they can rise to top positions as leaders or be leading big corporate houses & health, wealth, name and fame.\nIf they have a wrong name number, the sun will not let luck function in their life. Everything God thing promised in life will take a U-turn and they will not be able to encase in on the opportunities in life.',
-      luckyProfessions: [
-        'Gems and jewellery',
-        'solar power generation',
-        'sale of luxury items',
-        'technology',
-        'electricity',
-        'dress material and politics',
-      ],
+      luckyProfessions:
+        'Gems And Jewellery, Solar Power Generation, Sale Of Luxury Items, Technology, Electricity, Dress Material, Politics',
       luckyNumbers: [1, 6],
       luckyColors: ['Yellow', 'Green'],
       luckyNameNumbers: [6, 15, 19, 24, 33, 37, 42, 46, 51, 55, 60, 64, 69],
@@ -596,15 +533,8 @@ export const driverConductordata = {
     '2': {
       description:
         'People born on 6, 15, 24 of any month and having 2 as the total of the entire date of birth.\nThis is not a good combination. They face many ups and downs in their life. They have an analytical mind and are a difficult nut to crack. They would act as good mediators to solve a dispute. They can earn well if they take up a profession in writing, lawsuits, medicine related. They would offer prayers or take the spiritual route for their own selfish interest. They are drawn to beautiful people, things and places. If they have a suitable name number, they will have a beautiful life partner, healthy children and financial security.\nAn incompatible name number will give them false send of courage and would drive them to evil habits like alcohol, drugs or other sources of addiction.',
-      luckyProfessions: [
-        'Arts',
-        'business concerned with liquids',
-        'alcohol',
-        'fuels',
-        'chemicals',
-        'cultivation of herbs',
-        'precious stones and jewellery',
-      ],
+      luckyProfessions:
+        'Arts, Business Concerned With Liquids, Alcohol, Fuels, Chemicals, Cultivation Of Herbs, Precious Stones, Jewellery',
       luckyNumbers: [6, 7],
       luckyColors: ['Blue', 'Green'],
       luckyNameNumbers: [6, 15, 24, 33, 42, 51, 60, 69],
@@ -613,14 +543,8 @@ export const driverConductordata = {
     '3': {
       description:
         'People born on 6, 15, 24 of any month and having 3 as the total of the entire date of birth.\n6 and 3 both are the numbers of gurus. Number 3 represents Dev Guru and number 6 represents Daitya Guru. People having 6 & 3 struggle a lot in life. They can face many difficulties in their married life. Their actions will be misunderstood by others, even if they are done with a good intent that will make them feel frustrated and depressed. They will have a disturbed family environment. To avoid all these problems, they should have a good name number. They will rise high in life and become leading men in their profession.\nIf they have a suitable name number, they will raise high in life in their business/profession and will become famous.',
-      luckyProfessions: [
-        'Related to arts',
-        'literature',
-        'fabrics',
-        'textiles',
-        'items of luxury',
-        'and precious stones etc.',
-      ],
+      luckyProfessions:
+        'Related To Arts, Literature, Fabrics, Textiles, Items Of Luxury, Precious Stones',
       luckyNumbers: [1, 9],
       luckyColors: ['Blue', 'Yellow'],
       luckyNameNumbers: [19, 27, 36, 37, 45, 46, 54, 55, 64],
@@ -629,16 +553,8 @@ export const driverConductordata = {
     '4': {
       description:
         'People born on 6, 15, 24 of any month and having 4 as the total of the entire date of birth.\nThis is a very good combination. They get success but after a lot of struggles. Both numbers are friends. They should control their ego for getting success. They are very good speakers and can impress the society with their skills. They are bold and love their independence. They will pick up a business which they love doing. They will enjoy all the worldly pleasures one can ask for. They would want to enjoy a high standard of living and will have the charm of collecting exclusive and beautiful things. If they have a suitable name number, they will have a luxurious life.\nIf the name number is not good, they will waste their time in gossiping and useless discussions etc.',
-      luckyProfessions: [
-        'Astrology',
-        'hypnotics',
-        'medicine',
-        'export import',
-        'chemicals and drugs',
-        'jewellery',
-        'dress material',
-        'textile business and transport business etc.',
-      ],
+      luckyProfessions:
+        'Astrology, Hypnotics, Medicine, Export Import, Chemicals And Drugs, Jewellery, Dress Material, Textile Business, Transport Business',
       luckyNumbers: [1, 6],
       luckyColors: ['Green', 'Pale Blue', 'Yellow'],
       luckyNameNumbers: [19, 27, 36, 37, 45, 56, 54, 55, 64],
@@ -647,14 +563,8 @@ export const driverConductordata = {
     '5': {
       description:
         'People born on 6, 15, 24 of any month and having 5 as the total of the entire date of birth.\nThese people are very innovative and can do any work with their creative mind. They enjoy their life to the fullest and get attracted towards beautiful things. They earn money easily but can face difficulties due to the opposite sex. They can also do well in politics. They are role models for the people for their leadership skills and good sense of dressing. They have chances of making a fortune if they deal in luxury items. If they have a suitable name number, they can rise to top positions as leaders or be leading big corporate houses & health, wealth, name and fame.\nIf they have a wrong name number, the sun will not let luck function in their life. Everything God thing promised in life will take a U-turn and they will not be able to encase in on the opportunities in life.',
-      luckyProfessions: [
-        'Gems and jewellery',
-        'solar power generation',
-        'sale of luxury items',
-        'technology',
-        'electricity',
-        'dress material and politics',
-      ],
+      luckyProfessions:
+        'Gems And Jewellery, Solar Power Generation, Sale Of Luxury Items, Technology, Electricity, Dress Material, Politics',
       luckyNumbers: [1, 6],
       luckyColors: ['Green', 'Yellow'],
       luckyNameNumbers: [6, 15, 19, 24, 33, 47, 42, 46, 51, 55, 60, 64, 69],
@@ -663,19 +573,10 @@ export const driverConductordata = {
     '6': {
       description:
         "People born on 6, 15, 24 of any month and having 6 as the total of the entire date of birth.\nGood combination. They get success in every field. They don't understand the difference between good or bad. Due to that, they face many problems. Sometimes their ego creates problem for them. They live a prosperous life but at times are concerned about the prosperity of the society as well. When it comes to giving advice, they are the one; people can rely upon for a sound advice. They will be extremely blessed when it comes to things of luxury, a beautiful house, luxury cars, etc. They will have a beautiful spouse too. 6-6 people have interests in painting, dance, and music. If they have an appropriate name number, they will be blessed in all aspects of life.\nIf the name number is not good, they will create enemies in the family itself and lose many big opportunities to make grand success due to the unclear mind-set.",
-      luckyProfessions: [
-        'Fashion',
-        'gems',
-        'jewellery',
-        'iron',
-        'items of luxury',
-        'cosmetics',
-        'journalism',
-        'paints',
-        'textile and goods green in colour.',
-      ],
+      luckyProfessions:
+        'Fashion, Gems, Jewellery, Iron, Items Of Luxury, Cosmetics, Journalism, Paints, Textile, Goods Green In Colour',
       luckyNumbers: [1, 6],
-      luckyColors: ['Light blue', 'Green'],
+      luckyColors: ['Light Blue', 'Green'],
       luckyNameNumbers: [
         9, 15, 18, 19, 24, 27, 33, 37, 42, 46, 51, 55, 60, 64, 69,
       ],
@@ -686,18 +587,8 @@ export const driverConductordata = {
     '7': {
       description:
         'People born on 6, 15, 24 of any month and having 7 as the total of the entire date of birth.\nThey both have good compatibility. Get success, when they are together. They do well in the field of vastu, reiki, tarot card reading, and media etc. They are born actors. They might have multiple affairs and having chances of second marriage. They like living alone and are very helpful. They excel in arts, poetry, music and medicine. They like to be close to nature & away from crowds to able to access thoughts from their sub-conscious mind. They are a perfect blend of tradition and modernity.\nIf they have a correct name number, they will be able to enjoy and cherish good lifestyle and good family life.\nIf they have a wrong name number, their life will progress very slowly, they will have more instances of failure than of success. They will have a bitter married life and will face delays in childbirth.',
-      luckyProfessions: [
-        'Artist',
-        'writer',
-        'speaker',
-        'drugs',
-        'textiles',
-        'luxury goods',
-        'chemicals',
-        'science',
-        'psychology',
-        'agriculture and literature',
-      ],
+      luckyProfessions:
+        'Artist, Writer, Speaker, Drugs, Textiles, Luxury Goods, Chemicals, Science, Psychology, Agriculture, Literature',
       luckyNumbers: [2, 6],
       luckyColors: ['Green', 'Blue', 'Yellow'],
       luckyNameNumbers: [15, 19, 24, 33, 37, 42, 46, 51, 55, 60, 64, 69],
@@ -706,15 +597,8 @@ export const driverConductordata = {
     '8': {
       description:
         'People born on 6, 15, 24 of any month and having 8 as the total of the entire date of birth.\nThe only progress they make in life is through their hard work but they need to put more efforts because of the presence of Saturn which is known to cause delays and disappointments. They are idealists and disciplinarians. They excel in areas like mathematics, transport, astronomy, tools, law and religion. They will have little knowledge about everything. They will spend money on luxurious items. Due to impact of Venus, they will indulge in things of pleasure and will be lustful. With the help of a supportive name number, they will be able to make progress in any field.\nIf the name number does not match, the evil impacts of Saturn will increase and will face failures, insults, injuries, accidents, wasteful expenditures etc.',
-      luckyProfessions: [
-        'Iron & steel',
-        'machine manufacturing',
-        'melting metals',
-        'property',
-        'dealers',
-        'minerals & metals',
-        'heavy industries or labour-oriented industries.',
-      ],
+      luckyProfessions:
+        'Iron & Steel, Machine Manufacturing, Melting Metals, Property, Dealers, Minerals & Metals, Heavy Industries, Labour-Oriented Industries',
       luckyNumbers: [1, 5, 6],
       luckyColors: ['Green', 'Blue', 'Yellow'],
       luckyNameNumbers: [
@@ -727,17 +611,8 @@ export const driverConductordata = {
     '9': {
       description:
         "People born on 6, 15, 24 of any month and having 9 as the total of the entire date of birth.\nThey are the boldest amongst all the 6, who take up any task courageously. This number guarantees supreme success due to their strong will power & an undying spirit to work. Difficulties don't break them rather they face them upfront and overcome them easily. They will be blessed with all the comforts and pleasures of life but they will constantly be on the go to uplift their status. They will have knowledge of political science & law. They will work for society & for personal gain. They would see the world as full of pleasures and would leave no stone unturned to seek all possible luxuries and comforts of life.\nIn case of a defective name number, they face a lot of disappointments & failures.",
-      luckyProfessions: [
-        'Contract work',
-        'commission business',
-        'vehicles',
-        'cosmetics',
-        'luxury goods',
-        'transport business',
-        'production of minerals',
-        'fashion perfumes',
-        'defence and police',
-      ],
+      luckyProfessions:
+        'Contract Work, Commission Business, Vehicles, Cosmetics, Luxury Goods, Transport Business, Production Of Minerals, Fashion Perfumes, Defence And Police',
       luckyNumbers: [6, 9],
       luckyColors: ['Red', 'Blue', 'Green'],
       luckyNameNumbers: [15, 24, 27, 33, 37, 42, 45, 51, 54, 60, 69],
@@ -748,15 +623,8 @@ export const driverConductordata = {
     '1': {
       description:
         "People born on 7, 16, 25 of any month and having 1 as the total of the entire date of birth. This is an average number. Even we know and number 1 is there to support number 7 (Shadow, Ketu), even then can taste failures in life. These people can do well in Vastu, Astrology, Tarot Card Reading, Healing etc. They get cheated by others. They trust God and will take a keen interest in religion and would want to explore it more to understand it deeply. They won't have any shortage of funds or things in life, but they will be dissatisfied all the time. They will have a neat & clean look, though simple and they would speak only when necessary. For a better married life, they should change their name to 1 to 6 which will improve things at your family & social front. If the name number mismatches 7-1, things will go against them and the credit due to you will be taken by others.",
-      luckyProfessions: [
-        'Textiles',
-        'metals',
-        'electricity',
-        'chemicals',
-        'drugs',
-        'perfumes',
-        'computer multimedia or luxury and costly items.',
-      ],
+      luckyProfessions:
+        'Textiles, Metals, Electricity, Chemicals, Drugs, Perfumes, Computer Multimedia, Luxury And Costly Items',
       luckyNumbers: [1, 2, 6],
       luckyColors: ['Yellow', 'Blue', 'Green'],
       luckyNameNumbers: [6, 15, 19, 24, 33, 37, 42, 46, 51, 60, 64, 69],
@@ -765,13 +633,8 @@ export const driverConductordata = {
     '2': {
       description:
         'People born on 7, 16, 25 of any month and having 2 as the total of the entire date of birth. This is not a good number. Because 7 represents Ketu and 2 represents (Queen). This number represents a brainless person (7 Ketu, only body, no head) and 2 is a very sensitive number, (represents moon and queen). They always have a smile on their face. They will have good finances and a solid educational background. They set their goals and achieve them due to their firm belief in God. They are friendly and warn but prefer to life alone than enjoying a company. Their mind keeps charting put plans for the future. May opportunities may come their way. If the name number mismatches, they will lose many opportunities to make money or even if they grab it end result would be far from satisfactory.',
-      luckyProfessions: [
-        'Writing',
-        'delivering lectures or speeches',
-        'water related business',
-        'export',
-        'agriculture poetry and painting.',
-      ],
+      luckyProfessions:
+        'Writing, Delivering Lectures Or Speeches, Water Related Business, Export, Agriculture Poetry And Painting',
       luckyNumbers: [2, 6],
       luckyColors: ['Yellow', 'Blue', 'Green'],
       luckyNameNumbers: [6, 15, 19, 24, 33, 38, 42, 51, 60, 65, 69],
@@ -780,16 +643,8 @@ export const driverConductordata = {
     '3': {
       description:
         'People born on 7, 16, 25 of any month and having 3 as the total of the entire date of birth. This number promises happiness and success. They will be a mixture of tradition and modernity, practical knowledge & knowledge gained through experience. They will come forward and take a keen interest in the development of the society, will work tirelessly. They are clear in their head and vocal about their thoughts. They prefer being in a meditative state than being connected with people as they find more answers. They will be inclined towards religion and spirituality, yoga, meditation, mantras etc. They will have few but dependable friends. With the blessings of God, they will have food intuitive skills. If the name number mismatches, they will face unnecessary complications, a disputed married and social life etc.',
-      luckyProfessions: [
-        'Spiritual teacher',
-        'yoga instructor',
-        'trading',
-        'pharmaceuticals',
-        'beverage',
-        'miners',
-        'educational institution',
-        'financial institution and metals.',
-      ],
+      luckyProfessions:
+        'Spiritual Teacher, Yoga Instructor, Trading, Pharmaceuticals, Beverage, Miners, Educational Institution, Financial Institution And Metals',
       luckyNumbers: [2, 3, 5],
       luckyColors: ['Yellow', 'Blue', 'Green'],
       luckyNameNumbers: [5, 14, 21, 23, 32, 39, 41, 50, 59],
@@ -798,15 +653,8 @@ export const driverConductordata = {
     '4': {
       description:
         'People born on 7, 16, 25 of any month and having 4 as the total of the entire date of birth. They can sense the good or bad events of the future; they are gifted that way. They will remain confused between living a life of riches and forsaking everything and work for the highest form of spiritual bliss. They are interested in art, music, astrology & medicine. They are good at sizzling up a person in the first meeting itself. They lose their cool too soon. They will have a life full of comforts. They will have a kind of magnetic, attraction and spiritual power. Wealth, name & fame would be in plenty if you take due care in having a proper name number. If the name number mismatches, financial success will be a far cry, confusion will prevail & failures are bound to happen, domestic wife would be a mess.',
-      luckyProfessions: [
-        'Arts',
-        'speaker',
-        'writer',
-        'publisher',
-        'cosmetics',
-        'cinema',
-        'Computer & electrical appliances etc.',
-      ],
+      luckyProfessions:
+        'Arts, Speaker, Writer, Publisher, Cosmetics, Cinema, Computer & Electrical Appliances',
       luckyNumbers: [1, 6],
       luckyColors: ['Yellow', 'Blue', 'Green'],
       luckyNameNumbers: [6, 15, 24, 33, 42, 61, 60, 69],
@@ -815,14 +663,8 @@ export const driverConductordata = {
     '5': {
       description:
         'People born on 7, 16, 25 of any month and having 5 as the total of the entire date of birth. They have a good capacity to think and are mentally alert. They always try working towards better life getting involved in any trade or industry. They acquire huge properties and prosperity. Even after making sufficient progress in life, their mind isn’t at peace and they get inclined towards spirituality. They are blessed with a good speech. They will have a distressed family life and face hurdles in the functioning of their business. If the name number mismatches, they would face a lot of mental suffering and face troublesome situations.',
-      luckyProfessions: [
-        'Mass communication',
-        'writing',
-        'educationist',
-        'speaker at religious gatherings',
-        'farming',
-        'metals etc.',
-      ],
+      luckyProfessions:
+        'Mass Communication, Writing, Educationist, Speaker At Religious Gatherings, Farming, Metals',
       luckyNumbers: [2, 5, 6],
       luckyColors: ['Yellow', 'Blue', 'Green', 'Grey'],
       luckyNameNumbers: [
@@ -835,14 +677,8 @@ export const driverConductordata = {
     '6': {
       description:
         'People born on 7, 16, 25 of any month and having 6 as the total of the entire date of birth. They are blessed health, wealth and a good family life. They are having a luxurious life style. Before starting any task, they will see its pros and cons. They like spending time with their self. They are interested towards music, religion, astrology etc. They have a good sense of humour and rarely get angry. They have a wonderful sense of imagination and are fond of travelling to peaceful places. With a suitable name number, they enjoy a healthy and blissful life. If the name number mismatches, there would be discord at the family front, progress in life would be really slow despite opportunities available & suffer from ill-health.',
-      luckyProfessions: [
-        'Mass communication',
-        'writing',
-        'educationist',
-        'speaker at religious gatherings',
-        'farming',
-        'metals etc.',
-      ],
+      luckyProfessions:
+        'Mass Communication, Writing, Educationist, Speaker At Religious Gatherings, Farming, Metals',
       luckyNumbers: [2, 5, 6],
       luckyColors: ['Yellow', 'Blue', 'Green'],
       luckyNameNumbers: [15, 19, 24, 33, 37, 42, 46, 51, 55, 60, 64, 69],
@@ -851,17 +687,8 @@ export const driverConductordata = {
     '7': {
       description:
         "People born on 7, 16, 25 of any month and having 7 as the total of the entire date of birth. This is the best number for spiritual growth. They will be tidy in their appearance and will always be engrossed in thought. They will never discuss their issues with anyone and will never be a reason for someone's pain. They will derive gains from foreign sources and will be will be acknowledged as philosophers. Material success does not bring them peace, prayer does. They will have such a persona that would make others worship them. With a good name number, they can improve their quality of family life, enjoy material riches, or find a job of authoritative nature where they will fare well. If the name number mismatches, business and personal life both will suffer. Despite the talents, they would not achieve success in life leading to disappointments & dissatisfaction.",
-      luckyProfessions: [
-        'God man',
-        'astrologer',
-        'spirituality',
-        'import/export',
-        'mineral',
-        'agriculture',
-        'automobiles',
-        'electricity',
-        'computer and law.',
-      ],
+      luckyProfessions:
+        'God Man, Astrologer, Spirituality, Import/Export, Mineral, Agriculture, Automobiles, Electricity, Computer And Law',
       luckyNumbers: [2, 5, 6],
       luckyColors: ['Yellow', 'Blue', 'Green'],
       luckyNameNumbers: [14, 15, 23, 32, 33, 41, 42, 50, 51, 59, 60, 69, 77],
@@ -872,15 +699,8 @@ export const driverConductordata = {
     '8': {
       description:
         'People born on 7, 16, 25 of any month and having 8 as the total of the entire date of birth. They are hard working. Obstacles are a part of their life which they encounter at every step of life but their hard work & commitment to the task helps them reach their objective with a delay. As time passes, they learn to swim against the current. They are physically strong & achieve success later than their peers. Their mental peace is restored by praying to God & travelling to places, away from the hustle bustle of the city. They excel in arts, mechanical engineering, medicine, law and politics. If the name number mismatches, failure sets in their life and marriage is delayed or even denied. Failures make them unlawful means to gain wealth which can land them in deep trouble.',
-      luckyProfessions: [
-        'Machinery',
-        'iron and steel',
-        'drugs',
-        'computers',
-        'metals',
-        'electronics',
-        'stationery etc.',
-      ],
+      luckyProfessions:
+        'Machinery, Iron And Steel, Drugs, Computers, Metals, Electronics, Stationery',
       luckyNumbers: [2, 5, 6],
       luckyColors: ['Yellow', 'Blue', 'Green'],
       luckyNameNumbers: [14, 15, 23, 32, 33, 41, 42, 50, 51, 59, 60, 69, 77],
@@ -891,17 +711,8 @@ export const driverConductordata = {
     '9': {
       description:
         'People born on 7, 16, 25 of any month and having 9 as the total of the entire date of birth. They have a number of friends who would go to any to be of help to them. Quick in their work, they complete their tasks at breakneck speed. They get involved in multiple projects at the same time. They would enjoy high positions in jobs or business and will lead a happy and successful life. They appreciate things of beauty and would get involved in charity. They can do well in the field of politics or administrative jobs. They have a very strong will to succeed. If the name number mismatches, it gives problems in the family happiness or low earnings. They would indulge in unnecessary matters and invite trouble for themself.',
-      luckyProfessions: [
-        'Real estate',
-        'buildings',
-        'construction',
-        'mills iron',
-        'printing press',
-        'police',
-        'defence',
-        'spiritual life related line',
-        'electricity etc.',
-      ],
+      luckyProfessions:
+        'Real Estate, Buildings, Construction, Mills Iron, Printing Press, Police, Defence, Spiritual Life Related Line, Electricity',
       luckyNumbers: [5, 6],
       luckyColors: ['Yellow', 'Blue'],
       luckyNameNumbers: [14, 15, 23, 32, 33, 41, 42, 50, 51, 59, 60, 69, 77],
@@ -914,17 +725,8 @@ export const driverConductordata = {
     '1': {
       description:
         "People born on 8, 17, 26 of any month and having 1 as the total of the entire date of birth. This is not a good combination. Because Shanidev as Surya's (Number 1 King) father. But they never liked his father. They don't get enough of their efforts. They have the capability and knowledge but don't get the good result of their efforts. Even after having so many chances, they don't take advantage of that. Sometimes, they face failures in their life. They have a sharp mind and ability to lead because of their dominating nature. They are full of gratitude and will never forget people who were available to them in their time of need. People around them found it difficult to decipher the kind of personality they are. Never satisfied with what they achieve so they continuously strive for a better life. If having perfect family life, they will acquire good house and vehicular comforts. They specialize in law politics, media and advertisement. If the name number mismatches, Saturn brings a lot of adversities in the life. They will have stomach ailments. Their life is afflicted due to fire, theft, accidents and even will have suicidal tendencies.",
-      luckyProfessions: [
-        'Scientist',
-        'doctor',
-        'engineer',
-        'professor',
-        'ad agencies',
-        'electronics',
-        'computer',
-        'iron and steel',
-        'and other administrative.',
-      ],
+      luckyProfessions:
+        'Scientist, Doctor, Engineer, Professor, Ad Agencies, Electronics, Computer, Iron And Steel, Administrative',
       luckyNumbers: [1, 5, 6],
       luckyColors: ['Yellow', 'Blue'],
       luckyNameNumbers: [14, 23, 32, 41, 50, 59, 77],
@@ -933,17 +735,8 @@ export const driverConductordata = {
     '2': {
       description:
         "People born on 8, 17, 26 of any month and having 2 as the total of the entire date of birth. Not a good number because Shanidev and number 2, Moon, Queen are not friends. As Shani represents iron and moon represents water. And it's the water only who destroys the iron. So, they face a lot of struggles in their life. They are physically strong but mentally weak and will remain in a state of confusion. They will face failures in life due to poor memory power. They would get the work done under their supervision because of the lack of trust they have in others. If having a perfect name number, all the bottlenecks or hurdles to success will be done away with and they will gain mental strength and enjoy a life of comforts. If the name number mismatches, their family life will be full of confusion, unstable mind, failures and setbacks would be a common phenomenon.",
-      luckyProfessions: [
-        'Lawyer',
-        'engineer',
-        'professor',
-        'iron and steel',
-        'machinery',
-        'farming',
-        'agriculture',
-        'vehicles',
-        'oil and printing are all suitable.',
-      ],
+      luckyProfessions:
+        'Lawyer, Engineer, Professor, Iron And Steel, Machinery, Farming, Agriculture, Vehicles, Oil, Printing',
       luckyNumbers: [5, 6],
       luckyColors: ['Green', 'Yellow', 'Blue'],
       luckyNameNumbers: [
@@ -956,19 +749,8 @@ export const driverConductordata = {
     '3': {
       description:
         "People born on 8, 17, 26 of any month and having 3 as the total of the entire date of birth. This is a good combination. Because Shanidev ji always listens to his guru. When guru teaches him and helps him then they try his best to listen him. They believe in justice and honesty. They are full of wisdom and knowledge due to which people come to them for advice. They reach a top position in spite of adversities in life. They would be a little blunt with their speech at times but that would not be with an intention to hurt anybody's sentiments. They have a deep interest in art, civilization, culture, religion, law, medicine, astrology and engineering. They are economical spenders. If the name number mismatches, they face problems with their finances, children and family life. A lot of wasteful expenditure would be there.",
-      luckyProfessions: [
-        'Lawyer',
-        'astrologer',
-        'engineer',
-        'arts',
-        'dress',
-        'jewellery',
-        'chemicals',
-        'oil',
-        'iron and steel',
-        'machinery',
-        'or vehicles can be adopted.',
-      ],
+      luckyProfessions:
+        'Lawyer, Astrologer, Engineer, Arts, Dress, Jewellery, Chemicals, Oil, Iron And Steel, Machinery, Vehicles',
       luckyNumbers: [1, 3, 5],
       luckyColors: ['Violet', 'Yellow', 'Blue'],
       luckyNameNumbers: [
@@ -981,17 +763,8 @@ export const driverConductordata = {
     '4': {
       description:
         'People born on 8, 17, 26 of any month and having 4 as the total of the entire date of birth. They do not like to handover control to anyone. They enjoy the support of the masses. They are the master when it comes to dealing and handling machinery i.e., they are the mechanical type. They face setbacks during early stages, but gradually will rise and if they have a perfect name number, the success they achieve would be exemplary. They are devoted to their parents. They cannot anyone suffer and would immediately come forward to help them. If the name number mismatches, Rahu and Saturn will make a life full of struggles, opportunities will slip through the hands, bad luck will prevail and will lead to destruction in all spheres.',
-      luckyProfessions: [
-        'Iron and steel',
-        'writer',
-        'speaker',
-        'automobile',
-        'chemical',
-        'export/import',
-        'minerals',
-        'fuels',
-        'marketing etc.',
-      ],
+      luckyProfessions:
+        'Iron And Steel, Writer, Speaker, Automobile, Chemical, Export/Import, Minerals, Fuels, Marketing',
       luckyNumbers: [1, 5, 6],
       luckyColors: ['Yellow', 'Blue'],
       luckyNameNumbers: [
@@ -1006,20 +779,8 @@ export const driverConductordata = {
     '5': {
       description:
         'People born on 8, 17, 26 of any month and having 5 as the total of the entire date of birth. They are successful businessmen and traders because of their sharp intellect. They may face hardships in the beginning or in the middle of the project but their hard work and meticulous way of doing things help them reach the shore. They expect the same behaviours from people working under them. They will be men of thought and will earn praise from all. They are very particular about their health; they take a very minor problem very seriously and get it treated at the earliest. If they have a suitable name number, they will achieve all-round success and will travel abroad. If the name number mismatches, it delays their achievement, make them prone to chronic diseases, they would be pushed into evil ways.',
-      luckyProfessions: [
-        'Metals',
-        'iron and steel',
-        'mechanical engineers',
-        'marketing',
-        'textiles',
-        'farming',
-        'vehicles',
-        'jewellery',
-        'accountants',
-        'teachers',
-        'doctors',
-        'surgeons and biotechnology.',
-      ],
+      luckyProfessions:
+        'Metals, Iron And Steel, Mechanical Engineers, Marketing, Textiles, Farming, Vehicles, Jewellery, Accountants, Teachers, Doctors, Surgeons, Biotechnology',
       luckyNumbers: [1, 5, 6],
       luckyColors: ['Grey', 'Yellow', 'Blue'],
       luckyNameNumbers: [
@@ -1032,17 +793,8 @@ export const driverConductordata = {
     '6': {
       description:
         'People born on 8, 17, 26 of any month and having 6 as the total of the entire date of birth. Number 8 and 6, both are friends. They are full of sympathy. They desire luxury and material riches in their life but their journey to the top required more efforts than others. They have a deep desire to become famous and will achieve the fame though late in life. They are born artists with a creative bent of mind. Their interests include poetry, writing articles of stories, literature and cinema. They have unfettering faith in God. They have divine powers and understand the divine secrets. Once they take up the spiritual path, they live a life of everlasting fame. If the name number mismatches, stomach ailments are common, they get into vices like alcohol, women and drugs. They are inclined to marry twice or get into multiple affairs.',
-      luckyProfessions: [
-        'Machinery',
-        'metals',
-        'minerals',
-        'iron and steel',
-        'event management',
-        'textiles',
-        'boutiques',
-        'vehicles',
-        'computer and law.',
-      ],
+      luckyProfessions:
+        'Machinery, Metals, Minerals, Iron And Steel, Event Management, Textiles, Boutiques, Vehicles, Computer And Law',
       luckyNumbers: [1, 5, 6],
       luckyColors: ['Grey', 'Yellow', 'Blue'],
       luckyNameNumbers: [
@@ -1057,20 +809,8 @@ export const driverConductordata = {
     '7': {
       description:
         'People born on 8, 17, 26 of any month and having 7 as the total of the entire date of birth. They are good at keeping secrets and always a look at contemplation on their faces. They are gracious and full of sympathy. They earn a good name wherever you go. Sometimes they prefer loneliness. As they pass through ordeals, life teaches them a lot of lessons. They may raise high in life due to lectures and discourses they conduct on the spirituality and religion. In these cases, it is very important to have a perfect name number to avoid the disturbance. If the name number mismatches, earnings would be inadequate, poor state of health, bring a bad name to the family and would be prone to accidents.',
-      luckyProfessions: [
-        'Lawyer',
-        'scientist',
-        'government officer',
-        'engineer',
-        'professor',
-        'writer',
-        'speaker',
-        'painter',
-        'vehicles',
-        'grains',
-        'gems',
-        'iron and steel and heavy machinery.',
-      ],
+      luckyProfessions:
+        'Lawyer, Scientist, Government Officer, Engineer, Professor, Writer, Speaker, Painter, Vehicles, Grains, Gems, Iron And Steel, Heavy Machinery',
       luckyNumbers: [5, 6],
       luckyColors: ['Green', 'Yellow', 'Blue'],
       luckyNameNumbers: [14, 15, 23, 24, 32, 33, 41, 42, 50, 51, 59, 60, 77],
@@ -1081,18 +821,8 @@ export const driverConductordata = {
     '8': {
       description:
         'People born on 8, 17, 26 of any month and having 8 as the total of the entire date of birth. They may suffer from poverty in their youth. Difficulties and obstacles would dominate a substantial part of their life. They will extend their helping hand to their family and loved ones in need. They will have a good number of friends, who will help them in their time of crisis. They would understand the nuances of law, business and strategies. In this case, a correct name number is also very important as 8-8 is very unlucky. If the name number mismatches, Saturn would bring a lot of miseries, downfalls, accidents, theft in worst cases even murder.',
-      luckyProfessions: [
-        'Iron and steel',
-        'machinery',
-        'fire',
-        'electricity',
-        'logistics',
-        'vehicles',
-        'real estate',
-        'printing press',
-        'book publications',
-        'and mining.',
-      ],
+      luckyProfessions:
+        'Iron And Steel, Machinery, Fire, Electricity, Logistics, Vehicles, Real Estate, Printing Press, Book Publications, Mining',
       luckyNumbers: [1, 5, 6],
       luckyColors: ['Yellow', 'Blue'],
       luckyNameNumbers: [
@@ -1105,19 +835,8 @@ export const driverConductordata = {
     '9': {
       description:
         'People born on 8, 17, 26 of any month and having 9 as the total of the entire date of birth. They can be a hero or prisoner depending on their name number. A good name number would give them the power to govern. They would work so hard that even a non-productive asset would yield the result. Their speeches will have mass appeal. Problems would appear small in front of the courage they would possess. They will rise up in life to a high status but will remain kind and charitable. They will have the physical as well as mental strength to handle a situation. They will be praised for their efforts and will deserve every bit of it. If the name number mismatches, their aggression will land them into trouble. Their basic instincts turn negative and then would turn to a thief, criminal, gangster or even a terrorist.',
-      luckyProfessions: [
-        'Political leader',
-        'speaker',
-        'profession related to real estate',
-        'landed property',
-        'vehicles',
-        'minerals',
-        'mines',
-        'drugs',
-        'chemicals',
-        'arms and ammunition',
-        'police and defence personnel etc.',
-      ],
+      luckyProfessions:
+        'Political Leader, Speaker, Profession Related To Real Estate, Landed Property, Vehicles, Minerals, Mines, Drugs, Chemicals, Arms And Ammunition, Police And Defence Personnel',
       luckyNumbers: [5, 6],
       luckyColors: ['Yellow', 'Blue'],
       luckyNameNumbers: [
@@ -1132,17 +851,8 @@ export const driverConductordata = {
     '1': {
       description:
         'People born on 9, 18, 27 of any month and having 1 as the total of the entire date of birth. This is a very good combination. It gives success. Because 9 number is loyal to number 1, as Raja relies on him only. They have administrative skills and can be powerful leaders. They are intelligent, alert, and quick. They have a sense of appeal about themselves. They will have a number of friends. They will indulge in activities without prior thought. They will have numerous friends and will be willing to help them. Friends also will be available in case of their need. Anything that they do, would be a grand show. If the name number mismatches, problems would be due to women, and there would be losses in business. Also, there is a possibility of imprisonment & court cases.',
-      luckyProfessions: [
-        'Drugs',
-        'arms & ammunition',
-        'stone',
-        'real estate',
-        'fire-related crackers',
-        'building material',
-        'marketing',
-        'explosives',
-        'metals and politics etc.',
-      ],
+      luckyProfessions:
+        'Drugs, Arms & Ammunition, Stone, Real Estate, Fire-Related Crackers, Building Material, Marketing, Explosives, Metals And Politics',
       luckyNumbers: [1, 5, 6, 9],
       luckyColors: ['Yellow', 'Blue', 'Red'],
       luckyNameNumbers: [
@@ -1157,17 +867,8 @@ export const driverConductordata = {
     '2': {
       description:
         "People born on 9, 18, 27 of any month and having 2 as the total of the entire date of birth. This is an average combination because both are not against each other but they are having no similarities also. Because of this unusual combination, they sometimes face failures. They don't get enough of their hard work. These people are very sensitive and accept failures very easily. They have a knowledge of lot of things so they influence people through conversations, speeches or writing. They will face a lot of opposition in life but will still act on their own terms. They believe in God are attached to their religion. If the name number mismatches, they will lead a hopeless life. They will get addicted to drinks and women. They will pick up quarrels at the deep of a hat.",
-      luckyProfessions: [
-        'Alcohol',
-        'drugs',
-        'chemicals',
-        'arts',
-        'agriculture',
-        'vehicle',
-        'hotel',
-        'architecture',
-        'export/import and engineering.',
-      ],
+      luckyProfessions:
+        'Alcohol, Drugs, Chemicals, Arts, Agriculture, Vehicle, Hotel, Architecture, Export/Import And Engineering',
       luckyNumbers: [5, 6],
       luckyColors: ['Yellow', 'Blue'],
       luckyNameNumbers: [
@@ -1180,14 +881,8 @@ export const driverConductordata = {
     '3': {
       description:
         'People born on 9, 18, 27 of any month and having 3 as the total of the entire date of birth. This is a good number because guru and judge both are not having any direct relation. Even then, they respect each other, and advise them. If these people start doing social work, they can do very well and secondly good for their future also. They can do well in computers, astrology, vastu, healing, numerology etc. They are scholars. They possess good ideas and express them bluntly. They are knowledgeable and also having experience. They are honest, dignified, and express their ideas clearly for the benefit of others. They can be a highly paid government official or a smart accounts manager. If the name number mismatches, education may face issues, family life gets disturbed, native gets affected by chronic diseases etc.',
-      luckyProfessions: [
-        'Scientist',
-        'industrialist',
-        'top government official',
-        'police',
-        'army',
-        'surgeon etc.',
-      ],
+      luckyProfessions:
+        'Scientist, Industrialist, Top Government Official, Police, Army, Surgeon',
       luckyNumbers: [3, 5, 9],
       luckyColors: ['Yellow', 'Blue', 'Red', 'Orange', 'Violet'],
       luckyNameNumbers: [14, 15, 23, 32, 33, 41, 42, 50, 51, 59, 60, 69, 77],
@@ -1198,17 +893,8 @@ export const driverConductordata = {
     '4': {
       description:
         'People born on 9, 18, 27 of any month and having 4 as the total of the entire date of birth. Both these numbers play the same role. Both are daring. They are able to garner the support of the masses with their knowledge and candour. They can make for great politicians, army personnel, police officers or high-ranking government officials and will be able to achieve feats that on one else has. They are attached to their religion and have the blessings of God. They are able to distinguish between the good and bad elements of the society. For them, reaching their goal is more important than the profit or loss attached to it. They are born soldiers. If the name number mismatches, they will have to struggle really hard to make progress, even if they rise, they will again fall down to their original position and court cases would be plenty.',
-      luckyProfessions: [
-        'Army office',
-        'police department official',
-        'government official',
-        'detective',
-        'surgeon',
-        'real estate',
-        'fuels',
-        'chemicals',
-        'explosives or gun.',
-      ],
+      luckyProfessions:
+        'Army Office, Police Department Official, Government Official, Detective, Surgeon, Real Estate, Fuels, Chemicals, Explosives Or Gun',
       luckyNumbers: [1, 5, 6, 9],
       luckyColors: ['Yellow', 'Blue', 'Red'],
       luckyNameNumbers: [
@@ -1223,15 +909,8 @@ export const driverConductordata = {
     '5': {
       description:
         'People born on 9, 18, 27 of any month and having 5 as the total of the entire date of birth. This number gives success. They are physically and mentally strong and want progress in life. They are responsible businessmen and professionals. Unmoved by the obstacles that they face in the early part of their life, they continue to march ahead aiming at their goal. They are capable of holding politically responsible positions as Mars brings in the patriotic spirit in them. They have an interest in law, medicine, chemistry and spirituality. Their stance on a thing cannot be moved. If the name number mismatches, there will be a financial trouble, ill health, underutilization of the capacity of work, property hassles etc.',
-      luckyProfessions: [
-        'Doctor',
-        'engineer',
-        'industrialist',
-        'teacher',
-        'government official',
-        'property dealer',
-        'real estate agent etc.',
-      ],
+      luckyProfessions:
+        'Doctor, Engineer, Industrialist, Teacher, Government Official, Property Dealer, Real Estate Agent',
       luckyNumbers: [5, 6],
       luckyColors: ['Grey', 'Blue', 'Red'],
       luckyNameNumbers: [14, 23, 27, 32, 36, 41, 45, 50, 54, 59, 77],
@@ -1240,15 +919,8 @@ export const driverConductordata = {
     '6': {
       description:
         "People born on 9, 18, 27 of any month and having 6 as the total of the entire date of birth. They have the ability to captivate others by their charm. They have excellent speaking and writing skills. Their sense of dressing and mannerism are attractive. They would return the goof for the good and bad for the bad. They have magnetic powers to attract people towards themselves. They always aim for a good lifestyle, expensive cars, luxurious house they would work day and night to achieve what makes them happy. They have deep faith in God. They rise to great heights in their life if they have an appropriate name number. If the name number defective, life will be a struggle for them. Since they won't be able to make money through legal sources, they will resort to illegal means for making money.",
-      luckyProfessions: [
-        'Luxury goods',
-        'entertainment',
-        'event management',
-        'architecture',
-        'fashion designer',
-        'writer',
-        'painter and sculpture.',
-      ],
+      luckyProfessions:
+        'Luxury Goods, Entertainment, Event Management, Architecture, Fashion Designer, Writer, Painter And Sculpture',
       luckyNumbers: [5, 6, 9],
       luckyColors: ['Yellow', 'Blue', 'Red'],
       luckyNameNumbers: [
@@ -1261,15 +933,8 @@ export const driverConductordata = {
     '7': {
       description:
         'People born on 9, 18, 27 of any month and having 7 as the total of the entire date of birth. They have an unsteady mind and are in a state of confusion. This is a very dangerous combination to have so they need to be careful while selecting names. They have good knowledge of philosophy, religion and law, magic, yoga and other occult related subjects. If they have a correct name number, they will shine as wise men. They will come forward to remove the sufferings of others. Full of imagination, they would write stories, poetry and articles. Though you would be a scarcity of friend, they would have the divine support going for them. Family happiness can be restored using an appropriate name number. If the name number defective, wrong irreparable decisions will be taken, they will earn a bad name in the society, and many opportunities will be lost.',
-      luckyProfessions: [
-        'Spiritual preacher',
-        'lawyer',
-        'engineer',
-        'poet',
-        'lyricist or can be engaged in businesses such as real estate',
-        'electricity',
-        'military equipment and gemstones.',
-      ],
+      luckyProfessions:
+        'Spiritual Preacher, Lawyer, Engineer, Poet, Lyricist Or Can Be Engaged In Businesses Such As Real Estate, Electricity, Military Equipment And Gemstones',
       luckyNumbers: [5, 6],
       luckyColors: ['Grey', 'Blue', 'Red'],
       luckyNameNumbers: [
@@ -1282,14 +947,8 @@ export const driverConductordata = {
     '8': {
       description:
         'People born on 9, 18, 27 of any month and having 8 as the total of the entire date of birth. Though struggles in life would come in huge number, but they might have the face the struggles very boldly. Full of self-confidence and courage, they have the conviction to succeed in anything that they take up. They have clarity of thought. They have past experience when it comes to knowledge of the worldly matters due to the constant struggles in their life. There is always an element of uncertainty in their life which Saturn brings, they are surrounded by people all the time who come to them for sound business advice due to their vast experience. If the name number defective, they get into tricky situations which they are incompetent of handling, luck works against them and gives them unnecessary delays & sufferings, brings in financial distress & family issues.',
-      luckyProfessions: [
-        'Iron & steel',
-        'property related profession',
-        'automobiles',
-        'agriculture',
-        'machinery manufacturing',
-        'arms and ammunition fuel etc.',
-      ],
+      luckyProfessions:
+        'Iron & Steel, Property Related Profession, Automobiles, Agriculture, Machinery Manufacturing, Arms And Ammunition Fuel',
       luckyNumbers: [5, 6, 9],
       luckyColors: ['Red', 'White', 'Yellow'],
       luckyNameNumbers: [
@@ -1302,19 +961,8 @@ export const driverConductordata = {
     '9': {
       description:
         'People born on 9, 18, 27 of any month and having 9 as the total of the entire date of birth. They are extremely courageous, forceful, commanding, diplomatic & leaders. They are extremely quick when it comes to taking a decision or doing a task. They are active, alert and bold. No one has the ability to change their set ideals. They are very attractive personality and earn the support or friendship of people wherever they go. They can rise very life in life if they have a perfect name number because that way, they will get the support of luck to the hardworking nature they have. They are technicians in the field of cinema. If the name number defective, they can become nefarious elements of the society like convicts or criminals, earn a bad name, face major ups and downs, and pick up conflicts at the drop of a hat.',
-      luckyProfessions: [
-        'Major of the army',
-        'navy or air force',
-        'police',
-        'civil engineer',
-        'architect',
-        'lawyer',
-        'doctor',
-        'professor',
-        'share market',
-        'gems',
-        'electricity and fire.',
-      ],
+      luckyProfessions:
+        'Major Of The Army, Navy Or Air Force, Police, Civil Engineer, Architect, Lawyer, Doctor, Professor, Share Market, Gems, Electricity And Fire',
       luckyNumbers: [5, 6, 9],
       luckyColors: ['Red', 'Blue', 'Yellow'],
       luckyNameNumbers: [
@@ -3101,1327 +2749,1641 @@ export const nameNumberCharacteristics = {
   },
 };
 
-export const mustExcludePairs = [
-  14, 41, 16, 61, 18, 81, 23, 32, 26, 62, 27, 72, 28, 82, 34, 43, 45, 54, 46,
-  64, 48, 84, 67, 76, 68, 86, 89, 98, 36, 63, 49, 94, 58, 85, 99, 999, 88, 888,
-  77, 777, 444, 44, 22, 222,
-];
+export const mustExcludePairs = {
+  data: [
+    14, 41, 16, 61, 18, 81, 23, 32, 26, 62, 27, 72, 28, 82, 34, 43, 45, 54, 46,
+    64, 48, 84, 67, 76, 68, 86, 89, 98, 36, 63, 49, 94, 58, 85, 99, 999, 88,
+    888, 77, 777, 444, 44, 22, 222,
+  ],
+};
 
 // Google Bard rephrased english
-
-export const englishMobilePairsMeaningArr = [
-  // 1
-  {
-    combo: 11,
+export const englishMobilePairsMeaningArr = {
+  '11': {
+    combo: '11',
     effect:
       'Achieves name, fame, success and excellent communication skills. However, this combination can also lead to ego inflation and high stress levels.',
     type: 1,
   },
-  {
-    combo: 111,
-    effect:
-      'Achieves name, fame, success and excellent communication skills. However, this combination can also lead to ego inflation and high stress levels.',
-    type: 2,
-  },
-  {
-    combo: 1111,
-    effect:
-      'Achieves name, fame, success and excellent communication skills. However, this combination can also lead to ego inflation and high stress levels.',
-    type: 0,
-  },
-  {
-    combo: 11111,
-    effect:
-      'Achieves name, fame, success and excellent communication skills. However, this combination can also lead to ego inflation and high stress levels.',
-    type: 0,
-  },
-
-  // 2
-  {
-    combo: 22,
-    effect:
-      'Experiences mood swings, depression, and strong emotions. May have blood pressure problems. Additionally, if your name starts with B, K, or R, emotional issues may be even more likely.',
-    type: 0,
-  },
-  {
-    combo: 222,
-    effect:
-      'Experiences mood swings, depression, and strong emotions. May have blood pressure problems. Additionally, if your name starts with B, K, or R, emotional issues may be even more likely.',
-    type: 0,
-  },
-  {
-    combo: 2222,
-    effect:
-      'Experiences mood swings, depression, and strong emotions. May have blood pressure problems. Additionally, if your name starts with B, K, or R, emotional issues may be even more likely.',
-    type: 0,
-  },
-  {
-    combo: 22222,
-    effect:
-      'Experiences mood swings, depression, and strong emotions. May have blood pressure problems. Additionally, if your name starts with B, K, or R, emotional issues may be even more likely.',
-    type: 0,
-  },
-
-  // 3
-  {
-    combo: 33,
-    effect: 'Curious and eager to learn, but can be impractical.',
-    type: 1,
-  },
-  {
-    combo: 333,
-    effect:
-      'Curious and eager to learn, with a wealth of knowledge. However, a trusting nature can sometimes lead to being taken advantage of. Difficulty completing tasks may arise due to struggles with applying knowledge effectively.',
-    type: 2,
-  },
-  {
-    combo: 3333,
-    effect:
-      'Curious and eager to learn, with a wealth of knowledge. However, a trusting nature can sometimes lead to being taken advantage of. Difficulty completing tasks may arise due to struggles with applying knowledge effectively.',
-    type: 0,
-  },
-  {
-    combo: 33333,
-    effect:
-      'Curious and eager to learn, with a wealth of knowledge. However, a trusting nature can sometimes lead to being taken advantage of. Difficulty completing tasks may arise due to struggles with applying knowledge effectively.',
-    type: 0,
-  },
-
-  // 4
-  {
-    combo: 44,
-    effect:
-      'Hard work and struggle increase This combination may lead to delays, struggles, headaches and uspicious nature.',
-    type: 0,
-  },
-  {
-    combo: 444,
-    effect:
-      'Hard work and struggle increase This combination may lead to delays, struggles, headaches and uspicious nature.',
-    type: 0,
-  },
-  {
-    combo: 4444,
-    effect:
-      'Hard work and struggle increase This combination may lead to delays, struggles, headaches and uspicious nature.',
-    type: 0,
-  },
-  {
-    combo: 44444,
-    effect:
-      'Hard work and struggle increase This combination may lead to delays, struggles, headaches and uspicious nature.',
-    type: 0,
-  },
-
-  // 5
-  {
-    combo: 55,
-    effect:
-      'Confident and communicative, which can improve money flow. However, it may also lead to laziness or sluggishness.',
-    type: 1,
-  },
-  {
-    combo: 555,
-    effect:
-      'Confident and communicative, which can improve money flow. However, it may also lead to laziness or sluggishness.',
-    type: 2,
-  },
-  {
-    combo: 5555,
-    effect:
-      'Confident and communicative, which can improve money flow. However, it may also lead to laziness or sluggishness.',
-    type: 0,
-  },
-  {
-    combo: 55555,
-    effect:
-      'Confident and communicative, which can improve money flow. However, it may also lead to laziness or sluggishness.',
-    type: 0,
-  },
-
-  // 6
-  {
-    combo: 66,
-    effect:
-      'Relationship-focused, enjoys luxury and travel. However, this love for finer things can lead to overspending and potentially not having what they need on hand.',
-    type: 1,
-  },
-  {
-    combo: 666,
-    effect:
-      'Relationship-focused, enjoys luxury and travel. However, this love for finer things can lead to overspending and potentially not having what they need on hand.',
-    type: 2,
-  },
-  {
-    combo: 6666,
-    effect:
-      'Relationship-focused, enjoys luxury and travel. However, this love for finer things can lead to overspending and potentially not having what they need on hand.',
-    type: 0,
-  },
-  {
-    combo: 66666,
-    effect:
-      'Relationship-focused, enjoys luxury and travel. However, this love for finer things can lead to overspending and potentially not having what they need on hand.',
-    type: 0,
-  },
-
-  // 7
-  {
-    combo: 77,
-    effect:
-      'Experiences relationship issues, mood swings, and inner turmoil. This may lead to a draw towards spirituality or seeking solace in something greater. Prone to overthinking and anxiety.',
-    type: 0,
-  },
-  {
-    combo: 777,
-    effect:
-      'Experiences relationship issues, mood swings, and inner turmoil. This may lead to a draw towards spirituality or seeking solace in something greater. Prone to overthinking and anxiety.',
-    type: 0,
-  },
-  {
-    combo: 7777,
-    effect:
-      'Experiences relationship issues, mood swings, and inner turmoil. This may lead to a draw towards spirituality or seeking solace in something greater. Prone to overthinking and anxiety.',
-    type: 0,
-  },
-  {
-    combo: 77777,
-    effect:
-      'Experiences relationship issues, mood swings, and inner turmoil. This may lead to a draw towards spirituality or seeking solace in something greater. Prone to overthinking and anxiety.',
-    type: 0,
-  },
-
-  // 8
-  {
-    combo: 88,
-    effect:
-      'May face delays, disturbances, and obstacles. However, this combination also rewards hard work with abundance. Persistence and resilience are key to unlocking the potential of this path.',
-    type: 0,
-  },
-  {
-    combo: 888,
-    effect:
-      'May face delays, disturbances, and obstacles. However, this combination also rewards hard work with abundance. Persistence and resilience are key to unlocking the potential of this path.',
-    type: 0,
-  },
-  {
-    combo: 8888,
-    effect:
-      'May face delays, disturbances, and obstacles. However, this combination also rewards hard work with abundance. Persistence and resilience are key to unlocking the potential of this path.',
-    type: 0,
-  },
-  {
-    combo: 88888,
-    effect:
-      'May face delays, disturbances, and obstacles. However, this combination also rewards hard work with abundance. Persistence and resilience are key to unlocking the potential of this path.',
-    type: 0,
-  },
-
-  // 9
-  {
-    combo: 99,
-    effect:
-      'Prone to debt, anger, and blood-related issues. May have a reddish skin tone. However, this combination can also indicate strength and resilience, making them well-suited for rough and tough work like astrology vastu etc.',
-    type: 0,
-  },
-  {
-    combo: 999,
-    effect:
-      'Prone to debt, anger, and blood-related issues. May have a reddish skin tone. However, this combination can also indicate strength and resilience, making them well-suited for rough and tough work like astrology vastu etc.',
-    type: 0,
-  },
-  {
-    combo: 9999,
-    effect:
-      'Prone to debt, anger, and blood-related issues. May have a reddish skin tone. However, this combination can also indicate strength and resilience, making them well-suited for rough and tough work like astrology vastu etc.',
-    type: 0,
-  },
-  {
-    combo: 99999,
-    effect:
-      'Prone to debt, anger, and blood-related issues. May have a reddish skin tone. However, this combination can also indicate strength and resilience, making them well-suited for rough and tough work like astrology vastu etc.',
-    type: 0,
-  },
-
-  // upper to be checked
-
-  {
-    combo: 12,
+  '12': {
+    combo: '12',
     effect: 'Looks good, Saves money, Good spouse',
     type: 1,
   },
-  {
+  '13': {
     combo: '13',
     effect:
       'Gives good advice, Well-educated, Well-respected, Popular, Stands out in their group, 31 combo makes them professional',
     type: 1,
   },
-  {
-    combo: 31,
+  '14': {
+    combo: '14',
+    effect:
+      'Prone to debt, legal issues, health problems. Requires hard work and resilience.',
+    type: 0,
+  },
+  '15': {
+    combo: '15',
+    effect: 'Makes their father well-known (for good reasons)',
+    type: 1,
+  },
+  '16': {
+    combo: '16',
+    effect:
+      "May face spouse's health issues, problems in married life, and limited income.",
+    type: 0,
+  },
+  '17': {
+    combo: '17',
+    effect:
+      'Steady income, Someone close in government job, Might work in MNC with good benefits (work from home possible), Chance of two marriages, Lying might bring more profit, Avoid if DOB has many 7s, Avoid if DOB lacks 2, 5, 6 and mobile number has 17/71 (relationship issues)',
+    type: 2,
+  },
+  '18': {
+    combo: '18',
+    effect:
+      "May face spouse's health issues, disagreements with father, government-related problems, and frequent job changes.",
+    type: 0,
+  },
+  '19': {
+    combo: '19',
+    effect:
+      'Achieves goals, High position, Professional, Dominant, Passionate lover',
+    type: 1,
+  },
+  '21': {
+    combo: '21',
+    effect: 'Looks good, Might spend money carelessly',
+    type: 2,
+  },
+  '22': {
+    combo: '22',
+    effect:
+      'Experiences mood swings, depression, and strong emotions. May have blood pressure problems. Additionally, if your name starts with B, K, or R, emotional issues may be even more likely.',
+    type: 0,
+  },
+  '23': {
+    combo: '23',
+    effect: "May have many enemies, but they won't be able to cause harm.",
+    type: 0,
+  },
+  '24': {
+    combo: '24',
+    effect:
+      'Needs patience to be successful, Makes many plans, Can be prone to negative thinking',
+    type: 2,
+  },
+  '25': {
+    combo: '25',
+    effect:
+      'Can work in mysterious studies/medicine, Helps others in trouble, Travels by air for success, Avoid finance-related things.',
+    type: 1,
+  },
+  '26': {
+    combo: '26',
+    effect:
+      'May experience educational delays, problems with mother-in-law, attraction towards money/opposite sex, and potential for low sperm count or diabetes.',
+    type: 0,
+  },
+  '27': {
+    combo: '27',
+    effect:
+      'Good intuition, but may have joint pain, urinary problems, or arthritis.',
+    type: 0,
+  },
+  '28': {
+    combo: '28',
+    effect:
+      'May have good income, but also high medical expenses. Two marriages possible in the family. Avoid bad company. (Vish yog)',
+    type: 0,
+  },
+  '29': {
+    combo: '29',
+    effect:
+      "Has good money, Lives comfortably on someone else's money (be careful of ego), Relationship issues if born on 29th, Travels by air for success, Avoid finance-related things.",
+    type: 1,
+  },
+  '31': {
+    combo: '31',
     effect:
       'Gives good advice, Well-educated, Well-respected, Popular, Stands out in their group, 31 combo makes them professional',
     type: 1,
   },
-  {
-    combo: 15,
-    effect: 'Makes their father well-known (for good reasons)',
-    type: 1,
-  },
-  {
-    combo: 51,
-    effect: 'Makes their father well-known (for good reasons)',
-    type: 1,
-  },
-  {
-    combo: 25,
-    effect:
-      'Can work in mysterious studies/medicine, Helps others in trouble, Travels by air for success, Avoid finance-related things.',
-    type: 1,
-  },
-  {
-    combo: 52,
-    effect:
-      'Can work in mysterious studies/medicine, Helps others in trouble, Travels by air for success, Avoid finance-related things.',
-    type: 1,
-  },
-  {
-    combo: 29,
-    effect:
-      "Has good money, Lives comfortably on someone else's money (be careful of ego), Relationship issues if born on 29th, Travels by air for success, Avoid finance-related things.",
-    type: 1,
-  },
-  {
-    combo: 92,
-    effect:
-      "Has good money, Lives comfortably on someone else's money (be careful of ego), Relationship issues if born on 29th, Travels by air for success, Avoid finance-related things.",
-    type: 1,
-  },
-  {
-    combo: 73,
-    effect:
-      'Well-rounded person, Learns well and uses knowledge to their advantage.',
-    type: 1,
-  },
-  {
-    combo: 37,
-    effect:
-      'Well-rounded person, Learns well and uses knowledge to their advantage.',
-    type: 1,
-  },
-  {
-    combo: 38,
-    effect:
-      'Good at real estate, Advises others, Settles disputes between people.',
-    type: 1,
-  },
-  {
-    combo: 83,
-    effect:
-      'Good at real estate, Advises others, Settles disputes between people.',
-    type: 1,
-  },
-  {
-    combo: 47,
-    effect: 'Honest, Intelligent, Values integrity (Rahu-Ketu Combo)',
-    type: 1,
-  },
-  {
-    combo: 74,
-    effect: 'Honest, Intelligent, Values integrity (Rahu-Ketu Combo)',
-    type: 1,
-  },
-  {
-    combo: 57,
-    effect:
-      'Good communicator, Can be a writer or public speaker, People seek advice from them.',
-    type: 1,
-  },
-  {
-    combo: 75,
-    effect:
-      'Good communicator, Can be a writer or public speaker, People seek advice from them.',
-    type: 1,
-  },
-  {
-    combo: 69,
-    effect:
-      'Good at managing things, Makes plans well, Might be attracted to the opposite sex.',
-    type: 1,
-  },
-  {
-    combo: 96,
-    effect:
-      'Good at managing things, Makes plans well, Might be attracted to the opposite sex.',
-    type: 1,
-  },
-  {
-    combo: 78,
-    effect: 'Can heal others, idealistic, Solves problems independently.',
-    type: 1,
-  },
-  {
-    combo: 87,
-    effect: 'Can heal others, idealistic, Solves problems independently.',
-    type: 1,
-  },
-
-  // Neutral
-  {
-    combo: 17,
-    effect:
-      'Steady income, Someone close in government job, Might work in MNC with good benefits (work from home possible), Chance of two marriages, Lying might bring more profit, Avoid if DOB has many 7s, Avoid if DOB lacks 2, 5, 6 and mobile number has 17/71 (relationship issues)',
-    type: 2,
-  },
-  {
-    combo: 71,
-    effect:
-      'Steady income, Someone close in government job, Might work in MNC with good benefits (work from home possible), Chance of two marriages, Lying might bring more profit, Avoid if DOB has many 7s, Avoid if DOB lacks 2, 5, 6 and mobile number has 17/71 (relationship issues)',
-    type: 2,
-  },
-  {
-    combo: 19,
-    effect:
-      'Achieves goals, High position, Professional, Dominant, Passionate lover',
-    type: 1,
-  },
-  {
-    combo: 91,
-    effect:
-      'Achieves goals, High position, Professional, Dominant, Passionate lover',
-    type: 1,
-  },
-  {
-    combo: 21,
-    effect: 'Looks good, Might spend money carelessly',
-    type: 2,
-  },
-  {
-    combo: 24,
-    effect:
-      'Needs patience to be successful, Makes many plans, Can be prone to negative thinking',
-    type: 2,
-  },
-  {
-    combo: 42,
-    effect:
-      'Needs patience to be successful, Makes many plans, Can be prone to negative thinking',
-    type: 2,
-  },
-  {
-    combo: 35,
-    effect:
-      'Success away from home (due to fear of father?), Good financial situation, Might have trouble with cash flow.',
-    type: 2,
-  },
-  {
-    combo: 53,
-    effect:
-      'Success away from home (due to fear of father?), Good financial situation, Might have trouble with cash flow.',
-    type: 2,
-  },
-  {
-    combo: 63,
-    effect:
-      'Prefers principles, Might face obstacles in studies, Has good knowledge but struggles to present it well.',
-    type: 2,
-  },
-  {
-    combo: 36,
-    effect:
-      'Prefers principles, Might face obstacles in studies, Has good knowledge but struggles to present it well.',
-    type: 2,
-  },
-  {
-    combo: 93,
-    effect: 'Likes to show off, Can be indecisive at times.',
-    type: 2,
-  },
-  {
-    combo: 39,
-    effect: 'Likes to show off, Can be indecisive at times.',
-    type: 2,
-  },
-  {
-    combo: 49,
-    effect:
-      'Might take risks, Could be suited for jobs with uniforms, Prone to criminal activity.',
-    type: 2,
-  },
-  {
-    combo: 94,
-    effect:
-      'Might take risks, Could be suited for jobs with uniforms, Prone to criminal activity.',
-    type: 2,
-  },
-  {
-    combo: 56,
-    effect:
-      'Might hesitate to ask for their own money. Business-minded. (Hindi: Any big landmarks near your house? Temple/Superstore)',
-    type: 2,
-  },
-  {
-    combo: 65,
-    effect:
-      'Might hesitate to ask for their own money. Business-minded. (Hindi: Any big landmarks near your house? Temple/Superstore)',
-    type: 2,
-  },
-  {
-    combo: 85,
-    effect:
-      'Might have financial difficulties, Good with calculations, Works in finance-related field, Talks in big sums (lakhs and crores).',
-    type: 2,
-  },
-  {
-    combo: 58,
-    effect:
-      'Might have financial difficulties, Good with calculations, Works in finance-related field, Talks in big sums (lakhs and crores).',
-    type: 2,
-  },
-  {
-    combo: 95,
-    effect:
-      'Harsh words can damage relationships. Might choose Science or Commerce stream for studies.',
-    type: 2,
-  },
-  {
-    combo: 59,
-    effect:
-      'Harsh words can damage relationships. Might choose Science or Commerce stream for studies.',
-    type: 2,
-  },
-  {
-    combo: 79,
-    effect: 'May find success after separation from father.',
-    type: 2,
-  },
-  {
-    combo: 97,
-    effect: 'May find success after separation from father.',
-    type: 2,
-  },
-  {
-    combo: 14,
-    effect:
-      'Prone to debt, legal issues, health problems. Requires hard work and resilience.',
-    type: 0,
-  },
-  {
-    combo: 41,
-    effect:
-      'Prone to debt, legal issues, health problems. Requires hard work and resilience.',
-    type: 0,
-  },
-  {
-    combo: 16,
-    effect:
-      "May face spouse's health issues, problems in married life, and limited income.",
-    type: 0,
-  },
-  {
-    combo: 61,
-    effect:
-      "May face spouse's health issues, problems in married life, and limited income.",
-    type: 0,
-  },
-  {
-    combo: 18,
-    effect:
-      "May face spouse's health issues, disagreements with father, government-related problems, and frequent job changes.",
-    type: 0,
-  },
-  {
-    combo: 81,
-    effect:
-      "May face spouse's health issues, disagreements with father, government-related problems, and frequent job changes.",
-    type: 0,
-  },
-  {
-    combo: 23,
+  '32': {
+    combo: '32',
     effect: "May have many enemies, but they won't be able to cause harm.",
     type: 0,
   },
-  {
-    combo: 32,
-    effect: "May have many enemies, but they won't be able to cause harm.",
-    type: 0,
+  '33': {
+    combo: '33',
+    effect: 'Curious and eager to learn, but can be impractical.',
+    type: 1,
   },
-  {
-    combo: 26,
-    effect:
-      'May experience educational delays, problems with mother-in-law, attraction towards money/opposite sex, and potential for low sperm count or diabetes.',
-    type: 0,
-  },
-  {
-    combo: 62,
-    effect:
-      'May experience educational delays, problems with mother-in-law, attraction towards money/opposite sex, and potential for low sperm count or diabetes.',
-    type: 0,
-  },
-  {
-    combo: 27,
-    effect:
-      'Good intuition, but may have joint pain, urinary problems, or arthritis.',
-    type: 0,
-  },
-  {
-    combo: 72,
-    effect:
-      'Good intuition, but may have joint pain, urinary problems, or arthritis.',
-    type: 0,
-  },
-  {
-    combo: 28,
-    effect:
-      'May have good income, but also high medical expenses. Two marriages possible in the family. Avoid bad company. (Vish yog)',
-    type: 0,
-  },
-  {
-    combo: 82,
-    effect:
-      'May have good income, but also high medical expenses. Two marriages possible in the family. Avoid bad company. (Vish yog)',
-    type: 0,
-  },
-  {
-    combo: 34,
+  '34': {
+    combo: '34',
     effect:
       'Leg tremors, risk of paralysis in the family, breathing problems. Avoid this combo if your date of birth has 3 or more eights.',
     type: 0,
   },
-  {
-    combo: 43,
+  '35': {
+    combo: '35',
+    effect:
+      'Success away from home (due to fear of father?), Good financial situation, Might have trouble with cash flow.',
+    type: 2,
+  },
+  '36': {
+    combo: '36',
+    effect:
+      'Prefers principles, Might face obstacles in studies, Has good knowledge but struggles to present it well.',
+    type: 2,
+  },
+  '37': {
+    combo: '37',
+    effect:
+      'Well-rounded person, Learns well and uses knowledge to their advantage.',
+    type: 1,
+  },
+  '38': {
+    combo: '38',
+    effect:
+      'Good at real estate, Advises others, Settles disputes between people.',
+    type: 1,
+  },
+  '39': {
+    combo: '39',
+    effect: 'Likes to show off, Can be indecisive at times.',
+    type: 2,
+  },
+  '41': {
+    combo: '41',
+    effect:
+      'Prone to debt, legal issues, health problems. Requires hard work and resilience.',
+    type: 0,
+  },
+  '42': {
+    combo: '42',
+    effect:
+      'Needs patience to be successful, Makes many plans, Can be prone to negative thinking',
+    type: 2,
+  },
+  '43': {
+    combo: '43',
     effect:
       'Leg tremors, risk of paralysis in the family, breathing problems. Avoid this combo if your date of birth has 3 or more eights.',
     type: 0,
   },
-  {
-    combo: 45,
+  '44': {
+    combo: '44',
+    effect:
+      'Hard work and struggle increase This combination may lead to delays, struggles, headaches and uspicious nature.',
+    type: 0,
+  },
+  '45': {
+    combo: '45',
     effect:
       'Frequent hospital visits for various health issues and court appearances for legal matters. Life with limitations.',
     type: 0,
   },
-  {
-    combo: 54,
+  '46': {
+    combo: '46',
+    effect:
+      'Indicates extramarital relationships, inter-caste marriage, and urinary tract infections.',
+    type: 0,
+  },
+  '47': {
+    combo: '47',
+    effect: 'Honest, Intelligent, Values integrity (Rahu-Ketu Combo)',
+    type: 1,
+  },
+  '48': {
+    combo: '48',
+    effect:
+      '(Very Negative) Health problems related to blood, Serious health issues, Difficulty having a satisfying sex life.',
+    type: 0,
+  },
+  '49': {
+    combo: '49',
+    effect:
+      'Might take risks, Could be suited for jobs with uniforms, Prone to criminal activity.',
+    type: 2,
+  },
+  '51': {
+    combo: '51',
+    effect: 'Makes their father well-known (for good reasons)',
+    type: 1,
+  },
+  '52': {
+    combo: '52',
+    effect:
+      'Can work in mysterious studies/medicine, Helps others in trouble, Travels by air for success, Avoid finance-related things.',
+    type: 1,
+  },
+  '53': {
+    combo: '53',
+    effect:
+      'Success away from home (due to fear of father?), Good financial situation, Might have trouble with cash flow.',
+    type: 2,
+  },
+  '54': {
+    combo: '54',
     effect:
       'Frequent hospital visits for various health issues and court appearances for legal matters. Life with limitations.',
     type: 0,
   },
-  {
-    combo: 46,
+  '55': {
+    combo: '55',
+    effect:
+      'Confident and communicative, which can improve money flow. However, it may also lead to laziness or sluggishness.',
+    type: 1,
+  },
+  '56': {
+    combo: '56',
+    effect:
+      'Might hesitate to ask for their own money. Business-minded. (Hindi: Any big landmarks near your house? Temple/Superstore)',
+    type: 2,
+  },
+  '57': {
+    combo: '57',
+    effect:
+      'Good communicator, Can be a writer or public speaker, People seek advice from them.',
+    type: 1,
+  },
+  '58': {
+    combo: '58',
+    effect:
+      'Might have financial difficulties, Good with calculations, Works in finance-related field, Talks in big sums (lakhs and crores).',
+    type: 2,
+  },
+  '59': {
+    combo: '59',
+    effect:
+      'Harsh words can damage relationships. Might choose Science or Commerce stream for studies.',
+    type: 2,
+  },
+  '61': {
+    combo: '61',
+    effect:
+      "May face spouse's health issues, problems in married life, and limited income.",
+    type: 0,
+  },
+  '62': {
+    combo: '62',
+    effect:
+      'May experience educational delays, problems with mother-in-law, attraction towards money/opposite sex, and potential for low sperm count or diabetes.',
+    type: 0,
+  },
+  '63': {
+    combo: '63',
+    effect:
+      'Prefers principles, Might face obstacles in studies, Has good knowledge but struggles to present it well.',
+    type: 2,
+  },
+  '64': {
+    combo: '64',
     effect:
       'Indicates extramarital relationships, inter-caste marriage, and urinary tract infections.',
     type: 0,
   },
-  {
-    combo: 64,
+  '65': {
+    combo: '65',
     effect:
-      'Indicates extramarital relationships, inter-caste marriage, and urinary tract infections.',
-    type: 0,
+      'Might hesitate to ask for their own money. Business-minded. (Hindi: Any big landmarks near your house? Temple/Superstore)',
+    type: 2,
   },
-  {
-    combo: 48,
+  '66': {
+    combo: '66',
     effect:
-      '(Very Negative) Health problems related to blood, Serious health issues, Difficulty having a satisfying sex life.',
-    type: 0,
+      'Relationship-focused, enjoys luxury and travel. However, this love for finer things can lead to overspending and potentially not having what they need on hand.',
+    type: 1,
   },
-  {
-    combo: 84,
-    effect:
-      '(Very Negative) Health problems related to blood, Serious health issues, Difficulty having a satisfying sex life.',
-    type: 0,
-  },
-  {
-    combo: 67,
+  '67': {
+    combo: '67',
     effect:
       'Increased chance of love marriage, Partner might have health problems, Possibility of troubled married life.',
     type: 0,
   },
-  {
-    combo: 76,
+  '68': {
+    combo: '68',
+    effect:
+      "Possible eye problems, Potential health issue in a single organ. Avoid this combo if your date of birth has multiple '1's.",
+    type: 0,
+  },
+  '69': {
+    combo: '69',
+    effect:
+      'Good at managing things, Makes plans well, Might be attracted to the opposite sex.',
+    type: 1,
+  },
+  '71': {
+    combo: '71',
+    effect:
+      'Steady income, Someone close in government job, Might work in MNC with good benefits (work from home possible), Chance of two marriages, Lying might bring more profit, Avoid if DOB has many 7s, Avoid if DOB lacks 2, 5, 6 and mobile number has 17/71 (relationship issues)',
+    type: 2,
+  },
+  '72': {
+    combo: '72',
+    effect:
+      'Good intuition, but may have joint pain, urinary problems, or arthritis.',
+    type: 0,
+  },
+  '73': {
+    combo: '73',
+    effect:
+      'Well-rounded person, Learns well and uses knowledge to their advantage.',
+    type: 1,
+  },
+  '74': {
+    combo: '74',
+    effect: 'Honest, Intelligent, Values integrity (Rahu-Ketu Combo)',
+    type: 1,
+  },
+  '75': {
+    combo: '75',
+    effect:
+      'Good communicator, Can be a writer or public speaker, People seek advice from them.',
+    type: 1,
+  },
+  '76': {
+    combo: '76',
     effect:
       'Increased chance of love marriage, Partner might have health problems, Possibility of troubled married life.',
     type: 0,
   },
-  {
-    combo: 68,
+  '77': {
+    combo: '77',
+    effect:
+      'Experiences relationship issues, mood swings, and inner turmoil. This may lead to a draw towards spirituality or seeking solace in something greater. Prone to overthinking and anxiety.',
+    type: 0,
+  },
+  '78': {
+    combo: '78',
+    effect: 'Can heal others, idealistic, Solves problems independently.',
+    type: 1,
+  },
+  '79': {
+    combo: '79',
+    effect: 'May find success after separation from father.',
+    type: 2,
+  },
+  '81': {
+    combo: '81',
+    effect:
+      "May face spouse's health issues, disagreements with father, government-related problems, and frequent job changes.",
+    type: 0,
+  },
+  '82': {
+    combo: '82',
+    effect:
+      'May have good income, but also high medical expenses. Two marriages possible in the family. Avoid bad company. (Vish yog)',
+    type: 0,
+  },
+  '83': {
+    combo: '83',
+    effect:
+      'Good at real estate, Advises others, Settles disputes between people.',
+    type: 1,
+  },
+  '84': {
+    combo: '84',
+    effect:
+      '(Very Negative) Health problems related to blood, Serious health issues, Difficulty having a satisfying sex life.',
+    type: 0,
+  },
+  '85': {
+    combo: '85',
+    effect:
+      'Might have financial difficulties, Good with calculations, Works in finance-related field, Talks in big sums (lakhs and crores).',
+    type: 2,
+  },
+  '86': {
+    combo: '86',
     effect:
       "Possible eye problems, Potential health issue in a single organ. Avoid this combo if your date of birth has multiple '1's.",
     type: 0,
   },
-  {
-    combo: 86,
+  '87': {
+    combo: '87',
+    effect: 'Can heal others, idealistic, Solves problems independently.',
+    type: 1,
+  },
+  '88': {
+    combo: '88',
     effect:
-      "Possible eye problems, Potential health issue in a single organ. Avoid this combo if your date of birth has multiple '1's.",
+      'May face delays, disturbances, and obstacles. However, this combination also rewards hard work with abundance. Persistence and resilience are key to unlocking the potential of this path.',
     type: 0,
   },
-  {
-    combo: 89,
+  '89': {
+    combo: '89',
     effect:
       'Likes to argue, Sticks to principles, Might develop chronic health problems later in life.',
     type: 0,
   },
-  {
-    combo: 98,
+  '91': {
+    combo: '91',
+    effect:
+      'Achieves goals, High position, Professional, Dominant, Passionate lover',
+    type: 1,
+  },
+  '92': {
+    combo: '92',
+    effect:
+      "Has good money, Lives comfortably on someone else's money (be careful of ego), Relationship issues if born on 29th, Travels by air for success, Avoid finance-related things.",
+    type: 1,
+  },
+  '93': {
+    combo: '93',
+    effect: 'Likes to show off, Can be indecisive at times.',
+    type: 2,
+  },
+  '94': {
+    combo: '94',
+    effect:
+      'Might take risks, Could be suited for jobs with uniforms, Prone to criminal activity.',
+    type: 2,
+  },
+  '95': {
+    combo: '95',
+    effect:
+      'Harsh words can damage relationships. Might choose Science or Commerce stream for studies.',
+    type: 2,
+  },
+  '96': {
+    combo: '96',
+    effect:
+      'Good at managing things, Makes plans well, Might be attracted to the opposite sex.',
+    type: 1,
+  },
+  '97': {
+    combo: '97',
+    effect: 'May find success after separation from father.',
+    type: 2,
+  },
+  '98': {
+    combo: '98',
     effect:
       'Likes to argue, Sticks to principles, Might develop chronic health problems later in life.',
     type: 0,
   },
-];
+  '99': {
+    combo: '99',
+    effect:
+      'Prone to debt, anger, and blood-related issues. May have a reddish skin tone. However, this combination can also indicate strength and resilience, making them well-suited for rough and tough work like astrology vastu etc.',
+    type: 0,
+  },
+  '111': {
+    combo: '111',
+    effect:
+      'Achieves name, fame, success and excellent communication skills. However, this combination can also lead to ego inflation and high stress levels.',
+    type: 2,
+  },
+  '222': {
+    combo: '222',
+    effect:
+      'Experiences mood swings, depression, and strong emotions. May have blood pressure problems. Additionally, if your name starts with B, K, or R, emotional issues may be even more likely.',
+    type: 0,
+  },
+  '333': {
+    combo: '333',
+    effect:
+      'Curious and eager to learn, with a wealth of knowledge. However, a trusting nature can sometimes lead to being taken advantage of. Difficulty completing tasks may arise due to struggles with applying knowledge effectively.',
+    type: 2,
+  },
+  '444': {
+    combo: '444',
+    effect:
+      'Hard work and struggle increase This combination may lead to delays, struggles, headaches and uspicious nature.',
+    type: 0,
+  },
+  '555': {
+    combo: '555',
+    effect:
+      'Confident and communicative, which can improve money flow. However, it may also lead to laziness or sluggishness.',
+    type: 2,
+  },
+  '666': {
+    combo: '666',
+    effect:
+      'Relationship-focused, enjoys luxury and travel. However, this love for finer things can lead to overspending and potentially not having what they need on hand.',
+    type: 2,
+  },
+  '777': {
+    combo: '777',
+    effect:
+      'Experiences relationship issues, mood swings, and inner turmoil. This may lead to a draw towards spirituality or seeking solace in something greater. Prone to overthinking and anxiety.',
+    type: 0,
+  },
+  '888': {
+    combo: '888',
+    effect:
+      'May face delays, disturbances, and obstacles. However, this combination also rewards hard work with abundance. Persistence and resilience are key to unlocking the potential of this path.',
+    type: 0,
+  },
+  '999': {
+    combo: '999',
+    effect:
+      'Prone to debt, anger, and blood-related issues. May have a reddish skin tone. However, this combination can also indicate strength and resilience, making them well-suited for rough and tough work like astrology vastu etc.',
+    type: 0,
+  },
+  '1111': {
+    combo: '1111',
+    effect:
+      'Achieves name, fame, success and excellent communication skills. However, this combination can also lead to ego inflation and high stress levels.',
+    type: 0,
+  },
+  '2222': {
+    combo: '2222',
+    effect:
+      'Experiences mood swings, depression, and strong emotions. May have blood pressure problems. Additionally, if your name starts with B, K, or R, emotional issues may be even more likely.',
+    type: 0,
+  },
+  '3333': {
+    combo: '3333',
+    effect:
+      'Curious and eager to learn, with a wealth of knowledge. However, a trusting nature can sometimes lead to being taken advantage of. Difficulty completing tasks may arise due to struggles with applying knowledge effectively.',
+    type: 0,
+  },
+  '4444': {
+    combo: '4444',
+    effect:
+      'Hard work and struggle increase This combination may lead to delays, struggles, headaches and uspicious nature.',
+    type: 0,
+  },
+  '5555': {
+    combo: '5555',
+    effect:
+      'Confident and communicative, which can improve money flow. However, it may also lead to laziness or sluggishness.',
+    type: 0,
+  },
+  '6666': {
+    combo: '6666',
+    effect:
+      'Relationship-focused, enjoys luxury and travel. However, this love for finer things can lead to overspending and potentially not having what they need on hand.',
+    type: 0,
+  },
+  '7777': {
+    combo: '7777',
+    effect:
+      'Experiences relationship issues, mood swings, and inner turmoil. This may lead to a draw towards spirituality or seeking solace in something greater. Prone to overthinking and anxiety.',
+    type: 0,
+  },
+  '8888': {
+    combo: '8888',
+    effect:
+      'May face delays, disturbances, and obstacles. However, this combination also rewards hard work with abundance. Persistence and resilience are key to unlocking the potential of this path.',
+    type: 0,
+  },
+  '9999': {
+    combo: '9999',
+    effect:
+      'Prone to debt, anger, and blood-related issues. May have a reddish skin tone. However, this combination can also indicate strength and resilience, making them well-suited for rough and tough work like astrology vastu etc.',
+    type: 0,
+  },
+  '11111': {
+    combo: '11111',
+    effect:
+      'Achieves name, fame, success and excellent communication skills. However, this combination can also lead to ego inflation and high stress levels.',
+    type: 0,
+  },
+  '22222': {
+    combo: '22222',
+    effect:
+      'Experiences mood swings, depression, and strong emotions. May have blood pressure problems. Additionally, if your name starts with B, K, or R, emotional issues may be even more likely.',
+    type: 0,
+  },
+  '33333': {
+    combo: '33333',
+    effect:
+      'Curious and eager to learn, with a wealth of knowledge. However, a trusting nature can sometimes lead to being taken advantage of. Difficulty completing tasks may arise due to struggles with applying knowledge effectively.',
+    type: 0,
+  },
+  '44444': {
+    combo: '44444',
+    effect:
+      'Hard work and struggle increase This combination may lead to delays, struggles, headaches and uspicious nature.',
+    type: 0,
+  },
+  '55555': {
+    combo: '55555',
+    effect:
+      'Confident and communicative, which can improve money flow. However, it may also lead to laziness or sluggishness.',
+    type: 0,
+  },
+  '66666': {
+    combo: '66666',
+    effect:
+      'Relationship-focused, enjoys luxury and travel. However, this love for finer things can lead to overspending and potentially not having what they need on hand.',
+    type: 0,
+  },
+  '77777': {
+    combo: '77777',
+    effect:
+      'Experiences relationship issues, mood swings, and inner turmoil. This may lead to a draw towards spirituality or seeking solace in something greater. Prone to overthinking and anxiety.',
+    type: 0,
+  },
+  '88888': {
+    combo: '88888',
+    effect:
+      'May face delays, disturbances, and obstacles. However, this combination also rewards hard work with abundance. Persistence and resilience are key to unlocking the potential of this path.',
+    type: 0,
+  },
+  '99999': {
+    combo: '99999',
+    effect:
+      'Prone to debt, anger, and blood-related issues. May have a reddish skin tone. However, this combination can also indicate strength and resilience, making them well-suited for rough and tough work like astrology vastu etc.',
+    type: 0,
+  },
+};
 
 // Google Bard Translated Hindi
-
-const hindiArr = [
-  // 1
-  {
-    combo: 11,
+export const hindiMobilePairsMeaningArr = {
+  '11': {
+    combo: '11',
     effect:
       'भावुक, अभिमानी, दृढ़ रवैये वाला। सफलता, नाम और ख्याति मिलती है, लेकिन अहंकार की समस्या और तनाव का स्तर ऊंचा हो सकता है',
     type: 1,
   },
-  {
-    combo: 111,
-    effect:
-      'भावुक, अभिमानी, दृढ़ रवैये वाला। सफलता, नाम और ख्याति मिलती है, लेकिन अहंकार की समस्या और तनाव का स्तर ऊंचा हो सकता है',
-    type: 2,
-  },
-  {
-    combo: 1111,
-    effect:
-      'भावुक, अभिमानी, दृढ़ रवैये वाला। सफलता, नाम और ख्याति मिलती है, लेकिन अहंकार की समस्या और तनाव का स्तर ऊंचा हो सकता है',
-    type: 0,
-  },
-  {
-    combo: 11111,
-    effect:
-      'भावुक, अभिमानी, दृढ़ रवैये वाला। सफलता, नाम और ख्याति मिलती है, लेकिन अहंकार की समस्या और तनाव का स्तर ऊंचा हो सकता है',
-    type: 0,
-  },
-
-  // 2
-  {
-    combo: 22,
-    effect:
-      'ममनोदशा में उतार-चढ़ाव, अवसाद और प्रबल भावनाओं का अनुभव होता है। रक्तचाप की समस्या हो सकती है। यदि आपका नाम B, K या R से शुरू होता है, तो भावनात्मक समस्याएं और भी होने की संभावना है।',
-    type: 0,
-  },
-  {
-    combo: 222,
-    effect:
-      'ममनोदशा में उतार-चढ़ाव, अवसाद और प्रबल भावनाओं का अनुभव होता है। रक्तचाप की समस्या हो सकती है। यदि आपका नाम B, K या R से शुरू होता है, तो भावनात्मक समस्याएं और भी होने की संभावना है।',
-    type: 0,
-  },
-  {
-    combo: 2222,
-    effect:
-      'ममनोदशा में उतार-चढ़ाव, अवसाद और प्रबल भावनाओं का अनुभव होता है। रक्तचाप की समस्या हो सकती है। यदि आपका नाम B, K या R से शुरू होता है, तो भावनात्मक समस्याएं और भी होने की संभावना है।',
-    type: 0,
-  },
-  {
-    combo: 22222,
-    effect:
-      'ममनोदशा में उतार-चढ़ाव, अवसाद और प्रबल भावनाओं का अनुभव होता है। रक्तचाप की समस्या हो सकती है। यदि आपका नाम B, K या R से शुरू होता है, तो भावनात्मक समस्याएं और भी होने की संभावना है।',
-    type: 0,
-  },
-
-  // 3
-  {
-    combo: 33,
-    effect: 'जिज्ञासु और सीखने के लिए उत्सुक, लेकिन अव्यावहारिक हो सकता है।',
-    type: 1,
-  },
-  {
-    combo: 333,
-    effect:
-      'जिज्ञासु और सीखने के लिए उत्सुक, भरोसेमंद स्वभाव का होता है। कभी-कभी ज्ञान को प्रभावी ढंग से लागू नहीं कर पाता है और शुरू किए गए कार्यों को पूरा करने में सक्षम नहीं होता है।',
-    type: 2,
-  },
-  {
-    combo: 3333,
-    effect:
-      'जिज्ञासु और सीखने के लिए उत्सुक, भरोसेमंद स्वभाव का होता है। कभी-कभी ज्ञान को प्रभावी ढंग से लागू नहीं कर पाता है और शुरू किए गए कार्यों को पूरा करने में सक्षम नहीं होता है।',
-    type: 0,
-  },
-  {
-    combo: 33333,
-    effect:
-      'जिज्ञासु और सीखने के लिए उत्सुक, भरोसेमंद स्वभाव का होता है। कभी-कभी ज्ञान को प्रभावी ढंग से लागू नहीं कर पाता है और शुरू किए गए कार्यों को पूरा करने में सक्षम नहीं होता है।',
-    type: 0,
-  },
-
-  // 4
-  {
-    combo: 44,
-    effect:
-      'कड़ी मेहनत और संघर्ष बढ़ते हैं। देरी, परेशानी और सिरदर्द का अनुभव हो सकता है। स्वभाव से शंका करने वाला।',
-    type: 0,
-  },
-  {
-    combo: 444,
-    effect:
-      'कड़ी मेहनत और संघर्ष बढ़ते हैं। देरी, परेशानी और सिरदर्द का अनुभव हो सकता है। स्वभाव से शंका करने वाला।',
-    type: 0,
-  },
-  {
-    combo: 4444,
-    effect:
-      'कड़ी मेहनत और संघर्ष बढ़ते हैं। देरी, परेशानी और सिरदर्द का अनुभव हो सकता है। स्वभाव से शंका करने वाला।',
-    type: 0,
-  },
-  {
-    combo: 44444,
-    effect:
-      'कड़ी मेहनत और संघर्ष बढ़ते हैं। देरी, परेशानी और सिरदर्द का अनुभव हो सकता है। स्वभाव से शंका करने वाला।',
-    type: 0,
-  },
-
-  // 5
-  {
-    combo: 55,
-    effect:
-      'आत्मविश्वास से भरपूर और वाक्पटु होने से धन का प्रवाह बढ़ सकता है। लेकिन, इससे आलस्य या सुस्ती भी आ सकती है।',
-    type: 1,
-  },
-  {
-    combo: 555,
-    effect:
-      'आत्मविश्वास से भरपूर और वाक्पटु होने से धन का प्रवाह बढ़ सकता है। लेकिन, इससे आलस्य या सुस्ती भी आ सकती है।',
-    type: 2,
-  },
-  {
-    combo: 5555,
-    effect:
-      'आत्मविश्वास से भरपूर और वाक्पटु होने से धन का प्रवाह बढ़ सकता है। लेकिन, इससे आलस्य या सुस्ती भी आ सकती है।',
-    type: 0,
-  },
-  {
-    combo: 55555,
-    effect:
-      'आत्मविश्वास से भरपूर और वाक्पटु होने से धन का प्रवाह बढ़ सकता है। लेकिन, इससे आलस्य या सुस्ती भी आ सकती है।',
-    type: 0,
-  },
-
-  // 6
-  {
-    combo: 66,
-    effect:
-      'विलासिता और यात्रा का आनंद लेता है, लेकिन हो सकता है कि हमेशा उसकी जरूरत की चीजें न हों।',
-    type: 1,
-  },
-  {
-    combo: 666,
-    effect:
-      'विलासिता और यात्रा का आनंद लेता है, लेकिन हो सकता है कि हमेशा उसकी जरूरत की चीजें न हों।',
-    type: 2,
-  },
-  {
-    combo: 6666,
-    effect:
-      'विलासिता और यात्रा का आनंद लेता है, लेकिन हो सकता है कि हमेशा उसकी जरूरत की चीजें न हों।',
-    type: 0,
-  },
-  {
-    combo: 66666,
-    effect:
-      'विलासिता और यात्रा का आनंद लेता है, लेकिन हो सकता है कि हमेशा उसकी जरूरत की चीजें न हों।',
-    type: 0,
-  },
-
-  // 7
-  {
-    combo: 77,
-    effect:
-      'मनोदशा में उतार-चढ़ाव, आंतरिक उथलपुथल का अनुभव करता है, और आध्यात्म की ओर आकर्षित हो सकता है। जरूरत से ज्यादा सोच सकता है और चिंतित महसूस कर सकता है।',
-    type: 0,
-  },
-  {
-    combo: 777,
-    effect:
-      'मनोदशा में उतार-चढ़ाव, आंतरिक उथलपुथल का अनुभव करता है, और आध्यात्म की ओर आकर्षित हो सकता है या रिश्तों में समस्याएँ हो सकती है। जरूरत से ज्यादा सोच सकता है और चिंतित महसूस कर सकता है।',
-    type: 0,
-  },
-  {
-    combo: 7777,
-    effect:
-      'मनोदशा में उतार-चढ़ाव, आंतरिक उथलपुथल का अनुभव करता है, और आध्यात्म की ओर आकर्षित हो सकता है। जरूरत से ज्यादा सोच सकता है और चिंतित महसूस कर सकता है।',
-    type: 0,
-  },
-  {
-    combo: 77777,
-    effect:
-      'मनोदशा में उतार-चढ़ाव, आंतरिक उथलपुथल का अनुभव करता है, और आध्यात्म की ओर आकर्षित हो सकता है। जरूरत से ज्यादा सोच सकता है और चिंतित महसूस कर सकता है।',
-    type: 0,
-  },
-
-  // 8
-  {
-    combo: 88,
-    effect:
-      'कार्यों में देरी, बाधाएँ, अड़चनें पैदा करता है, लेकिन कड़ी मेहनत करने पर भरपूर धन देता है।',
-    type: 0,
-  },
-  {
-    combo: 888,
-    effect:
-      'कार्यों में देरी, बाधाएँ, अड़चनें पैदा करता है, लेकिन कड़ी मेहनत करने पर भरपूर धन देता है।',
-    type: 0,
-  },
-  {
-    combo: 8888,
-    effect:
-      'कार्यों में देरी, बाधाएँ, अड़चनें पैदा करता है, लेकिन कड़ी मेहनत करने पर भरपूर धन देता है।',
-    type: 0,
-  },
-  {
-    combo: 88888,
-    effect:
-      'कार्यों में देरी, बाधाएँ, अड़चनें पैदा करता है, लेकिन कड़ी मेहनत करने पर भरपूर धन देता है।',
-    type: 0,
-  },
-
-  // 9
-  {
-    combo: 99,
-    effect:
-      'कर्ज, गुस्से और खून से जुड़ी समस्याओं का सामना करना पड़ सकता है। त्वचा का रंग लाल रंग का हो सकता है।',
-    type: 0,
-  },
-  {
-    combo: 999,
-    effect:
-      'कर्ज, गुस्से और खून से जुड़ी समस्याओं का सामना करना पड़ सकता है। त्वचा का रंग लाल रंग का हो सकता है।',
-    type: 0,
-  },
-  {
-    combo: 9999,
-    effect:
-      'कर्ज, गुस्से और खून से जुड़ी समस्याओं का सामना करना पड़ सकता है। त्वचा का रंग लाल रंग का हो सकता है।',
-    type: 0,
-  },
-  {
-    combo: 99999,
-    effect:
-      'कर्ज, गुस्से और खून से जुड़ी समस्याओं का सामना करना पड़ सकता है। त्वचा का रंग लाल रंग का हो सकता है।',
-    type: 0,
-  },
-
-  {
-    combo: 12,
+  '12': {
+    combo: '12',
     effect: 'आकर्षक दिखता है, पैसा बचाता है, अच्छा जीवनसाथी मिलता है',
     type: 1,
   },
-  {
-    combo: 13,
+  '13': {
+    combo: '13',
     effect:
       'अच्छी सलाह देता है, अच्छी शिक्षा प्राप्त करता है, सम्मानित और लोकप्रिय होता है, अपने समूह में अलग पहचान बनाता है, 31 का कॉम्बो इन्हें पेशेवर बनाता है',
     type: 1,
   },
-  {
-    combo: 31,
+  '14': {
+    combo: '14',
     effect:
-      'अच्छी सलाह देता है, अच्छी शिक्षा प्राप्त करता है, सम्मानित और लोकप्रिय होता है, अपने समूह में अलग पहचान बनाता है, 31 का कॉम्बो इन्हें पेशेवर बनाता है',
-    type: 1,
+      'कर्ज, कानूनी मुद्दों, स्वास्थ्य समस्याओं से ग्रस्त हो सकता है। कड़ी मेहनत और लचीलेपन की आवश्यकता है।',
+    type: 0,
   },
-  {
-    combo: 15,
+  '15': {
+    combo: '15',
     effect: 'पिता को प्रसिद्ध बनाता है (अच्छे कार्यों के लिए)',
     type: 1,
   },
-  {
-    combo: 51,
-    effect: 'पिता को प्रसिद्ध बनाता है (अच्छे कार्यों के लिए)',
-    type: 1,
-  },
-  {
-    combo: 25,
+  '16': {
+    combo: '16',
     effect:
-      'ज्योतिष / चिकित्सा विज्ञान में काम कर सकता है, दूसरों की मदद करता है, सफलता के लिए हवाई यात्रा करता है, वित्त से जुड़े मामलों से बचें।',
-    type: 1,
+      'जीवनसाथी के स्वास्थ्य संबंधी समस्याओं, वैवाहिक जीवन में समस्याओं और सीमित आय का सामना करना पड़ सकता है।',
+    type: 0,
   },
-  {
-    combo: 52,
-    effect:
-      'ज्योतिष / चिकित्सा विज्ञान में काम कर सकता है, दूसरों की मदद करता है, सफलता के लिए हवाई यात्रा करता है, वित्त से जुड़े मामलों से बचें।',
-    type: 1,
-  },
-  {
-    combo: 29,
-    effect:
-      'अच्छा पैसा होता है, दूसरों के पैसों से आराम से रहता है (अहंकार से सावधान रहें), 29 तारीख को जन्मे लोगों के लिए संबंध संबंधी समस्याएं, सफलता के लिए हवाई यात्रा करता है, वित्त से जुड़े मामलों से बचें।',
-    type: 1,
-  },
-  {
-    combo: 92,
-    effect:
-      'अच्छा पैसा होता है, दूसरों के पैसों से आराम से रहता है (अहंकार से सावधान रहें), 29 तारीख को जन्मे लोगों के लिए संबंध संबंधी समस्याएं, सफलता के लिए हवाई यात्रा करता है, वित्त से जुड़े मामलों से बचें।',
-    type: 1,
-  },
-  {
-    combo: 73,
-    effect: 'संपूर्ण व्यक्तित्व, ज्ञान का लाभ उठाने में सक्षम होगा।',
-    type: 1,
-  },
-  {
-    combo: 37,
-    effect: 'संपूर्ण व्यक्तित्व, ज्ञान का लाभ उठाने में सक्षम होगा।',
-    type: 1,
-  },
-  {
-    combo: 38,
-    effect:
-      'रियल एस्टेट में अच्छा, सलाह देता है, लोगों के बीच विवाद सुलझाता है।',
-    type: 1,
-  },
-  {
-    combo: 83,
-    effect:
-      'रियल एस्टेट में अच्छा, सलाह देता है, लोगों के बीच विवाद सुलझाता है।',
-    type: 1,
-  },
-  {
-    combo: 47,
-    effect:
-      'ईमानदार, बुद्धिमान, सत्यनिष्ठा को महत्व देता है (राहु-केतु कॉम्बो)',
-    type: 1,
-  },
-  {
-    combo: 74,
-    effect:
-      'ईमानदार, बुद्धिमान, सत्यनिष्ठा को महत्व देता है (राहु-केतु कॉम्बो)',
-    type: 1,
-  },
-  {
-    combo: 57,
-    effect:
-      'अच्छे वक्ता, लेखक या सार्वजनिक वक्ता हो सकते हैं, लोग उनसे सलाह लेते हैं।',
-    type: 1,
-  },
-  {
-    combo: 75,
-    effect:
-      'अच्छे वक्ता, लेखक या सार्वजनिक वक्ता हो सकते हैं, लोग उनसे सलाह लेते हैं।',
-    type: 1,
-  },
-  {
-    combo: 69,
-    effect:
-      'चीजों को मैनेज करने में अच्छा, अच्छी योजना बनाता है, विपरीत लिंग के प्रति आकर्षित हो सकता है।',
-    type: 1,
-  },
-  {
-    combo: 96,
-    effect:
-      'चीजों को मैनेज करने में अच्छा, अच्छी योजना बनाता है, विपरीत लिंग के प्रति आकर्षित हो सकता है।',
-    type: 1,
-  },
-  {
-    combo: 78,
-    effect:
-      'दूसरों को ठीक कर सकता है, आदर्शवादी, स्वतंत्र रूप से समस्याओं का समाधान करता है।',
-    type: 1,
-  },
-  {
-    combo: 87,
-    effect:
-      'दूसरों को ठीक कर सकता है, आदर्शवादी, स्वतंत्र रूप से समस्याओं का समाधान करता है।',
-    type: 1,
-  },
-  // Neutral
-  {
-    combo: 17,
+  '17': {
+    combo: '17',
     effect:
       'स्थिर आय, सरकारी नौकरी में कोई करीबी, अच्छी सुविधाओं के साथ MNC में काम कर सकता है (घर से काम करना संभव), दो शादियों का मौका, झूठ बोलने से अधिक लाभ हो सकता है, अगर जन्म तिथि में बहुत सारे 7 हैं तो बचें, अगर जन्म तिथि में 2, 5, 6 की कमी है और मोबाइल नंबर में 17/71 है तो बचें (रिश्ते के मुद्दे)',
     type: 2,
   },
-  {
-    combo: 71,
+  '18': {
+    combo: '18',
     effect:
-      'स्थिर आय, सरकारी नौकरी में कोई करीबी, अच्छी सुविधाओं के साथ MNC में काम कर सकता है (घर से काम करना संभव), दो शादियों का मौका, झूठ बोलने से अधिक लाभ हो सकता है, अगर जन्म तिथि में बहुत सारे 7 हैं तो बचें, अगर जन्म तिथि में 2, 5, 6 की कमी है और मोबाइल नंबर में 17/71 है तो बचें (रिश्ते के मुद्दे)',
-    type: 2,
+      'जीवनसाथी के स्वास्थ्य संबंधी समस्याओं, पिता के साथ असहमति, सरकारी संबंधित समस्याओं और बार-बार नौकरी बदलने का सामना करना पड़ सकता है।',
+    type: 0,
   },
-  {
-    combo: 19,
+  '19': {
+    combo: '19',
     effect: 'लक्ष्य प्राप्त करता है, उच्च पद, पेशेवर, प्रभावशाली, भावुक प्रेमी',
     type: 1,
   },
-  {
-    combo: 91,
-    effect: 'लक्ष्य प्राप्त करता है, उच्च पद, पेशेवर, प्रभावशाली, भावुक प्रेमी',
-    type: 1,
-  },
-  {
-    combo: 21,
+  '21': {
+    combo: '21',
     effect: ' आकर्षक व्यक्ति, हो सकता है, पैसा बिना सोचे समझे खर्च कर सकता है',
     type: 2,
   },
-  {
-    combo: 24,
+  '22': {
+    combo: '22',
+    effect:
+      'ममनोदशा में उतार-चढ़ाव, अवसाद और प्रबल भावनाओं का अनुभव होता है। रक्तचाप की समस्या हो सकती है। यदि आपका नाम B, K या R से शुरू होता है, तो भावनात्मक समस्याएं और भी होने की संभावना है।',
+    type: 0,
+  },
+  '23': {
+    combo: '23',
+    effect: 'बहुत सारे दुश्मन हो सकते हैं, लेकिन वे नुकसान नहीं पहुंचा पाएंगे।',
+    type: 0,
+  },
+  '24': {
+    combo: '24',
     effect:
       'सफल होने के लिए धैर्य की आवश्यकता होती है, कई योजनाएँ बनाता है, नकारात्मक सोच का शिकार हो सकता है',
     type: 2,
   },
-  {
-    combo: 42,
+  '25': {
+    combo: '25',
     effect:
-      'सफल होने के लिए धैर्य की आवश्यकता होती है, कई योजनाएँ बनाता है, नकारात्मक सोच का शिकार हो सकता है',
-    type: 2,
+      'ज्योतिष / चिकित्सा विज्ञान में काम कर सकता है, दूसरों की मदद करता है, सफलता के लिए हवाई यात्रा करता है, वित्त से जुड़े मामलों से बचें।',
+    type: 1,
   },
-  {
-    combo: 35,
-    effect:
-      'घर से दूर सफलता (पिता के डर के कारण?), अच्छी वित्तीय स्थिति, नकदी प्रवाह में परेशानी हो सकती है।',
-    type: 2,
-  },
-  {
-    combo: 53,
-    effect:
-      'घर से दूर सफलता (पिता के डर के कारण?), अच्छी वित्तीय स्थिति, नकदी प्रवाह में परेशानी हो सकती है।',
-    type: 2,
-  },
-  {
-    combo: 63,
-    effect:
-      'सिद्धांतों को तरजीह देता है, पढ़ाई में रुकावटों का सामना करना पड़ सकता है, अच्छा ज्ञान होता है लेकिन इसे अच्छी तरह से प्रस्तुत करने के लिए संघर्ष करता है।',
-    type: 2,
-  },
-  {
-    combo: 36,
-    effect:
-      'सिद्धांतों को तरजीह देता है, पढ़ाई में रुकावटों का सामना करना पड़ सकता है, अच्छा ज्ञान होता है लेकिन इसे अच्छी तरह से प्रस्तुत करने के लिए संघर्ष करता है।',
-    type: 2,
-  },
-  {
-    combo: 93,
-    effect:
-      'दिखावा करना पसंद करता है, कभी-कभी निर्णय लेने में असमंजस में रह सकता है।',
-    type: 2,
-  },
-  {
-    combo: 39,
-    effect:
-      'दिखावा करना पसंद करता है, कभी-कभी निर्णय लेने में असमंजस में रह सकता है।',
-    type: 2,
-  },
-  {
-    combo: 49,
-    effect:
-      'जोखिम उठा सकता है, वर्दी वाली नौकरी के लिए उपयुक्त हो सकता है, अपराधिक गतिविधियों की ओर झुकाव।',
-    type: 2,
-  },
-  {
-    combo: 94,
-    effect:
-      'जोखिम उठा सकता है, वर्दी वाली नौकरी के लिए उपयुक्त हो सकता है, अपराधिक गतिविधियों की ओर झुकाव।',
-    type: 2,
-  },
-  {
-    combo: 56,
-    effect:
-      'अपने पैसे मांगने में संकोच कर सकता है। व्यापारिक दिमाग। आपके घर के पास कोई बड़ा लैंडमार्क (मंदिर/सुपरस्टोर) हो सकता है।',
-    type: 2,
-  },
-  {
-    combo: 65,
-    effect:
-      'अपने पैसे मांगने में संकोच कर सकता है। व्यापारिक दिमाग। आपके घर के पास कोई बड़ा लैंडमार्क (मंदिर/सुपरस्टोर) हो सकता है।',
-    type: 2,
-  },
-  {
-    combo: 85,
-    effect:
-      'धन की कमी हो सकती है, गणना करने में अच्छा है, वित्त से संबंधित क्षेत्र में काम करता है, बड़ी रकम (लाखों और करोड़ों) के बारे में बात करता है।',
-    type: 2,
-  },
-  {
-    combo: 58,
-    effect:
-      'धन की कमी हो सकती है, गणना करने में अच्छा है, वित्त से संबंधित क्षेत्र में काम करता है, बड़ी रकम (लाखों और करोड़ों) के बारे में बात करता है।',
-    type: 2,
-  },
-  {
-    combo: 95,
-    effect:
-      'कठोर शब्द रिश्तों को नुकसान पहुंचा सकते हैं। शिक्षा के लिए विज्ञान या वाणिज्य धारा चुन सकते हैं।',
-    type: 2,
-  },
-  {
-    combo: 59,
-    effect:
-      'कठोर शब्द रिश्तों को नुकसान पहुंचा सकते हैं। शिक्षा के लिए विज्ञान या वाणिज्य धारा चुन सकते हैं।',
-    type: 2,
-  },
-  {
-    combo: 79,
-    effect: 'पिता से अलग होने के बाद सफलता मिल सकती है।',
-    type: 2,
-  },
-  {
-    combo: 97,
-    effect: 'पिता से अलग होने के बाद सफलता मिल सकती है।',
-    type: 2,
-  },
-  {
-    combo: 14,
-    effect:
-      'कर्ज, कानूनी मुद्दों, स्वास्थ्य समस्याओं से ग्रस्त हो सकता है। कड़ी मेहनत और लचीलेपन की आवश्यकता है।',
-    type: 0,
-  },
-  {
-    combo: 41,
-    effect:
-      'कर्ज, कानूनी मुद्दों, स्वास्थ्य समस्याओं से ग्रस्त हो सकता है। कड़ी मेहनत और लचीलेपन की आवश्यकता है।',
-    type: 0,
-  },
-  {
-    combo: 16,
-    effect:
-      'जीवनसाथी के स्वास्थ्य संबंधी समस्याओं, वैवाहिक जीवन में समस्याओं और सीमित आय का सामना करना पड़ सकता है।',
-    type: 0,
-  },
-  {
-    combo: 61,
-    effect:
-      'जीवनसाथी के स्वास्थ्य संबंधी समस्याओं, वैवाहिक जीवन में समस्याओं और सीमित आय का सामना करना पड़ सकता है।',
-    type: 0,
-  },
-  {
-    combo: 18,
-    effect:
-      'जीवनसाथी के स्वास्थ्य संबंधी समस्याओं, पिता के साथ असहमति, सरकारी संबंधित समस्याओं और बार-बार नौकरी बदलने का सामना करना पड़ सकता है।',
-    type: 0,
-  },
-  {
-    combo: 81,
-    effect:
-      'जीवनसाथी के स्वास्थ्य संबंधी समस्याओं, पिता के साथ असहमति, सरकारी संबंधित समस्याओं और बार-बार नौकरी बदलने का सामना करना पड़ सकता है।',
-    type: 0,
-  },
-  {
-    combo: 23,
-    effect: 'बहुत सारे दुश्मन हो सकते हैं, लेकिन वे नुकसान नहीं पहुंचा पाएंगे।',
-    type: 0,
-  },
-  {
-    combo: 32,
-    effect: 'बहुत सारे दुश्मन हो सकते हैं, लेकिन वे नुकसान नहीं पहुंचा पाएंगे।',
-    type: 0,
-  },
-  {
-    combo: 26,
+  '26': {
+    combo: '26',
     effect:
       'शिक्षा में देरी, सास के साथ समस्या, धन/विपरीत लिंग के प्रति आकर्षण, शुक्राणुओं की संख्या कम होने या मधुमेह की संभावना का सामना करना पड़ सकता है।',
     type: 0,
   },
-  {
-    combo: 62,
+  '27': {
+    combo: '27',
+    effect:
+      'अच्छा अंतर्ज्ञान, लेकिन जोड़ों में दर्द, पेशाब संबंधी समस्याएं या गठिया हो सकती है।',
+    type: 0,
+  },
+  '28': {
+    combo: '28',
+    effect:
+      'अच्छी आय हो सकती है, लेकिन साथ ही उच्च चिकित्सा व्यय भी हो सकते हैं। परिवार में दो विवाह संभव हैं। बुरी संगति से बचें। (विष योग)',
+    type: 0,
+  },
+  '29': {
+    combo: '29',
+    effect:
+      'अच्छा पैसा होता है, दूसरों के पैसों से आराम से रहता है (अहंकार से सावधान रहें), 29 तारीख को जन्मे लोगों के लिए संबंध संबंधी समस्याएं, सफलता के लिए हवाई यात्रा करता है, वित्त से जुड़े मामलों से बचें।',
+    type: 1,
+  },
+  '31': {
+    combo: '31',
+    effect:
+      'अच्छी सलाह देता है, अच्छी शिक्षा प्राप्त करता है, सम्मानित और लोकप्रिय होता है, अपने समूह में अलग पहचान बनाता है, 31 का कॉम्बो इन्हें पेशेवर बनाता है',
+    type: 1,
+  },
+  '32': {
+    combo: '32',
+    effect: 'बहुत सारे दुश्मन हो सकते हैं, लेकिन वे नुकसान नहीं पहुंचा पाएंगे।',
+    type: 0,
+  },
+  '33': {
+    combo: '33',
+    effect: 'जिज्ञासु और सीखने के लिए उत्सुक, लेकिन अव्यावहारिक हो सकता है।',
+    type: 1,
+  },
+  '34': {
+    combo: '34',
+    effect:
+      'पैरों में कंपन, परिवार में किसी को लकवा का जोखिम, सांस लेने में समस्या। अगर आपकी जन्मतिथि में 3 या उससे अधिक अंक 8 हैं तो इस कॉम्बो को लेने से बचें।',
+    type: 0,
+  },
+  '35': {
+    combo: '35',
+    effect:
+      'घर से दूर सफलता (पिता के डर के कारण?), अच्छी वित्तीय स्थिति, नकदी प्रवाह में परेशानी हो सकती है।',
+    type: 2,
+  },
+  '36': {
+    combo: '36',
+    effect:
+      'सिद्धांतों को तरजीह देता है, पढ़ाई में रुकावटों का सामना करना पड़ सकता है, अच्छा ज्ञान होता है लेकिन इसे अच्छी तरह से प्रस्तुत करने के लिए संघर्ष करता है।',
+    type: 2,
+  },
+  '37': {
+    combo: '37',
+    effect: 'संपूर्ण व्यक्तित्व, ज्ञान का लाभ उठाने में सक्षम होगा।',
+    type: 1,
+  },
+  '38': {
+    combo: '38',
+    effect:
+      'रियल एस्टेट में अच्छा, सलाह देता है, लोगों के बीच विवाद सुलझाता है।',
+    type: 1,
+  },
+  '39': {
+    combo: '39',
+    effect:
+      'दिखावा करना पसंद करता है, कभी-कभी निर्णय लेने में असमंजस में रह सकता है।',
+    type: 2,
+  },
+  '41': {
+    combo: '41',
+    effect:
+      'कर्ज, कानूनी मुद्दों, स्वास्थ्य समस्याओं से ग्रस्त हो सकता है। कड़ी मेहनत और लचीलेपन की आवश्यकता है।',
+    type: 0,
+  },
+  '42': {
+    combo: '42',
+    effect:
+      'सफल होने के लिए धैर्य की आवश्यकता होती है, कई योजनाएँ बनाता है, नकारात्मक सोच का शिकार हो सकता है',
+    type: 2,
+  },
+  '43': {
+    combo: '43',
+    effect:
+      'पैरों में कंपन, परिवार में किसी को लकवा का जोखिम, सांस लेने में समस्या। अगर आपकी जन्मतिथि में 3 या उससे अधिक अंक 8 हैं तो इस कॉम्बो को लेने से बचें।',
+    type: 0,
+  },
+  '44': {
+    combo: '44',
+    effect:
+      'कड़ी मेहनत और संघर्ष बढ़ते हैं। देरी, परेशानी और सिरदर्द का अनुभव हो सकता है। स्वभाव से शंका करने वाला।',
+    type: 0,
+  },
+  '45': {
+    combo: '45',
+    effect:
+      ' विभिन्न स्वास्थ्य समस्याओं के लिए अस्पताल के बार-बार दौरे और कानूनी मामलों के लिए अदालत में पेशी। जीवन सीमाओं के साथ।',
+    type: 0,
+  },
+  '46': {
+    combo: '46',
+    effect:
+      'विवाहेतर संबंध, अंतर-जातीय विवाह और मूत्र मार्ग संक्रमण का संकेत देता है।',
+    type: 0,
+  },
+  '47': {
+    combo: '47',
+    effect:
+      'ईमानदार, बुद्धिमान, सत्यनिष्ठा को महत्व देता है (राहु-केतु कॉम्बो)',
+    type: 1,
+  },
+  '48': {
+    combo: '48',
+    effect:
+      '(बहुत नकारात्मक) रक्त से संबंधित स्वास्थ्य समस्याएं, गंभीर स्वास्थ्य समस्याएं, संतोषजनक यौन जीवन में कठिनाई।',
+    type: 0,
+  },
+  '49': {
+    combo: '49',
+    effect:
+      'जोखिम उठा सकता है, वर्दी वाली नौकरी के लिए उपयुक्त हो सकता है, अपराधिक गतिविधियों की ओर झुकाव।',
+    type: 2,
+  },
+  '51': {
+    combo: '51',
+    effect: 'पिता को प्रसिद्ध बनाता है (अच्छे कार्यों के लिए)',
+    type: 1,
+  },
+  '52': {
+    combo: '52',
+    effect:
+      'ज्योतिष / चिकित्सा विज्ञान में काम कर सकता है, दूसरों की मदद करता है, सफलता के लिए हवाई यात्रा करता है, वित्त से जुड़े मामलों से बचें।',
+    type: 1,
+  },
+  '53': {
+    combo: '53',
+    effect:
+      'घर से दूर सफलता (पिता के डर के कारण?), अच्छी वित्तीय स्थिति, नकदी प्रवाह में परेशानी हो सकती है।',
+    type: 2,
+  },
+  '54': {
+    combo: '54',
+    effect:
+      ' विभिन्न स्वास्थ्य समस्याओं के लिए अस्पताल के बार-बार दौरे और कानूनी मामलों के लिए अदालत में पेशी। जीवन सीमाओं के साथ।',
+    type: 0,
+  },
+  '55': {
+    combo: '55',
+    effect:
+      'आत्मविश्वास से भरपूर और वाक्पटु होने से धन का प्रवाह बढ़ सकता है। लेकिन, इससे आलस्य या सुस्ती भी आ सकती है।',
+    type: 1,
+  },
+  '56': {
+    combo: '56',
+    effect:
+      'अपने पैसे मांगने में संकोच कर सकता है। व्यापारिक दिमाग। आपके घर के पास कोई बड़ा लैंडमार्क (मंदिर/सुपरस्टोर) हो सकता है।',
+    type: 2,
+  },
+  '57': {
+    combo: '57',
+    effect:
+      'अच्छे वक्ता, लेखक या सार्वजनिक वक्ता हो सकते हैं, लोग उनसे सलाह लेते हैं।',
+    type: 1,
+  },
+  '58': {
+    combo: '58',
+    effect:
+      'धन की कमी हो सकती है, गणना करने में अच्छा है, वित्त से संबंधित क्षेत्र में काम करता है, बड़ी रकम (लाखों और करोड़ों) के बारे में बात करता है।',
+    type: 2,
+  },
+  '59': {
+    combo: '59',
+    effect:
+      'कठोर शब्द रिश्तों को नुकसान पहुंचा सकते हैं। शिक्षा के लिए विज्ञान या वाणिज्य धारा चुन सकते हैं।',
+    type: 2,
+  },
+  '61': {
+    combo: '61',
+    effect:
+      'जीवनसाथी के स्वास्थ्य संबंधी समस्याओं, वैवाहिक जीवन में समस्याओं और सीमित आय का सामना करना पड़ सकता है।',
+    type: 0,
+  },
+  '62': {
+    combo: '62',
     effect:
       'शिक्षा में देरी, सास के साथ समस्या, धन/विपरीत लिंग के प्रति आकर्षण, शुक्राणुओं की संख्या कम होने या मधुमेह की संभावना।',
     type: 0,
   },
-  {
-    combo: 27,
+  '63': {
+    combo: '63',
     effect:
-      'अच्छा अंतर्ज्ञान, लेकिन जोड़ों में दर्द, पेशाब संबंधी समस्याएं या गठिया हो सकती है।',
-    type: 0,
+      'सिद्धांतों को तरजीह देता है, पढ़ाई में रुकावटों का सामना करना पड़ सकता है, अच्छा ज्ञान होता है लेकिन इसे अच्छी तरह से प्रस्तुत करने के लिए संघर्ष करता है।',
+    type: 2,
   },
-  {
-    combo: 72,
-    effect:
-      'अच्छा अंतर्ज्ञान, लेकिन जोड़ों में दर्द, पेशाब संबंधी समस्याएं या गठिया हो सकती है।',
-    type: 0,
-  },
-  {
-    combo: 28,
-    effect:
-      'अच्छी आय हो सकती है, लेकिन साथ ही उच्च चिकित्सा व्यय भी हो सकते हैं। परिवार में दो विवाह संभव हैं। बुरी संगति से बचें। (विष योग)',
-    type: 0,
-  },
-  {
-    combo: 82,
-    effect:
-      'अच्छी आय हो सकती है, लेकिन साथ ही उच्च चिकित्सा व्यय भी हो सकते हैं। परिवार में दो विवाह संभव हैं। बुरी संगति से बचें। (विष योग)',
-    type: 0,
-  },
-  {
-    combo: 34,
-    effect:
-      'पैरों में कंपन, परिवार में किसी को लकवा का जोखिम, सांस लेने में समस्या। अगर आपकी जन्मतिथि में 3 या उससे अधिक अंक 8 हैं तो इस कॉम्बो को लेने से बचें।',
-    type: 0,
-  },
-  {
-    combo: 43,
-    effect:
-      'पैरों में कंपन, परिवार में किसी को लकवा का जोखिम, सांस लेने में समस्या। अगर आपकी जन्मतिथि में 3 या उससे अधिक अंक 8 हैं तो इस कॉम्बो को लेने से बचें।',
-    type: 0,
-  },
-  {
-    combo: 45,
-    effect:
-      ' विभिन्न स्वास्थ्य समस्याओं के लिए अस्पताल के बार-बार दौरे और कानूनी मामलों के लिए अदालत में पेशी। जीवन सीमाओं के साथ।',
-    type: 0,
-  },
-  {
-    combo: 54,
-    effect:
-      ' विभिन्न स्वास्थ्य समस्याओं के लिए अस्पताल के बार-बार दौरे और कानूनी मामलों के लिए अदालत में पेशी। जीवन सीमाओं के साथ।',
-    type: 0,
-  },
-  {
-    combo: 46,
+  '64': {
+    combo: '64',
     effect:
       'विवाहेतर संबंध, अंतर-जातीय विवाह और मूत्र मार्ग संक्रमण का संकेत देता है।',
     type: 0,
   },
-  {
-    combo: 64,
+  '65': {
+    combo: '65',
     effect:
-      'विवाहेतर संबंध, अंतर-जातीय विवाह और मूत्र मार्ग संक्रमण का संकेत देता है।',
-    type: 0,
+      'अपने पैसे मांगने में संकोच कर सकता है। व्यापारिक दिमाग। आपके घर के पास कोई बड़ा लैंडमार्क (मंदिर/सुपरस्टोर) हो सकता है।',
+    type: 2,
   },
-  {
-    combo: 48,
+  '66': {
+    combo: '66',
     effect:
-      '(बहुत नकारात्मक) रक्त से संबंधित स्वास्थ्य समस्याएं, गंभीर स्वास्थ्य समस्याएं, संतोषजनक यौन जीवन में कठिनाई।',
-    type: 0,
+      'विलासिता और यात्रा का आनंद लेता है, लेकिन हो सकता है कि हमेशा उसकी जरूरत की चीजें न हों।',
+    type: 1,
   },
-  {
-    combo: 84,
-    effect:
-      '(बहुत नकारात्मक) रक्त से संबंधित स्वास्थ्य समस्याएं, गंभीर स्वास्थ्य समस्याएं, संतोषजनक यौन जीवन में कठिनाई।',
-    type: 0,
-  },
-  {
-    combo: 67,
+  '67': {
+    combo: '67',
     effect:
       'लव मैरिज की संभावना बढ़ी, पार्टनर को स्वास्थ्य समस्या हो सकती है, परेशान वैवाहिक जीवन की संभावना।',
     type: 0,
   },
-  {
-    combo: 76,
-    effect:
-      'लव मैरिज की संभावना बढ़ी, पार्टनर को स्वास्थ्य समस्या हो सकती है, परेशान वैवाहिक जीवन की संभावना।',
-    type: 0,
-  },
-  {
-    combo: 68,
+  '68': {
+    combo: '68',
     effect:
       "आँखों में समस्या, शरीर के किसी एक अंग में संभावित स्वास्थ्य समस्या। अगर आपकी जन्मतिथि में कई '1' हैं तो इस कॉम्बो को लेने से बचें।",
     type: 0,
   },
-  {
-    combo: 86,
+  '69': {
+    combo: '69',
+    effect:
+      'चीजों को मैनेज करने में अच्छा, अच्छी योजना बनाता है, विपरीत लिंग के प्रति आकर्षित हो सकता है।',
+    type: 1,
+  },
+  '71': {
+    combo: '71',
+    effect:
+      'स्थिर आय, सरकारी नौकरी में कोई करीबी, अच्छी सुविधाओं के साथ MNC में काम कर सकता है (घर से काम करना संभव), दो शादियों का मौका, झूठ बोलने से अधिक लाभ हो सकता है, अगर जन्म तिथि में बहुत सारे 7 हैं तो बचें, अगर जन्म तिथि में 2, 5, 6 की कमी है और मोबाइल नंबर में 17/71 है तो बचें (रिश्ते के मुद्दे)',
+    type: 2,
+  },
+  '72': {
+    combo: '72',
+    effect:
+      'अच्छा अंतर्ज्ञान, लेकिन जोड़ों में दर्द, पेशाब संबंधी समस्याएं या गठिया हो सकती है।',
+    type: 0,
+  },
+  '73': {
+    combo: '73',
+    effect: 'संपूर्ण व्यक्तित्व, ज्ञान का लाभ उठाने में सक्षम होगा।',
+    type: 1,
+  },
+  '74': {
+    combo: '74',
+    effect:
+      'ईमानदार, बुद्धिमान, सत्यनिष्ठा को महत्व देता है (राहु-केतु कॉम्बो)',
+    type: 1,
+  },
+  '75': {
+    combo: '75',
+    effect:
+      'अच्छे वक्ता, लेखक या सार्वजनिक वक्ता हो सकते हैं, लोग उनसे सलाह लेते हैं।',
+    type: 1,
+  },
+  '76': {
+    combo: '76',
+    effect:
+      'लव मैरिज की संभावना बढ़ी, पार्टनर को स्वास्थ्य समस्या हो सकती है, परेशान वैवाहिक जीवन की संभावना।',
+    type: 0,
+  },
+  '77': {
+    combo: '77',
+    effect:
+      'मनोदशा में उतार-चढ़ाव, आंतरिक उथलपुथल का अनुभव करता है, और आध्यात्म की ओर आकर्षित हो सकता है। जरूरत से ज्यादा सोच सकता है और चिंतित महसूस कर सकता है।',
+    type: 0,
+  },
+  '78': {
+    combo: '78',
+    effect:
+      'दूसरों को ठीक कर सकता है, आदर्शवादी, स्वतंत्र रूप से समस्याओं का समाधान करता है।',
+    type: 1,
+  },
+  '79': {
+    combo: '79',
+    effect: 'पिता से अलग होने के बाद सफलता मिल सकती है।',
+    type: 2,
+  },
+  '81': {
+    combo: '81',
+    effect:
+      'जीवनसाथी के स्वास्थ्य संबंधी समस्याओं, पिता के साथ असहमति, सरकारी संबंधित समस्याओं और बार-बार नौकरी बदलने का सामना करना पड़ सकता है।',
+    type: 0,
+  },
+  '82': {
+    combo: '82',
+    effect:
+      'अच्छी आय हो सकती है, लेकिन साथ ही उच्च चिकित्सा व्यय भी हो सकते हैं। परिवार में दो विवाह संभव हैं। बुरी संगति से बचें। (विष योग)',
+    type: 0,
+  },
+  '83': {
+    combo: '83',
+    effect:
+      'रियल एस्टेट में अच्छा, सलाह देता है, लोगों के बीच विवाद सुलझाता है।',
+    type: 1,
+  },
+  '84': {
+    combo: '84',
+    effect:
+      '(बहुत नकारात्मक) रक्त से संबंधित स्वास्थ्य समस्याएं, गंभीर स्वास्थ्य समस्याएं, संतोषजनक यौन जीवन में कठिनाई।',
+    type: 0,
+  },
+  '85': {
+    combo: '85',
+    effect:
+      'धन की कमी हो सकती है, गणना करने में अच्छा है, वित्त से संबंधित क्षेत्र में काम करता है, बड़ी रकम (लाखों और करोड़ों) के बारे में बात करता है।',
+    type: 2,
+  },
+  '86': {
+    combo: '86',
     effect:
       "आंखों में समस्या हो सकती है, शरीर के किसी एक अंग में स्वास्थ्य संबंधी समस्या होने की संभावना। जन्मतिथि में यदि कई '1' हों तो इस कॉम्बो को लेने से बचें।",
     type: 0,
   },
-  {
-    combo: 89,
+  '87': {
+    combo: '87',
+    effect:
+      'दूसरों को ठीक कर सकता है, आदर्शवादी, स्वतंत्र रूप से समस्याओं का समाधान करता है।',
+    type: 1,
+  },
+  '88': {
+    combo: '88',
+    effect:
+      'कार्यों में देरी, बाधाएँ, अड़चनें पैदा करता है, लेकिन कड़ी मेहनत करने पर भरपूर धन देता है।',
+    type: 0,
+  },
+  '89': {
+    combo: '89',
     effect:
       'बहस करना पसंद है, सिद्धांतों पर चलता है, जीवन के अंतिम चरण में कोई पुरानी बीमारी हो सकती है।',
     type: 0,
   },
-  {
-    combo: 98,
+  '91': {
+    combo: '91',
+    effect: 'लक्ष्य प्राप्त करता है, उच्च पद, पेशेवर, प्रभावशाली, भावुक प्रेमी',
+    type: 1,
+  },
+  '92': {
+    combo: '92',
+    effect:
+      'अच्छा पैसा होता है, दूसरों के पैसों से आराम से रहता है (अहंकार से सावधान रहें), 29 तारीख को जन्मे लोगों के लिए संबंध संबंधी समस्याएं, सफलता के लिए हवाई यात्रा करता है, वित्त से जुड़े मामलों से बचें।',
+    type: 1,
+  },
+  '93': {
+    combo: '93',
+    effect:
+      'दिखावा करना पसंद करता है, कभी-कभी निर्णय लेने में असमंजस में रह सकता है।',
+    type: 2,
+  },
+  '94': {
+    combo: '94',
+    effect:
+      'जोखिम उठा सकता है, वर्दी वाली नौकरी के लिए उपयुक्त हो सकता है, अपराधिक गतिविधियों की ओर झुकाव।',
+    type: 2,
+  },
+  '95': {
+    combo: '95',
+    effect:
+      'कठोर शब्द रिश्तों को नुकसान पहुंचा सकते हैं। शिक्षा के लिए विज्ञान या वाणिज्य धारा चुन सकते हैं।',
+    type: 2,
+  },
+  '96': {
+    combo: '96',
+    effect:
+      'चीजों को मैनेज करने में अच्छा, अच्छी योजना बनाता है, विपरीत लिंग के प्रति आकर्षित हो सकता है।',
+    type: 1,
+  },
+  '97': {
+    combo: '97',
+    effect: 'पिता से अलग होने के बाद सफलता मिल सकती है।',
+    type: 2,
+  },
+  '98': {
+    combo: '98',
     effect:
       'बहस करना पसंद है, सिद्धांतों पर चलता है, जीवन के अंतिम चरण में कोई पुरानी बीमारी हो सकती है।',
     type: 0,
   },
-];
+  '99': {
+    combo: '99',
+    effect:
+      'कर्ज, गुस्से और खून से जुड़ी समस्याओं का सामना करना पड़ सकता है। त्वचा का रंग लाल रंग का हो सकता है।',
+    type: 0,
+  },
+  '111': {
+    combo: '111',
+    effect:
+      'भावुक, अभिमानी, दृढ़ रवैये वाला। सफलता, नाम और ख्याति मिलती है, लेकिन अहंकार की समस्या और तनाव का स्तर ऊंचा हो सकता है',
+    type: 2,
+  },
+  '222': {
+    combo: '222',
+    effect:
+      'ममनोदशा में उतार-चढ़ाव, अवसाद और प्रबल भावनाओं का अनुभव होता है। रक्तचाप की समस्या हो सकती है। यदि आपका नाम B, K या R से शुरू होता है, तो भावनात्मक समस्याएं और भी होने की संभावना है।',
+    type: 0,
+  },
+  '333': {
+    combo: '333',
+    effect:
+      'जिज्ञासु और सीखने के लिए उत्सुक, भरोसेमंद स्वभाव का होता है। कभी-कभी ज्ञान को प्रभावी ढंग से लागू नहीं कर पाता है और शुरू किए गए कार्यों को पूरा करने में सक्षम नहीं होता है।',
+    type: 2,
+  },
+  '444': {
+    combo: '444',
+    effect:
+      'कड़ी मेहनत और संघर्ष बढ़ते हैं। देरी, परेशानी और सिरदर्द का अनुभव हो सकता है। स्वभाव से शंका करने वाला।',
+    type: 0,
+  },
+  '555': {
+    combo: '555',
+    effect:
+      'आत्मविश्वास से भरपूर और वाक्पटु होने से धन का प्रवाह बढ़ सकता है। लेकिन, इससे आलस्य या सुस्ती भी आ सकती है।',
+    type: 2,
+  },
+  '666': {
+    combo: '666',
+    effect:
+      'विलासिता और यात्रा का आनंद लेता है, लेकिन हो सकता है कि हमेशा उसकी जरूरत की चीजें न हों।',
+    type: 2,
+  },
+  '777': {
+    combo: '777',
+    effect:
+      'मनोदशा में उतार-चढ़ाव, आंतरिक उथलपुथल का अनुभव करता है, और आध्यात्म की ओर आकर्षित हो सकता है या रिश्तों में समस्याएँ हो सकती है। जरूरत से ज्यादा सोच सकता है और चिंतित महसूस कर सकता है।',
+    type: 0,
+  },
+  '888': {
+    combo: '888',
+    effect:
+      'कार्यों में देरी, बाधाएँ, अड़चनें पैदा करता है, लेकिन कड़ी मेहनत करने पर भरपूर धन देता है।',
+    type: 0,
+  },
+  '999': {
+    combo: '999',
+    effect:
+      'कर्ज, गुस्से और खून से जुड़ी समस्याओं का सामना करना पड़ सकता है। त्वचा का रंग लाल रंग का हो सकता है।',
+    type: 0,
+  },
+  '1111': {
+    combo: '1111',
+    effect:
+      'भावुक, अभिमानी, दृढ़ रवैये वाला। सफलता, नाम और ख्याति मिलती है, लेकिन अहंकार की समस्या और तनाव का स्तर ऊंचा हो सकता है',
+    type: 0,
+  },
+  '2222': {
+    combo: '2222',
+    effect:
+      'ममनोदशा में उतार-चढ़ाव, अवसाद और प्रबल भावनाओं का अनुभव होता है। रक्तचाप की समस्या हो सकती है। यदि आपका नाम B, K या R से शुरू होता है, तो भावनात्मक समस्याएं और भी होने की संभावना है।',
+    type: 0,
+  },
+  '3333': {
+    combo: '3333',
+    effect:
+      'जिज्ञासु और सीखने के लिए उत्सुक, भरोसेमंद स्वभाव का होता है। कभी-कभी ज्ञान को प्रभावी ढंग से लागू नहीं कर पाता है और शुरू किए गए कार्यों को पूरा करने में सक्षम नहीं होता है।',
+    type: 0,
+  },
+  '4444': {
+    combo: '4444',
+    effect:
+      'कड़ी मेहनत और संघर्ष बढ़ते हैं। देरी, परेशानी और सिरदर्द का अनुभव हो सकता है। स्वभाव से शंका करने वाला।',
+    type: 0,
+  },
+  '5555': {
+    combo: '5555',
+    effect:
+      'आत्मविश्वास से भरपूर और वाक्पटु होने से धन का प्रवाह बढ़ सकता है। लेकिन, इससे आलस्य या सुस्ती भी आ सकती है।',
+    type: 0,
+  },
+  '6666': {
+    combo: '6666',
+    effect:
+      'विलासिता और यात्रा का आनंद लेता है, लेकिन हो सकता है कि हमेशा उसकी जरूरत की चीजें न हों।',
+    type: 0,
+  },
+  '7777': {
+    combo: '7777',
+    effect:
+      'मनोदशा में उतार-चढ़ाव, आंतरिक उथलपुथल का अनुभव करता है, और आध्यात्म की ओर आकर्षित हो सकता है। जरूरत से ज्यादा सोच सकता है और चिंतित महसूस कर सकता है।',
+    type: 0,
+  },
+  '8888': {
+    combo: '8888',
+    effect:
+      'कार्यों में देरी, बाधाएँ, अड़चनें पैदा करता है, लेकिन कड़ी मेहनत करने पर भरपूर धन देता है।',
+    type: 0,
+  },
+  '9999': {
+    combo: '9999',
+    effect:
+      'कर्ज, गुस्से और खून से जुड़ी समस्याओं का सामना करना पड़ सकता है। त्वचा का रंग लाल रंग का हो सकता है।',
+    type: 0,
+  },
+  '11111': {
+    combo: '11111',
+    effect:
+      'भावुक, अभिमानी, दृढ़ रवैये वाला। सफलता, नाम और ख्याति मिलती है, लेकिन अहंकार की समस्या और तनाव का स्तर ऊंचा हो सकता है',
+    type: 0,
+  },
+  '22222': {
+    combo: '22222',
+    effect:
+      'ममनोदशा में उतार-चढ़ाव, अवसाद और प्रबल भावनाओं का अनुभव होता है। रक्तचाप की समस्या हो सकती है। यदि आपका नाम B, K या R से शुरू होता है, तो भावनात्मक समस्याएं और भी होने की संभावना है।',
+    type: 0,
+  },
+  '33333': {
+    combo: '33333',
+    effect:
+      'जिज्ञासु और सीखने के लिए उत्सुक, भरोसेमंद स्वभाव का होता है। कभी-कभी ज्ञान को प्रभावी ढंग से लागू नहीं कर पाता है और शुरू किए गए कार्यों को पूरा करने में सक्षम नहीं होता है।',
+    type: 0,
+  },
+  '44444': {
+    combo: '44444',
+    effect:
+      'कड़ी मेहनत और संघर्ष बढ़ते हैं। देरी, परेशानी और सिरदर्द का अनुभव हो सकता है। स्वभाव से शंका करने वाला।',
+    type: 0,
+  },
+  '55555': {
+    combo: '55555',
+    effect:
+      'आत्मविश्वास से भरपूर और वाक्पटु होने से धन का प्रवाह बढ़ सकता है। लेकिन, इससे आलस्य या सुस्ती भी आ सकती है।',
+    type: 0,
+  },
+  '66666': {
+    combo: '66666',
+    effect:
+      'विलासिता और यात्रा का आनंद लेता है, लेकिन हो सकता है कि हमेशा उसकी जरूरत की चीजें न हों।',
+    type: 0,
+  },
+  '77777': {
+    combo: '77777',
+    effect:
+      'मनोदशा में उतार-चढ़ाव, आंतरिक उथलपुथल का अनुभव करता है, और आध्यात्म की ओर आकर्षित हो सकता है। जरूरत से ज्यादा सोच सकता है और चिंतित महसूस कर सकता है।',
+    type: 0,
+  },
+  '88888': {
+    combo: '88888',
+    effect:
+      'कार्यों में देरी, बाधाएँ, अड़चनें पैदा करता है, लेकिन कड़ी मेहनत करने पर भरपूर धन देता है।',
+    type: 0,
+  },
+  '99999': {
+    combo: '99999',
+    effect:
+      'कर्ज, गुस्से और खून से जुड़ी समस्याओं का सामना करना पड़ सकता है। त्वचा का रंग लाल रंग का हो सकता है।',
+    type: 0,
+  },
+};
+
+export const repetitionOfNumbers = {
+  '1_2': {
+    label: '1 (2 Repetitions): COMMUNICATIVE OR CHATTY',
+    description:
+      "These are the most fortunate people and blessed with eloquence. They're good at expressing themselves but should practice patience when conversing. (In Lo Shu, two 1s enhance communication skills.)",
+  },
+  '1_3': {
+    label: '1 (3 Repetitions): TALKATIVE & ENTHUSIASTIC',
+    description:
+      'People with three 1s are often talkative, bright, active, and highly participatory, approaching life as a party to be enjoyed. (Three 1s can indicate an overemphasis on self-expression.)',
+  },
+  '1_4': {
+    label: '1 (4 Repetitions): COMPASSIONATE OR SYMPATHETIC',
+    description:
+      'Expressing inner feelings through words can be difficult for these people. They are often reserved, introverted, and calm. (Four or more 1s can lead to communication challenges and introspection.)',
+  },
+  '1_5': {
+    label: '1 (5 Repetitions): MISUNDERSTOOD, RESERVED, GOOD LOOKING',
+    description:
+      "These people may appear self-obsessed and egotistic, though they are not. An attempt to control ego makes it difficult for them to speak their mind and heart, so their words don't always reflect their true intentions. (Excessive 1s can lead to feelings of isolation and misunderstanding.)",
+  },
+  '2_1': {
+    label: '2 (1 Repetition): SENSITIVE AND EMOTIONAL',
+    description:
+      "Their intuition level is basic and may not be fully developed for today's competitive world. They need a balanced lifestyle and a stable sensitivity level, as imbalance can negatively affect it. (A single 2 in Lo Shu suggests basic intuition and sensitivity.)",
+  },
+  '2_2': {
+    label: '2 (2 Repetitions): BRIGHT AND BRILLIANT',
+    description:
+      'Double 2 is a great advantage. It provides the natural ability to develop intuitive sensitivity. They are like scanners, able to instantly and correctly judge people in a first meeting. (Two 2s enhance intuition and perception.)',
+  },
+  '2_3': {
+    label: '2 (3 Repetitions): VERY SENSITIVE',
+    description:
+      "People with three 2s will have an imbalanced and over-sensitive nature that can put an emotional burden on their minds. These over-emotional people easily absorb the feelings of others and can deeply get involved in others' problems, considering them their own. (Three 2s often lead to heightened, sometimes overwhelming, emotional sensitivity.)",
+  },
+  '2_4': {
+    label: '2 (4 Repetitions): LONERS',
+    description:
+      'They are quite impatient, misunderstood, ratty, and less trustworthy. Their reactions are often quick and wrong, making them over-emotional and explosive. They crucially need control and discipline in their lives. (Four or more 2s can indicate emotional instability and a tendency towards isolation.)',
+  },
+  '2_5': {
+    label: '2 (5 Repetitions): NEGATIVE AND QUICK TO REACT',
+    description:
+      "These people can be highly negative and react at the drop of a hat. They are very sensitive and may blow one's mind up. Parents are advised to bring them up with extra care and the right guidance to instill good values in them. (Excessive 2s can amplify negative emotional traits.)",
+  },
+  '3_1': {
+    label: '3 (1 Repetition): SUPERB INTELLIGENCE',
+    description:
+      'These naturally intelligent folks are capable of serving society throughout life if maintained. A single 3 keeps their mental activity alert, which is a great boon for youngsters to secure success. (A single 3 in Lo Shu signifies intelligence and mental alertness.)',
+  },
+  '3_2': {
+    label: '3 (2 Repetitions): COMMUNICATIVE AND INVENTIVE',
+    description:
+      'These people are blessed with an alert mind. They imagine more than usual, which develops great natural literary ability. They can effectively use their writing ability for income. (Two 3s can enhance creativity and communication.)',
+  },
+  '3_3': {
+    label: '3 (3 Repetitions): DEEP THINKERS AND OUT-OF-THE-BOX SOLUTIONS',
+    description:
+      "These are people disconnected from reality and the world due to overemphasis on mental activity and expression. They often have their own world of imagination that is not visible to others. (Three 3s can indicate a tendency to live in one's head, sometimes leading to disconnect from reality.)",
+  },
+  '3_4': {
+    label: '3 (4 Repetitions): EXTRAVAGANT',
+    description:
+      'An element of ego can be found in these people. They remain worried and have a hidden fear of some sort. They tend to imagine quite a lot and may have different phobias. (Excessive 3s can amplify mental activity to the point of anxiety and phobias.)',
+  },
+  '4_1': {
+    label: '4 (1 Repetition): STEADY & PRACTICAL',
+    description:
+      'They are highly active people with a practical attitude towards life. They are organized in their work/life and want everything in the right place. Unnecessary delays may upset them. Sometimes they could get impatient. (A single 4 indicates practicality and orderliness in Lo Shu.)',
+  },
+  '4_2': {
+    label: '4 (2 Repetitions): DOWN TO EARTH & MATERIALISTIC',
+    description:
+      'These people are highly materialistic or money-minded. Their organizational skills are noticeable, and their working style is creative. They believe in completing tasks before relaxing. (Two 4s enhance practicality and can lead to a strong focus on material aspects.)',
+  },
+  '4_3': {
+    label: '4 (3 Repetitions): HARDWORKING & DISCIPLINED',
+    description:
+      'Making money is the primary goal for people with three 4s in their birth chart. Being over-practical, they may ignore the emotions of others. They lead a disciplined and well-organized life. Sometimes they can be quite rigid. They may be prone to weak lower limbs. (Three 4s emphasize extreme practicality and a strong work ethic, sometimes at the expense of emotions.)',
+  },
+  '4_4': {
+    label: '4 (4 Repetitions): LOVE PHYSICAL WORK & MATERIALISTIC EXCESS',
+    description:
+      'More fours represent excessive materialistic nature. Expenses can be more than income, leading to borrowing money to meet needs. They are very good at physical work, particularly with their hands. (Four or more 4s can lead to financial challenges due to over-materialism and a need for physical outlet.)',
+  },
+  '5_1': {
+    label: '5 (1 Repetition): EMPATHIC & BALANCED',
+    description:
+      'They are freedom lovers, intellectual, and social. These people can be good mathematicians. They are emotionally balanced and know when to act emotionally and practically, making it easy for them to adjust and work according to the situation. (A single 5 in Lo Shu signifies balance and adaptability.)',
+  },
+  '5_2': {
+    label: '5 (2 Repetitions): CONSTANT & FOCUSED',
+    description:
+      'These people are highly focused, and twice five gives the ability to complete tasks on time. They often face opposition in personal and professional life. They need to control their emotions; an imbalance may lead to unhealthy coping mechanisms like alcohol or drug consumption. (Two 5s enhance focus but can also bring challenges and a need for emotional control.)',
+  },
+  '5_3': {
+    label: '5 (3 Repetitions): HARSH AND INFLEXIBLE',
+    description:
+      'Their confidence level generally remains high. They are straightforward and speak their minds without much hesitation. Their words may easily hurt others, intentionally or unintentionally. (Three 5s can lead to overconfidence and directness that might be perceived as harshness.)',
+  },
+  '5_4': {
+    label: '5 (4 Repetitions): SPONTANEOUS & ACCIDENT PRONE',
+    description:
+      'This is an inauspicious combination. They need to take every step in life with extra care. They may face accidents and need to be vigilant. (Four or more 5s can indicate impulsiveness and a higher risk of accidents, requiring extreme caution.)',
+  },
+  '6_1': {
+    label: '6 (1 Repetition): EXCELLENT GUIDES',
+    description:
+      'They love to keep loved ones close, though sometimes they may get possessive and insecure. These folks are adorable, compassionate, and responsible towards their family and life. They hardly face loneliness. (A single 6 in Lo Shu signifies love, care, and responsibility.)',
+  },
+  '6_2': {
+    label: '6 (2 Repetitions): INNOVATIVE & PROTECTIVE',
+    description:
+      "This combination escalates possessiveness for the life partner, family, and children. These people easily get insecure and are protective of those they love and care for. They can become strict parents, limiting their children's freedom. They are also very creative, valuing and admiring beauty. (Two 6s enhance creativity and protection, but can also lead to possessiveness.)",
+  },
+  '6_3': {
+    label: '6 (3 Repetitions): IMPATIENT & OVER-PROTECTIVE',
+    description:
+      'This combination represents an excess of possessiveness, insecurity, stress, and protective behavior for loved ones. Their creativity level is higher. (Three 6s can intensify possessiveness and stress, while also boosting creativity.)',
+  },
+  '6_4': {
+    label: '6 (4 Repetitions): SENSITIVE AND LONERS',
+    description:
+      'More sixes represent an increased creativity level. These people are over-emotional, and even small things in everyday life may greatly touch their heart. (Four or more 6s can lead to heightened sensitivity, emotional reactions, and a feeling of being overwhelmed despite creativity.)',
+  },
+  '7_1': {
+    label: '7 (1 Repetition): INTROVERT, EXPERIENCED LEARNER',
+    description:
+      'These people are spiritual but careless when it comes to love, health, and money, leading to suffering. They need to adopt healthy habits and are advised to learn from their mistakes. (In Lo Shu, a single 7 indicates learning from experience and spiritual inclination.)',
+  },
+  '7_2': {
+    label: '7 (2 Repetitions): SPIRITUAL & INTUITIVE',
+    description:
+      'They lead a spiritual life and have a keen interest in astrology and occult science. They keep spiritualism over materialism. However, they are lazy enough to put effort into anything where fate demands extra effort from them. (Two 7s in Lo Shu often indicate heightened intuition and spiritual connection.)',
+  },
+  '7_3': {
+    label: '7 (3 Repetitions): CHALLENGES IN PRACTICAL LIFE',
+    description:
+      'Their life is a series of ups and downs. They are fighters and often encounter major obstacles. They are not good at making investments, and if they invest, they end up losing what they have. (Three 7s can signify a life of sadness, failures, and setbacks, but with inner strength to face challenges.)',
+  },
+  '7_4': {
+    label: '7 (4 Repetitions): DIFFICULTIES IN PRACTICAL LIFE',
+    description:
+      'This combination brings bad luck and more losses than gains, particularly in areas of love, health, and finance. (Four or more 7s in Lo Shu can indicate significant losses in these areas.)',
+  },
+  '8_1': {
+    label: '8 (1 Repetition): ADHERES STRICTLY TO BELIEF OR SYSTEM',
+    description:
+      'These people are well organized and good beginners but are late to finish undertakings. They are advised to be more systematic and work as per a fixed blueprint. (A single 8 in Lo Shu signifies organization and a structured approach.)',
+  },
+  '8_2': {
+    label: '8 (2 Repetitions): STUBBORN AND RIGID',
+    description:
+      'These people are conscious of themselves and their work. They rely heavily on their own efforts. (Two 8s can enhance determination but also lead to stubbornness and rigidity.)',
+  },
+  '8_3': {
+    label: '8 (3 Repetitions): MONEY LOVERS & PRACTICAL',
+    description:
+      'They are practical and careful, which makes them good businesspeople and financially settled. They can be somewhat inflexible, rigid, and restless. (Three 8s can lead to strong financial acumen but also inflexibility.)',
+  },
+  '8_4': {
+    label: '8 (4 Repetitions): ALWAYS IN ACTION & RESTLESS',
+    description:
+      'Frequent repetition of eight makes one very adamant, restless, and depressed. They may lead an aimless and unhappy life. Their professional life might not be very successful, so they are advised to convert their interest into an occupation for desired success. (Four or more 8s can signify restlessness, depression, and challenges in achieving goals.)',
+  },
+  '9_1': {
+    label: '9 (1 Repetition): BRIGHT AND IN ACTION',
+    description:
+      'These people are highly ambitious and idealistic. They could be the first to help others since they believe in humanity. Their energy level remains high. (A single 9 in Lo Shu signifies ambition, idealism, and humanitarian spirit.)',
+  },
+  '9_2': {
+    label: '9 (2 Repetitions): DEMANDING & INTELLECTUAL',
+    description:
+      'These are highly intellectual and idealistic people. Their judgment is very good, making them excellent decision-makers. They truly enjoy learning. (Two 9s enhance intellect, idealism, and judgment.)',
+  },
+  '9_3': {
+    label: '9 (3 Repetitions): CONTRIBUTORS & PROSPEROUS',
+    description:
+      'These people lead a happy and prosperous life. They know the right deeds and the right time to perform them. (Three 9s can indicate a harmonious and prosperous life with good timing and contributions.)',
+  },
+  '9_4': {
+    label: '9 (4 Repetitions): INTELLIGENT BUT ALONE',
+    description:
+      "They can be seen living in their own world. However, they are required to direct their energy and great intelligence towards good and social welfare. (Four or more 9s can lead to deep introspection and a tendency to live in one's own world, despite high intelligence.)",
+  },
+  '9_5': {
+    label:
+      '9 (5 Repetitions): PHYSICAL STRENGTH, IMMENSE ENERGY AND INTELLIGENCE',
+    description:
+      'Their overall aura is energetic. Such people can join the army or could become a surgeon due to their combined physical strength, immense energy, and intelligence. (Excessive 9s can signify immense energy and intelligence, often channeled into demanding physical or intellectual professions.)',
+  },
+};
+
+export const nameLettersData = {
+  A: {
+    strengths: 'Controlling, manipulative, good acting skills, courageous',
+    weaknesses: 'egoistic, criticism',
+    best_jobs: 'Actor, politician, manager, teacher, researcher',
+  },
+  B: {
+    strengths: 'Friendly, emotional, sensitive, helpful etc.',
+    weaknesses: 'self-absorbed, greedy, feminine features',
+    best_jobs: 'Housewife, nurse, nanny, customer service etc.',
+  },
+  C: {
+    strengths: 'Creative, social skills, extrovert and friendly',
+    weaknesses: 'Ruthlessness, cruelty, general lack of empathy',
+    best_jobs:
+      'Marketing, media related, arts and creative directing, public relations etc.',
+  },
+  D: {
+    strengths: 'Energetic, positive, focused, persistent, balanced',
+    weaknesses: 'working too much, stubbornness',
+    best_jobs:
+      'Salesman, businessman, entrepreneur, advisor, bank/finance etc.',
+  },
+  E: {
+    strengths:
+      'Freedom, independence, intelligence, friendliness, sensual, emotional',
+    weaknesses: 'Unreliable, unfaithful',
+    best_jobs: 'Pilot, preacher, journalist, writer, traveller, explorer',
+  },
+  F: {
+    strengths:
+      'deep and warm emotions, compassionate, friendly, easy going, responsible, good at planning',
+    weaknesses: 'self-pity, neatness',
+    best_jobs:
+      'designer, agricultural jobs, cook, doctor, nanny, nurse, teacher, writer etc.',
+  },
+  G: {
+    strengths:
+      'Authoritative, full of energy, intellectual, responsible, systematic, creativity, helpfulness, highly intuitive, instinctive, high imagination',
+    weaknesses: "loners, stressed, stubbornness, don't listen to others",
+    best_jobs: 'Teacher, professor, writer, priest, managing jobs etc.',
+  },
+  H: {
+    strengths:
+      'Great in business, creativity, creating wealth, successful, nature loving personality',
+    weaknesses: 'self-absorbed, self-contained, greediness, prefer to be alone',
+    best_jobs:
+      'Live out in the nature, listen to the creative instincts and act careful to avoid losing.',
+  },
+  I: {
+    strengths:
+      'Artistic, creative, deep emotions, compassionate, good judgement and sensitive',
+    weaknesses: 'May have anxiety issues, Moody, impulsive',
+    best_jobs:
+      'Fashion industry, design, styling, design related occupations, painter, sculptor, photographer',
+  },
+  J: {
+    strengths:
+      'Courage, boldness, control, leadership skills, authoritative, energetic, visionary',
+    weaknesses: 'Lazy when not having direction in life',
+    best_jobs:
+      'Explorer, Researcher, Doctor, professor, teacher, writer, politician, law related jobs etc.',
+  },
+  K: {
+    strengths:
+      'strong will, recklessness, high energy, influential, spirituality, emotional, instinctive, impulsive, honest and artistic',
+    weaknesses: 'Boredom, Anxiety, dissatisfaction',
+    best_jobs:
+      'Spiritual leaders, psychologists, athletes, sportsmen, coaching and artists.',
+  },
+  L: {
+    strengths:
+      'Security, Reliability, Focused, Strong Willpower, Authoritative, charitability, tolerance',
+    weaknesses: 'Stubbornness, overthinking, anxiety',
+    best_jobs:
+      'Government or other office jobs, Jobs in jurisdiction or law related fields, officer, law or jurisdiction related fields.',
+  },
+  M: {
+    strengths:
+      'Productivity, Stable, Reliability, Spiritual, Courageous, Self-confident, successful, High intuitive skills, Energetic, health conscious and homely',
+    weaknesses:
+      'Keen to overwork or become a workaholic, psychic, impatient etc.',
+    best_jobs:
+      'Agricultural field, Industrial Field, office work, truck driver, physical and mental work',
+  },
+  N: {
+    strengths:
+      'Creative, Thinking outside the box, original approach, strong will and opinions, systematic, strong communication skills, good imagination and intuitive',
+    weaknesses: 'Greedy, Jealousy, Fickle',
+    best_jobs: 'Writer, designer and engineer',
+  },
+  O: {
+    strengths:
+      'Selflessness, responsibility, good acting skills, gracious, dignity, sensitivity, morality',
+    weaknesses: 'Can be a drama queen, suspiciousness, jealousy',
+    best_jobs: 'Acting, Politics, law or jurisdiction related jobs.',
+  },
+  P: {
+    strengths:
+      'Highly spiritual, Thoughtful, intelligence, intellectual, leadership skills, Influential, expressive',
+    weaknesses: 'Distant, impatient, self-absorbed, selfish, eccentric',
+    best_jobs: 'Entrepreneur, sales, management, research, teaching',
+  },
+  Q: {
+    strengths: 'Unique, original, Intense, leader, genius etc.',
+    weaknesses: 'Self-absorbed, Boring etc.',
+    best_jobs:
+      'Any job which needs a great deal of creativity such as movie director, writer, designer, explorer, or editor',
+  },
+  R: {
+    strengths:
+      'Introvert, great workforce, Energetic, good natured, intense, magnetic personality, success - financial, compassionate, stable etc.',
+    weaknesses: 'Impulsive, short tempered etc.',
+    best_jobs:
+      'they are excellent diplomats and any job at any international consulate works perfectly for them.',
+  },
+  S: {
+    strengths:
+      'Intense, emotional, magnetic personality, money making qualities, energy and courageous, great actor, bold, intelligence, sensuality and sexiness and charm.',
+    weaknesses: 'Impulse, no or low concern for others',
+    best_jobs: 'Teacher, researcher, writer, explorer, politician etc.',
+  },
+  T: {
+    strengths:
+      'High energy, restlessness, very spiritual, emotional, very active, determined, strong',
+    weaknesses:
+      'Very easy to influence even in the bad direction, over emotional, unable to make decisions, aggressiveness etc.',
+    best_jobs:
+      'Sportsmen or athletes, car drivers/truck drivers, car racers, marketing related professions, media related professions.',
+  },
+  U: {
+    strengths: 'Clever, collector, freedom loving, good social reputation',
+    weaknesses: 'Indecisive, greedy and selfish.',
+  },
+  V: {
+    strengths: 'Focused, efficient, tireless, reliable, honest etc.',
+    weaknesses: 'Unpredictable, hardnose',
+    best_jobs:
+      'They are detail oriented, hard worker, organizer and the manager',
+  },
+  W: {
+    strengths:
+      'Sociable, Mysterious, Imaginative, Attractive, Charming, Self-Expressive',
+    weaknesses: 'These people are fond of taking risks',
+  },
+  X: {
+    strengths: 'Pleasure quest, loves comfort, Unrestrained, sensual',
+    weaknesses: 'Promiscuous',
+  },
+  Y: {
+    strengths:
+      'Enterprising, Pioneering, Independent, Aesthetic, Intellectual, Dislikes restraint.',
+    weaknesses: 'Indecisive',
+  },
+  Z: {
+    strengths:
+      'Trusting, Peacemaker, Builder, Compassionate, Diplomat, Practical',
+    weaknesses: 'Determined, Tendency to act without any help or thinking',
+  },
+};

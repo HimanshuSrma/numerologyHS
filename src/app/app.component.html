@@ -1,24 +1,26 @@
-<div class="min-h-screen bg-gradient-to-br from-indigo-100 to-white p-4">
-  <h1 class="text-3xl font-bold text-center text-indigo-700 mt-4">🔢 Numerology Insights</h1>
-  <!-- <h1 class="text-3xl font-bold text-center text-indigo-700 mt-4">🔢 Numerology & Vastu Insights</h1> -->
+@if (loader) {
+<app-loader [isLoading]="loader"></app-loader>
+}
+@else if (!loader) {
+  <div class="min-h-screen bg-gradient-to-br from-indigo-100 to-white p-4">
+    <h1 class="text-3xl font-bold text-center text-indigo-700 mt-4">🔢 Numerology Insights</h1>
+    <!-- <h1 class="text-3xl font-bold text-center text-indigo-700 mt-4">🔢 Numerology & Vastu Insights</h1> -->
 
-  <!-- <div *ngIf="!numerologyResult" class="mt-6 max-w-4xl mx-auto">
-    <app-input-form (calculationDone)="handleCalculation($event)"></app-input-form>
+    <!-- <div *ngIf="!numerologyResult" class="mt-6 max-w-4xl mx-auto">
+      <app-input-form (calculationDone)="handleCalculation($event)"></app-input-form>
+    </div>
+    <div *ngIf="numerologyResult" class="mt-6 max-w-4xl mx-auto">
+      <app-result-display [result]="numerologyResult"></app-result-display>
+    </div> -->
+    <!-- Show input form only if result is not present -->
+    <app-input-form *ngIf="!numerologyResult" (calculationDone)="handleCalculation($event)"></app-input-form>
+    <!-- Show result if present -->
+    <app-result-display *ngIf="numerologyResult" [result]="numerologyResult"></app-result-display>
+
+    <!-- Optional Reset Button -->
+    <div *ngIf="numerologyResult" class="text-center mt-4">
+      <button (click)="reset()" class="bg-indigo-600 hover:bg-indigo-700 text-white font-medium py-2 px-4 rounded">🔁
+        Start Over</button>
+    </div>
   </div>
-  <div *ngIf="numerologyResult" class="mt-6 max-w-4xl mx-auto">
-    <app-result-display [result]="numerologyResult"></app-result-display>
-  </div> -->
-
-
-  <!-- Show input form only if result is not present -->
-  <app-input-form *ngIf="!numerologyResult" (calculationDone)="handleCalculation($event)"></app-input-form>
-
-  <!-- Show result if present -->
-  <app-result-display *ngIf="numerologyResult" [result]="numerologyResult"></app-result-display>
-
-  <!-- Optional Reset Button -->
-  <div *ngIf="numerologyResult" class="text-center mt-4">
-    <button (click)="reset()" class="bg-indigo-600 hover:bg-indigo-700 text-white font-medium py-2 px-4 rounded">🔁 Start Over</button>
-</div>
-
-</div>
+}

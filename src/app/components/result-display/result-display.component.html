@@ -20,7 +20,7 @@
 
 
   <div class="mt-8 bg-indigo-50 border border-indigo-200 rounded-xl shadow w-full mb-6"
-    *ngIf="this.combinationData.description">
+    *ngIf="this.combinationData?.description">
     <div class="border-b">
       <button (click)="toggle('personality', 0)"
         class="w-full text-left px-4 py-3 flex justify-between items-center focus:outline-none">
@@ -31,7 +31,7 @@
         </svg>
       </button>
       <div *ngIf="isOpen('personality', 0)" class="px-4 py-2 text-gray-600 transition-all duration-300">
-        <div class="text-gray-600 text-justify">{{ this.combinationData.description }}</div>
+        <div class="text-gray-600 text-justify">{{ this.combinationData?.description }}</div>
       </div>
     </div>
   </div>
@@ -39,58 +39,78 @@
 
 
   <!-- Name Number Card -->
-  <div class="rounded p-4 shadow text-center mb-6"
-    [ngClass]="{'bg-green-50 border border-green-300': nameIsLucky, 'bg-red-50 border border-red-300': !nameIsLucky}">
+  <div class="rounded-lg p-4 shadow text-center mb-6 border" [ngClass]="{'bg-green-50 border-green-300': nameIsLucky, 'bg-red-50 border-red-300': !nameIsLucky}">
     <div class="font-semibold">Name Number</div>
-    <div class="text-3xl font-bold flex justify-evenly"
-      [ngClass]="{'text-green-700': nameIsLucky, 'text-red-700': !nameIsLucky}">
+    <div class="text-3xl font-bold flex justify-evenly" [ngClass]="{'text-green-700': nameIsLucky, 'text-red-700': !nameIsLucky}">
       <div>{{ result.nameTotalSum }}</div>
       <div>👉</div>
       <div>{{ result.nameNumber }}</div>
     </div>
-    <div class="text-sm mt-1 font-medium" [ngClass]="{'text-green-600': nameIsLucky, 'text-red-600': !nameIsLucky }">{{
-      nameIsLucky ? '✅ Favorable' : '⚠️ Not Favorable' }}</div>
-
-
-
+    <div class="text-sm mt-1 font-medium" [ngClass]="{'text-green-600': nameIsLucky, 'text-red-600': !nameIsLucky }">{{ nameIsLucky ? '✅ Favorable' : '⚠️ Not Favorable' }}</div>
+    <div class=" px-2 mt-4 border rounded-xl">
     <ng-container *ngIf="nameData">
-      <button (click)="toggle('name', 0)" class="w-full px-4 py-3 flex justify-center items-center focus:outline-none">
+      <button (click)="toggle('name', 0)" class="w-full border-b py-3 flex justify-between items-center focus:outline-none">
         <span class="font-medium me-3">Name Analysis</span>
-        <svg class="w-5 h-5 transform transition-transform duration-200" [ngClass]="{ 'rotate-180': isOpen('name', 0) }"
-          fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <svg class="w-5 h-5 transform transition-transform duration-200" [ngClass]="{ 'rotate-180': isOpen('name', 0) }" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
         </svg>
       </button>
 
-      <div *ngIf="isOpen('name', 0)" class="px-4 py-2 text-gray-600 transition-all duration-300">
-
+      <div *ngIf="isOpen('name', 0)" class=" py-2 text-gray-600 transition-all duration-300">
         <div class="mb-3 p-3 bg-purple-50 border border-purple-200 rounded-lg shadow-sm flex justify-around">
           <div class="font-semibold text-purple-700 mb-1">Ruling Planet:</div>
-          <div class="text-gray-700">{{ nameData.ruling_planet }}</div>
+          <div class="text-gray-700">{{ nameData?.ruling_planet }}</div>
         </div>
-
         <div class="mb-3 p-3 bg-pink-50 border border-pink-200 rounded-lg shadow-sm flex justify-around">
           <div class="font-semibold text-pink-700 mb-1">Contributing Planets:</div>
-          <div class="text-gray-700">{{ nameData.contributing_planets.join(', ') }}</div>
+          <div class="text-gray-700">{{ nameData?.contributing_planets?.join(', ') }}</div>
         </div>
-
         <div class="mb-3 p-3 bg-yellow-50 border border-yellow-200 rounded-lg shadow-sm">
           <div class="font-semibold text-yellow-800 mb-1">Description:</div>
-          <div class="text-gray-700 text-justify">{{ nameData.description }}</div>
+          <div class="text-gray-700 text-justify">{{ nameData?.description }}</div>
         </div>
-
-        <!-- <div class="mb-3 p-3 bg-fuchsia-50 border border-fuchsia-200 rounded-lg shadow-sm">
-          <div class="font-semibold text-fuchsia-700 mb-1">For Business:</div>
-          <div class="text-gray-700 text-justify">{{ nameData.for_business }}</div>
-        </div> -->
-
-
       </div>
     </ng-container>
 
 
-  </div>
+    <ng-container *ngIf="nameLettersArr.length">
+      <button (click)="toggle('nameL', 1)" class="w-full  py-3 flex justify-between items-center focus:outline-none">
+        <span class="font-medium me-3">Name Letters Analysis</span>
+        <svg class="w-5 h-5 transform transition-transform duration-200" [ngClass]="{ 'rotate-180': isOpen('nameL', 1) }" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+        </svg>
+      </button>
 
+      <div *ngIf="isOpen('nameL', 1)" class=" py-2 text-gray-600 transition-all duration-300 border rounded-xl">
+        <div *ngFor="let item of nameLettersArr; let i = index" class="border-b">
+          <button (click)="toggle('nameLetter', i)" class="w-full text-left px-2 py-3 flex justify-between items-center focus:outline-none">
+            <span class="font-medium">{{ item }}</span>
+            <svg class="w-5 h-5 transform transition-transform duration-200" [ngClass]="{ 'rotate-180': isOpen('nameLetter', i) }" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+            </svg>
+          </button>
+
+          <div *ngIf="isOpen('nameLetter', i)" class="px-2 py-2 text-gray-600 transition-all duration-300 text-center">
+            <div class="mb-3 p-3 bg-purple-50 border border-purple-200 rounded-lg shadow-sm">
+              <div class="font-semibold text-purple-700 mb-1">Strength</div>
+              <div class="text-gray-700">{{ nameLettersData[item]?.strengths }}</div>
+            </div>
+
+            <div class="mb-3 p-3 bg-pink-50 border border-pink-200 rounded-lg shadow-sm">
+              <div class="font-semibold text-pink-700 mb-1">Weakness</div>
+              <div class="text-gray-700">{{ nameLettersData[item]?.weaknesses }}</div>
+            </div>
+
+            <div class="mb-3 p-3 bg-yellow-50 border border-yellow-200 rounded-lg shadow-sm" *ngIf="nameLettersData[item]?.best_jobs">
+              <div class="font-semibold text-yellow-800 mb-1">Best Jobs</div>
+              <div class="text-gray-700">{{ nameLettersData[item]?.best_jobs }}</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </ng-container>
+    </div>
+  </div>
 
   <!-- {{nameData | json}} -->
 
@@ -192,7 +212,7 @@
 
 
 
-    <!-- personalDay accordion -->
+    <!-- Mobile Number Numerology accordion -->
 
   <div class="mt-8 bg-lime-50 border border-lime-200 rounded-xl shadow w-full" *ngIf="mobileData">
     <h3 class="p-[12px] text-center font-bold"> 📱 Mobile Number Numerology  📱</h3>
@@ -261,16 +281,14 @@
 
 
   <!-- Lo Shu Grid -->
-  <h3 class="text-lg font-semibold text-gray-700 mt-8 mb-2">🧱 Lo Shu Grid</h3>
+  <h3 class="text-lg font-semibold text-gray-700 mt-8 mb-6">🧱 Lo Shu Grid</h3>
   <div class="grid grid-cols-3 gap-2 max-w-xs mx-auto mb-4">
     <ng-container *ngFor="let num of loShuDisplayOrder">
-      <div class="border rounded p-4 text-center font-semibold transition" [ngClass]="{
-          'bg-red-100 text-red-600': result.missingNumbers.includes(num),
-          'bg-yellow-100 text-yellow-800': result.excessNumbers.includes(num),
-          'bg-green-50 text-green-700': !result.missingNumbers.includes(num) && !result.excessNumbers.includes(num)
-        }">
-        <div class="text-xl">{{ num }}</div>
-        <div class="text-sm font-normal">× {{ result.loShuGrid[num] || 0 }}</div>
+      <div class="border rounded p-4 text-center font-semibold transition loshuGridMinHight flex justify-center items-center" [ngClass]="{ 'bg-red-100 text-red-600': result.missingNumbers.includes(num), 'bg-yellow-100 text-yellow-800': result.excessNumbers.includes(num), 'bg-green-50 text-green-700': !result.missingNumbers.includes(num) && !result.excessNumbers.includes(num)}">
+        <!-- <div> -->
+          <div class="text-xl">{{ num }}<sup *ngIf="num == result.kua">*</sup></div>
+          <div class="text-xs font-normal" *ngIf="result.loShuGrid[num] > 1"> × {{ result.loShuGrid[num] }}</div>
+        <!-- </div> -->
       </div>
     </ng-container>
   </div>
@@ -278,68 +296,34 @@
 
 
 
-  <!-- Favorable Combinations -->
-  <div *ngIf="hasCombinationData" class="mt-8 p-6 bg-green-50 border border-green-200 rounded-xl shadow">
-    <h3 class="text-2xl font-bold text-green-700 mb-4 text-center">🌟 Favorable Recommendations</h3>
+  <div class="mt-8 bg-fuchsia-50 border border-fuchsia-200 rounded-xl shadow w-full" *ngIf="repeatedNumbers?.length">
+    <h3 class="p-[12px] text-center font-bold">Repeted Numbers</h3>
 
-    <div class="mb-4">
-      <h4 class="text-sm font-semibold text-gray-600">Lucky Numbers:</h4>
-      <div class="flex flex-wrap gap-2 mt-1">
-        <span *ngFor="let num of combinationData.luckyNumbers"
-          class="bg-green-100 text-green-700 px-3 py-1 rounded-full text-sm font-medium">
-          {{ num }}
-        </span>
+    <div *ngFor="let item of repeatedNumbers; let i = index" class="border-b">
+      <button (click)="toggle('personalDay', i)"
+        class="w-full text-left px-4 py-3 flex justify-between items-center focus:outline-none">
+        <span class="font-medium">{{ item.label }}</span>
+        <svg class="w-5 h-5 transform transition-transform duration-200"
+          [ngClass]="{ 'rotate-180': isOpen('personalDay', i) }" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+        </svg>
+      </button>
+
+      <div *ngIf="isOpen('personalDay', i)" class="px-4 py-2 text-gray-600 transition-all duration-300 text-justify">
+        {{ item.description }}
+        <ul class="list-disc list-inside text-sm text-gray-700 mt-1" *ngIf="item?.list">
+          <li *ngFor="let remedy of item.list">{{ remedy }}</li>
+        </ul>
       </div>
     </div>
-
-    <div class="mb-4">
-      <h4 class="text-sm font-semibold text-gray-600">Lucky Colors:</h4>
-      <div class="flex flex-wrap gap-2 mt-1">
-        <span *ngFor="let color of combinationData.luckyColors"
-          class="bg-indigo-100 text-indigo-700 px-3 py-1 rounded-full text-sm font-medium">
-          {{ color }}
-        </span>
-      </div>
-    </div>
-
-    <div class="mb-4">
-      <h4 class="text-sm font-semibold text-gray-600">Lucky Name Numbers:</h4>
-      <div class="flex flex-wrap gap-2 mt-1">
-        <span *ngFor="let num of combinationData.luckyNameNumbers"
-          class="bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full text-sm font-medium">
-          {{ num }}
-        </span>
-      </div>
-    </div>
-
-    <div class="mb-4">
-      <h4 class="text-sm font-semibold text-gray-600">Lucky Business Numbers:</h4>
-      <div class="flex flex-wrap gap-2 mt-1">
-        <span *ngFor="let num of combinationData.luckyBusinessNumbers"
-          class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-medium">
-          {{ num }}
-        </span>
-      </div>
-    </div>
-
-    <div>
-      <h4 class="text-sm font-semibold text-gray-600">Favorable Professions:</h4>
-      <p class="text-sm text-gray-700 mt-1 leading-relaxed">
-        {{ combinationData.luckyProfessions }}
-      </p>
-    </div>
-
-
-
-
-
   </div>
+
 
   <!-- Missing Remedies -->
   <!-- <div *ngIf="hasCombinationData" class="mt-8 p-6 bg-sky-50 border border-sky-200 rounded-xl shadow">
     <h3 class="text-2xl font-bold text-green-700 mb-4 text-center">🌟🧘 Remedies 🧘🌟 </h3> -->
-  <div *ngIf="missingRemediesMap.length > 0" class="mt-8">
-    <div class="mt-8 bg-blue-50 border border-blue-200 rounded-xl shadow w-full" *ngIf="missingRemediesMap">
+  <div *ngIf="missingRemediesMap?.length > 0" class="mt-8">
+    <div class="mt-8 bg-blue-50 border border-blue-200 rounded-xl shadow w-full">
       <h3 class="p-[12px] text-center font-bold text-red-600">Missing Numbers & Remedies</h3>
       <div *ngFor="let entry of missingRemediesMap; let i = index" class="border-b">
         <button (click)="toggle('personalYear', i)"
@@ -369,15 +353,63 @@
       </div> -->
   </div>
 
-  <!-- Excess Remedies -->
-  <div *ngIf="excessRemediesMap.length > 0" class="mt-8">
-    <h3 class="text-lg font-semibold text-yellow-700 mb-4">Excess Numbers & Remedies</h3>
-    <div *ngFor="let entry of excessRemediesMap" class="mb-4">
-      <h4 class="text-md font-bold text-yellow-800">Number {{ entry.number }}</h4>
-      <ul class="list-disc list-inside text-sm text-gray-700 mt-1">
-        <li *ngFor="let remedy of entry.remedies">{{ remedy }}</li>
-      </ul>
+
+
+  <!-- Favorable Combinations -->
+  <div *ngIf="hasCombinationData" class="mt-8 p-6 bg-green-50 border border-green-200 rounded-xl shadow">
+    <h3 class="text-2xl font-bold text-green-700 mb-4 text-center">🌟 Favorable Recommendations</h3>
+
+    <div class="mb-4">
+      <h4 class="text-sm font-semibold text-gray-600">Lucky Numbers:</h4>
+      <div class="flex flex-wrap gap-2 mt-1">
+        <span *ngFor="let num of combinationData?.luckyNumbers"
+          class="bg-green-100 text-green-700 px-3 py-1 rounded-full text-sm font-medium">
+          {{ num }}
+        </span>
+      </div>
     </div>
+
+    <div class="mb-4">
+      <h4 class="text-sm font-semibold text-gray-600">Lucky Colors:</h4>
+      <div class="flex flex-wrap gap-2 mt-1">
+        <span *ngFor="let color of combinationData?.luckyColors"
+          class="bg-indigo-100 text-indigo-700 px-3 py-1 rounded-full text-sm font-medium">
+          {{ color }}
+        </span>
+      </div>
+    </div>
+
+    <div class="mb-4">
+      <h4 class="text-sm font-semibold text-gray-600">Lucky Name Numbers:</h4>
+      <div class="flex flex-wrap gap-2 mt-1">
+        <span *ngFor="let num of combinationData?.luckyNameNumbers"
+          class="bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full text-sm font-medium">
+          {{ num }}
+        </span>
+      </div>
+    </div>
+
+    <div class="mb-4">
+      <h4 class="text-sm font-semibold text-gray-600">Lucky Business Numbers:</h4>
+      <div class="flex flex-wrap gap-2 mt-1">
+        <span *ngFor="let num of combinationData?.luckyBusinessNumbers"
+          class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-medium">
+          {{ num }}
+        </span>
+      </div>
+    </div>
+
+    <div>
+      <h4 class="text-sm font-semibold text-gray-600">Favorable Professions:</h4>
+      <p class="text-sm text-gray-700 mt-1 leading-relaxed text-justify">
+        {{ combinationData?.luckyProfessions }}
+      </p>
+    </div>
+
+
+
+
+
   </div>
 
 

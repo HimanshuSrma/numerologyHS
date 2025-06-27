@@ -1,8 +1,10 @@
 import { Component, EventEmitter, Output } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule, NgForm } from '@angular/forms';
+import { FirestoreService } from '../../services/firestore.service';
+import { create } from 'domain';
 
-type FieldKey = 'fullName' | 'dateOfBirth' | 'gender' | 'email' | 'mobile';
+type FieldKey = 'fullName' | 'dateOfBirth' | 'gender' | 'email' | 'mobile' | 'userGoal';
 type InvalidFields = Record<FieldKey, boolean>;
 
 @Component({
@@ -13,17 +15,20 @@ type InvalidFields = Record<FieldKey, boolean>;
   styleUrls: ['./input-form.component.scss']
 })
 export class InputFormComponent {
-  fullName = '';
-  dateOfBirth = '';
-  gender = '';
-  email = '';
-  mobile = '';
+  constructor(private fs: FirestoreService) {}
+  // fullName = '';
+  // dateOfBirth = '';
+  // gender = '';
+  // email = '';
+  // mobile = '';
+  // userGoal = '';
 
-  //   fullName = 'Himmanshu sharma';
-  // dateOfBirth = '2000-06-05';
-  // gender = 'male';
-  // email = 'name@domain.com';
-  // mobile = '9876543210';
+  fullName = 'Himmanshu sharma';
+  dateOfBirth = '2000-06-05';
+  gender = 'male';
+  email = 'name@domain.com';
+  mobile = '9876543210';
+  userGoal = 'NA NA NA NA NA NA NA NA';
 
   @Output() calculationDone = new EventEmitter<any>();
 
@@ -32,10 +37,11 @@ export class InputFormComponent {
     dateOfBirth: false,
     gender: false,
     email: false,
-    mobile: false
+    mobile: false,
+    userGoal: false
   };
 
-  submitForm(form: NgForm) {
+  async submitForm(form: NgForm) {
     if (form.invalid) {
       form.control.markAllAsTouched();
 
@@ -44,6 +50,7 @@ export class InputFormComponent {
       this.invalidFields.gender = !this.gender;
       this.invalidFields.email = !this.email || !this.email.includes('@');
       this.invalidFields.mobile = !this.mobile || !/^\d{10}$/.test(this.mobile);
+      this.invalidFields.userGoal = !this.userGoal.trim();
 
       setTimeout(() => {
         this.invalidFields = {
@@ -51,12 +58,33 @@ export class InputFormComponent {
           dateOfBirth: false,
           gender: false,
           email: false,
-          mobile: false
+          mobile: false,
+          userGoal: false
         };
       }, 400);
 
       return;
     }
+
+    let data = {
+      name: this.fullName.trim(),
+      dob: this.dateOfBirth,
+      gender: this.gender,
+      email: this.email,
+      mobile: this.mobile,
+      userGoal: this.userGoal.trim(),
+      createdAt: new Date()
+    }
+
+    if(!(this.fullName == "Himmanshu sharma" && this.dateOfBirth == "2000-06-05")){
+      await this.fs.addUser(data).then(docRef => {
+        console.log('✅ New user added with ID:', docRef.id);
+      })
+      .catch(error => {
+        console.error('❌ Failed to add user:', error);
+      });
+    }
+
 
     this.calculationDone.emit({
       name: this.fullName.trim(),

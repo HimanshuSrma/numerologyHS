@@ -1,20 +1,36 @@
 import { Injectable } from '@angular/core';
 import { LoShuNumber, NumerologyResult } from '../models/numerology.model';
-
 @Injectable({
   providedIn: 'root',
 })
 export class NumerologyService {
-
   private chaldeanLetterMap: Record<string, number> = {
-    A: 1, I: 1, J: 1, Q: 1, Y: 1,
-    B: 2, K: 2, R: 2,
-    C: 3, G: 3, L: 3, S: 3,
-    D: 4, M: 4, T: 4,
-    E: 5, H: 5, N: 5, X: 5,
-    U: 6, V: 6, W: 6,
-    O: 7, Z: 7,
-    F: 8, P: 8
+    A: 1,
+    I: 1,
+    J: 1,
+    Q: 1,
+    Y: 1,
+    B: 2,
+    K: 2,
+    R: 2,
+    C: 3,
+    G: 3,
+    L: 3,
+    S: 3,
+    D: 4,
+    M: 4,
+    T: 4,
+    E: 5,
+    H: 5,
+    N: 5,
+    X: 5,
+    U: 6,
+    V: 6,
+    W: 6,
+    O: 7,
+    Z: 7,
+    F: 8,
+    P: 8,
   };
 
   // private reduceToSingleDigit(value: number): number {
@@ -24,7 +40,7 @@ export class NumerologyService {
   //   return value;
   // }
 
-    reduceToSingleDigit(value: number): number {
+  reduceToSingleDigit(value: number): number {
     value = Math.abs(value);
     if (value < 10) {
       return value;
@@ -33,7 +49,7 @@ export class NumerologyService {
       let sum = 0;
       let tempValue = value; // Use a temporary variable to extract digits
       while (tempValue > 0) {
-        sum += tempValue % 10;       // Get the last digit and add to sum
+        sum += tempValue % 10; // Get the last digit and add to sum
         tempValue = Math.floor(tempValue / 10); // Remove the last digit
       }
       value = sum; // Update the value with the sum of its digits
@@ -49,19 +65,16 @@ export class NumerologyService {
   //   return this.reduceToSingleDigit(total);
   // }
 
-calculateDestinyNumber(dob: string): number {
-  // const [year, month, day] = dob.split('-');
-  // const digits = (year + month + day).split('').map(Number).filter(n => !isNaN(n)); // Ensure only valid digits
-  // const total = digits.reduce((sum, d) => sum + d, 0);
-  // return this.reduceToSingleDigit(total);
+  calculateDestinyNumber(dob: string): number {
+    // const [year, month, day] = dob.split('-');
+    // const digits = (year + month + day).split('').map(Number).filter(n => !isNaN(n)); // Ensure only valid digits
+    // const total = digits.reduce((sum, d) => sum + d, 0);
+    // return this.reduceToSingleDigit(total);
 
-  const digits = dob.replace(/[^0-9]/g, '').split('').map(Number);
-  const total = digits.reduce((sum, val) => sum + val, 0);
-  return this.reduceToSingleDigit(total);
-
-}
-
-
+    const digits = dob.replace(/[^0-9]/g, '').split('').map(Number);
+    const total = digits.reduce((sum, val) => sum + val, 0);
+    return this.reduceToSingleDigit(total);
+  }
 
   calculateLifePathNumber(dob: string): number {
     const day = parseInt(dob.split('-')[2], 10); // Get "05" → 5
@@ -102,12 +115,12 @@ calculateDestinyNumber(dob: string): number {
     return this.reduceToSingleDigit(personalMonth + currentDay);
   }
 
-  calculateNameNumber(name: string,totalSum=false): number {
+  calculateNameNumber(name: string, totalSum = false): number {
     const clean = name.toUpperCase().replace(/[^A-Z]/g, '');
-    const total = [...clean].reduce((sum, ch) => sum + (this.chaldeanLetterMap[ch] || 0), 0);
-    if(totalSum){
+    const total = [...clean].reduce((sum, ch) => sum + (this.chaldeanLetterMap[ch] || 0),0);
+    if (totalSum) {
       return total;
-    }else{
+    } else {
       return this.reduceToSingleDigit(total);
     }
   }
@@ -116,37 +129,36 @@ calculateDestinyNumber(dob: string): number {
     return num.toString().split('').map(Number).reduce((acc, digit) => acc + digit, 0);
   }
 
-
-
-  generateLoShuGrid(dob: string, destiny: number, lifePath: number, kua: number): Record<LoShuNumber, number> {
-    console.log("dob", dob, "destiny", destiny, "lifePath", lifePath, "kua", kua);
+  generateLoShuGrid(dob: string,destiny: number,lifePath: number,kua: number): Record<LoShuNumber, number> {
     const digits = dob.replace(/[^0-9]/g, '').split('').map(Number);
     const grid: Record<LoShuNumber, number> = {
-      1: 0, 2: 0, 3: 0,
-      4: 0, 5: 0, 6: 0,
-      7: 0, 8: 0, 9: 0,
+      1: 0,
+      2: 0,
+      3: 0,
+      4: 0,
+      5: 0,
+      6: 0,
+      7: 0,
+      8: 0,
+      9: 0,
     };
 
-    digits.forEach(d => {
+    digits.forEach((d) => {
       if (d >= 0 && d <= 9) {
         grid[d as LoShuNumber]++;
       }
     });
 
-    // ⛔️ Check day part of DOB
+    // Check day part of DOB
     const day = parseInt(dob.split('-')[2], 10); // assumes dob = YYYY-MM-DD
 
-    // if (day > 10) {
-      if (destiny >= 0 && destiny <= 9) grid[destiny as LoShuNumber]++;
-    // }
+    if (destiny >= 0 && destiny <= 9) grid[destiny as LoShuNumber]++;
     if (day > 10) {
       if (lifePath >= 0 && lifePath <= 9) grid[lifePath as LoShuNumber]++;
     }
     if (kua >= 0 && kua <= 9) grid[kua as LoShuNumber]++;
-
     return grid;
   }
-
 
   getLoShuOrder(): LoShuNumber[] {
     // Traditional Lo Shu Grid layout order (0 is not part of the grid)
@@ -154,28 +166,22 @@ calculateDestinyNumber(dob: string): number {
   }
 
   getMissingNumbers(grid: Record<LoShuNumber, number>): LoShuNumber[] {
-    return Object.keys(grid)
-      .map(Number)
-      .filter(n => grid[n as LoShuNumber] === 0) as LoShuNumber[];
+    return Object.keys(grid).map(Number).filter((n) => grid[n as LoShuNumber] === 0) as LoShuNumber[];
   }
 
   getExcessNumbers(grid: Record<LoShuNumber, number>): LoShuNumber[] {
-    return Object.keys(grid)
-      .map(Number)
-      .filter(n => grid[n as LoShuNumber] >= 3) as LoShuNumber[];
+    return Object.keys(grid).map(Number).filter((n) => grid[n as LoShuNumber] >= 3) as LoShuNumber[];
   }
 
   convertToPairs(number: number, pairSize: number): number[] {
-  const numberString = number.toString();
-  const pairs: number[] = [];
-
-  for (let i = 0; i <= numberString.length - pairSize; i++) {
-    const pair = numberString.substring(i, i + pairSize);
-    pairs.push(parseInt(pair, 10));
+    const numberString = number.toString();
+    const pairs: number[] = [];
+    for (let i = 0; i <= numberString.length - pairSize; i++) {
+      const pair = numberString.substring(i, i + pairSize);
+      pairs.push(parseInt(pair, 10));
+    }
+    return pairs;
   }
-
-  return pairs;
-}
 
   // convertToPairs(number:number) {
   //   let numberString = number.toString();
@@ -187,7 +193,7 @@ calculateDestinyNumber(dob: string): number {
   //   return pairs;
   // }
 
-  calculateAll(name: string, dob: string, gender: string,mobile:number): NumerologyResult {
+  calculateAll(name: string, dob: string, gender: string, mobile: number): NumerologyResult {
     const lifePath = this.calculateLifePathNumber(dob);
     const destiny = this.calculateDestinyNumber(dob);
     const kua = this.calculateKuaNumber(dob, gender);
@@ -198,13 +204,13 @@ calculateDestinyNumber(dob: string): number {
     const personalYear = this.calculatePersonalYear(dob);
     const personalMonth = this.calculatePersonalMonth(dob);
     const personalDay = this.calculatePersonalDay(dob);
-    const nameTotalSum = this.calculateNameNumber(name,true);
+    const nameTotalSum = this.calculateNameNumber(name, true);
     const nameNumber = this.calculateNameNumber(name);
-    const pairofTwo = this.convertToPairs(mobile , 2);
-    const pairofThree = this.convertToPairs(mobile , 3);
-    const pairofFour = this.convertToPairs(mobile , 4);
-    const pairofFive = this.convertToPairs(mobile , 5);
-    const mobileNumberPairs = [...pairofTwo, ...pairofThree, ...pairofFour, ...pairofFive];
+    const pairofTwo = this.convertToPairs(mobile, 2);
+    const pairofThree = this.convertToPairs(mobile, 3);
+    const pairofFour = this.convertToPairs(mobile, 4);
+    const pairofFive = this.convertToPairs(mobile, 5);
+    const mobileNumberPairs = [...pairofTwo,...pairofThree,...pairofFour,...pairofFive];
     const mobileNumber = mobile;
     return {
       name,
@@ -221,7 +227,7 @@ calculateDestinyNumber(dob: string): number {
       nameTotalSum,
       nameNumber,
       mobileNumber,
-      mobileNumberPairs
+      mobileNumberPairs,
     };
   }
 }
