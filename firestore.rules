@@ -1,0 +1,13 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Require authentication
+    match /{document=**} {
+      // allow read, write: if request.auth != null;
+      allow read, write: if true;
+    }
+  }
+}
+
+
+// firebase deploy --only firestore
